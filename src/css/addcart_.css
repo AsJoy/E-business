@@ -1,0 +1,85 @@
+.action_addcart {
+  border: 1px solid #dbdbdb;
+  border-radius: 0.08rem;
+  height: 0.453rem;
+  background: #F9F9F9;
+  margin-right: 0.067rem;
+  position: relative;
+  z-index: 1; }
+  .action_addcart .add {
+    display: inline-block;
+    width: 0.42rem;
+    height: 0.42rem;
+    font-size: 0.1rem;
+    text-align: center;
+    color: #CFCFCF;
+    background: url('../img/18.png') center no-repeat;
+    background-size: 0.247rem 0.247rem;
+    float: left; }
+  .action_addcart .num {
+    display: none;
+    color: #FF3D00;
+    font-size: 0.25rem;
+    line-height: 0.5rem;
+    height: 0.45rem;
+    width: 0.45rem;
+    text-align: center;
+    float: left; }
+  .action_addcart .reduce {
+    display: inline-block;
+    width: 0.42rem;
+    height: 0.42rem;
+    font-size: 0.3rem;
+    text-align: center;
+    color: #CFCFCF;
+    background: url(../img/19.png) center no-repeat;
+    background-size: 0.247rem 0.039rem;
+    display: none;
+    float: left; }
+  .action_addcart .someTips {
+    position: absolute;
+    width: 1.867rem;
+    height: 0.853rem;
+    line-height: 0.747rem;
+    background-size: 1.867rem 0.853rem;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #333;
+    left: 50%;
+    bottom: 0.733rem;
+    margin-left: -0.933rem; }
+
+.action_addcart.open_addcart .reduce {
+  display: inline-block; }
+.action_addcart.open_addcart .num {
+  display: inline-block; }
+
+.action_addcart.default_addcart .reduce {
+  display: none; }
+.action_addcart.default_addcart .num {
+  display: none; }
+
+.action_addcart.long_addcart {
+  background: #ffe500;
+  border: 1px solid rgba(151, 136, 0, 0.1);
+  border-radius: 0.08rem; }
+  .action_addcart.long_addcart .add {
+    visibility: hidden; }
+  .action_addcart.long_addcart .reduce {
+    display: inline-block;
+    visibility: hidden; }
+  .action_addcart.long_addcart .num {
+    display: inline-block;
+    visibility: hidden; }
+  .action_addcart.long_addcart .text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 0.347rem;
+    line-height: 0.773rem;
+    color: #333;
+    text-align: center; }
+
+/*# sourceMappingURL=addcart.css.map */

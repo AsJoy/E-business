@@ -1,0 +1,67 @@
+.chat {
+  width: 7.5rem;
+  padding: 0 1rem;
+}
+.remind {
+  padding: .2rem;
+  .content {
+    width: 5rem;
+    text-align: center;
+    margin: a auto;
+    line-height: .3rem;
+    border: .2rem;
+    background-color: rgba(0,0,0, .5);
+    color: #f1f1f1;
+    margin: 0 auto;
+    border-radius: .3rem;
+  }
+  .title {
+    display: none;
+  }
+}
+.other,.me {
+  font-size: .25rem;
+  line-height: .7rem;
+  .title {
+    color: #8989dd;
+    .text-red {
+      color: #dd8989;
+    }
+  }
+  .content {
+    background: rgb(212, 234, 244);
+    border-radius: .2rem;
+    display: inline-block;
+    padding: 0 .7rem;
+    font-size: .25rem;
+    word-break: break-all;
+    position: relative;
+    &:before {
+      width: 0;
+      height: 0;
+      display: block;
+      content: "";
+      border-width: .2rem .4rem;
+      border-style: solid;
+      position: absolute;
+      left: -.4rem;
+      top: -.3rem;
+      transform: rotate(55deg);
+      border-color: transparent rgb(212, 234, 244) transparent transparent;
+
+    }
+  }
+}
+.me.me{
+  text-align: right;
+  .content {
+    &:before {
+      right: -.4rem;
+      left: auto;
+      top: -.3rem;
+      transform: rotate(-55deg);
+      border-color: transparent transparent transparent rgb(212, 234, 244);
+
+    }
+  }
+}

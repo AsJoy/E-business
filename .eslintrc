@@ -1,0 +1,47 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true,
+    "commonjs": true,
+    "amd": true,
+    "mocha": true
+  },
+  "ecmaFeatures": {
+    "jsx": true,
+    "es6": true
+  },
+  "globals": {
+    "React": true,
+    "ReactDOM": true,
+    "ReactRedux": true,
+    "DEBUG": true
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "one-var": [0],
+    "one-var-declaration-per-line": [2, "initializations"],
+    "comma-dangle": [2, "never"],
+    "max-len": [0, 80, 4, {"ignoreUrls": true}],
+    "no-unused-expressions": [2, { "allowShortCircuit": true, "allowTernary": true }],
+    "consistent-return": [0],
+    "no-restricted-syntax": [0],
+    "no-param-reassign": [0],
+    "react/jsx-no-bind": [0],
+    "react/prefer-stateless-function": [0],
+    "global-require": [0],
+    "no-console": [0],
+    "arrow-body-style": [0],
+    "prefer-arrow-callback": [1],
+    "no-debugger": [0],
+    "no-unused-vars": [0],
+    "semi":[0],
+    "vars-on-top": [0],
+    "no-var": [0],
+    "no-underscore-dangle": [0],
+    "no-use-before-define": [0],
+    "no-use": [0]
+  }
+}

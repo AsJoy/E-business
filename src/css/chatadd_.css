@@ -1,0 +1,41 @@
+body{
+  padding-bottom: 1.9rem;
+  padding-top: 1.5rem;
+}
+.add {
+  position: fixed;
+  bottom:0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  width: 7.5rem;
+  line-height: .7rem;
+  padding: .3rem;
+  background-color: #fff;
+  z-index: 105;
+  border-top: 1px solid #f1f1f1;
+  box-shadow: 0 0 .2rem #f1f1f1;
+  font-size: 0;
+  margin: auto;
+  text-align: center;
+  .input {
+    width: 5rem;
+    border: 1px solid #d1d1d1;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    font-size: .25rem;
+    padding: 0 .3rem;
+    &:focus {
+      outline: none;
+      box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    }
+  }
+  .send {
+    font-size: .25rem;
+    border: 1px solid #d1d1d1;
+    border-left: 0;
+    padding: 0 .4rem;
+    &:focus {
+      outline: none
+    }
+  }
+}

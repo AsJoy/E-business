@@ -1,0 +1,16 @@
+.backtop {
+  width: .8rem;
+  height: .8rem;
+  background: #f5f5f5;
+  border: .01rem  solid #ccc;
+  border-radius: 50%;
+  text-align: center;
+  line-height: .7rem;
+  position: fixed;
+  bottom: 1.5rem;
+  right: .3rem;
+  z-index: 110;
+  .carticon{ 
+    font-size: .5rem;
+  }
+}
