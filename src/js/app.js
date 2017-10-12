@@ -6,7 +6,6 @@ import App from './containers/App'
 import configureStore from './store/configureStore'
 // import vconsole from 'vconsole';
 require('./lib/fastclick.js');
-
 window.FastClick(document.body);
 const store = configureStore();
 render(

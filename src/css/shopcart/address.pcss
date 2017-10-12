@@ -1,0 +1,112 @@
+.addressadd {
+  .formControl {
+    border-bottom: 1px solid #ddd;
+    padding: .1rem 0;
+  }
+  .formLabel {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: .25rem;
+    line-height:.6rem;
+    padding: 0 .2rem;
+  }
+  .formContent {
+    display: inline-block;
+    font-size: .25rem;
+    line-height:.6rem;
+    input {
+      vertical-align: middle;
+    }
+    input:focus {
+      outline: none;
+    }
+    label + label {
+      margin-left: .2rem;
+    }
+    input[type=radio] {
+      margin-right: .1rem;
+    }
+  }
+  .fix {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: .2rem 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    button {
+      background: #f60;
+      color: #fff;
+      font-size: .255rem;
+      line-height: .8rem;
+      text-align: center;
+      border-radius: .07rem;
+      display: inline-block;
+      width: 6.9rem;
+    }
+  }
+}
+
+.list {
+  padding-bottom: 2rem;
+  .fix {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: .2rem 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    button {
+      background: #f60;
+      color: #fff;
+      font-size: .255rem;
+      line-height: .8rem;
+      text-align: center;
+      border-radius: .07rem;
+      display: inline-block;
+      width: 6.9rem;
+    }
+  }
+}
+
+.cartWrapper + .item{
+  margin-bottom: .2rem;
+  border-bottom: 0;
+  padding-bottom: 0;
+  position: relative;
+  .fr {
+    position: absolute;
+    right: .3rem;
+    top: .6rem;
+  }
+  .noneAdd {
+    font-size: .25rem;
+    color: #666;
+  }
+  &:after{
+    content: '';
+    display: block;
+    height: .1rem;
+    margin: .2rem -0.2rem 0 -0.2rem;
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent .1rem, rgba(255,95,0,1) .15rem, rgba(255,95,0,1) .2rem);
+  }
+}
+.item {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: .2rem .25rem;
+  .address {
+    font-size: .25rem;
+    color: #333;
+    line-height: .7rem;
+  }
+  .footer {
+    font-size: .15rem;
+    line-height: .4rem;
+    color: #666;
+    span + span {
+      margin-left: .4rem;
+    }
+  }
+}

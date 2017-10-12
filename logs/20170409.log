@@ -1,0 +1,1171 @@
+[2017-04-09 09:45:57.376] [INFO] logInfo - pager success id 24
+[2017-04-09 09:45:57.379] [INFO] logInfo - shopbyps by id 24
+[2017-04-09 09:46:25.058] [INFO] logInfo - pager success id 24
+[2017-04-09 09:46:25.060] [INFO] logInfo - shopbyps by id 24
+[2017-04-09 09:46:25.638] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-04-09 09:46:26.178] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-04-09 09:46:26.179] [INFO] logInfo - success
+[2017-04-09 09:46:26.319] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 09:46:26.320] [INFO] logInfo - success
+[2017-04-09 09:46:26.320] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 09:46:26.321] [INFO] logInfo - success
+[2017-04-09 09:46:26.495] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 09:46:26.495] [INFO] logInfo - success
+[2017-04-09 09:46:26.496] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 09:46:26.496] [INFO] logInfo - success
+[2017-04-09 09:46:26.498] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 09:46:26.498] [INFO] logInfo - success
+[2017-04-09 09:46:26.499] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 09:46:26.500] [INFO] logInfo - success
+[2017-04-09 09:47:34.311] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 09:47:34.311] [INFO] logInfo - success
+[2017-04-09 10:59:00.470] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 10:59:00.473] [INFO] logInfo - success
+[2017-04-09 10:59:03.404] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 10:59:03.404] [INFO] logInfo - success
+[2017-04-09 10:59:05.555] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 10:59:05.556] [INFO] logInfo - success
+[2017-04-09 11:06:32.194] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 11:06:32.195] [INFO] logInfo - success
+[2017-04-09 11:07:17.232] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 11:07:17.233] [INFO] logInfo - success
+[2017-04-09 11:08:01.408] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 11:08:01.408] [INFO] logInfo - success
+[2017-04-09 11:08:41.516] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 11:08:41.516] [INFO] logInfo - success
+[2017-04-09 11:11:32.128] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 11:11:32.129] [INFO] logInfo - success
+[2017-04-09 11:12:46.438] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 11:12:46.439] [INFO] logInfo - success
+[2017-04-09 11:13:10.566] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 11:13:10.566] [INFO] logInfo - success
+[2017-04-09 12:34:18.037] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 12:34:18.045] [INFO] logInfo - success
+[2017-04-09 12:34:50.891] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 12:34:50.891] [INFO] logInfo - success
+[2017-04-09 12:41:57.528] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 12:41:57.529] [INFO] logInfo - success
+[2017-04-09 12:42:42.923] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 12:42:42.924] [INFO] logInfo - success
+[2017-04-09 13:10:28.048] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 13:10:28.049] [INFO] logInfo - success
+[2017-04-09 13:10:31.176] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 13:10:31.177] [INFO] logInfo - success
+[2017-04-09 13:10:33.130] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 13:10:33.130] [INFO] logInfo - success
+[2017-04-09 13:11:01.613] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 13:11:01.613] [INFO] logInfo - success
+[2017-04-09 13:22:29.327] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-04-09 13:22:29.328] [INFO] logInfo - success
+[2017-04-09 13:23:19.175] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-04-09 13:23:19.175] [INFO] logInfo - success
+[2017-04-09 13:24:12.534] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 13:24:12.538] [INFO] logInfo - success
+[2017-04-09 13:24:17.260] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-04-09 13:24:17.260] [INFO] logInfo - success
+[2017-04-09 13:26:39.834] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-04-09 13:26:39.835] [INFO] logInfo - success
+[2017-04-09 13:36:48.478] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 13:36:48.479] [INFO] logInfo - success
+[2017-04-09 13:37:15.115] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 13:37:15.115] [INFO] logInfo - success
+[2017-04-09 13:38:04.281] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 13:38:04.282] [INFO] logInfo - success
+[2017-04-09 13:41:08.463] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 13:41:08.464] [INFO] logInfo - success
+[2017-04-09 13:45:23.045] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 13:45:23.046] [INFO] logInfo - success
+[2017-04-09 13:45:29.990] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 13:45:29.990] [INFO] logInfo - success
+[2017-04-09 13:45:30.244] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 13:45:30.245] [INFO] logInfo - success
+[2017-04-09 13:45:32.156] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 13:45:32.156] [INFO] logInfo - success
+[2017-04-09 13:45:39.956] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 13:45:39.957] [INFO] logInfo - success
+[2017-04-09 13:45:54.581] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 13:45:54.581] [INFO] logInfo - success
+[2017-04-09 13:47:00.410] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 13:47:00.411] [INFO] logInfo - success
+[2017-04-09 14:01:43.405] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 14:02:31.868] [ERROR] logInfo - DB-获取数据库连接异常！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+message:Handshake inactivity timeout
+stack:Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:160:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:127:8)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:48:16)
+    at Object.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:24:10)
+    at Object.module.exports.Orderinfo (/Users/yuanqiangniu/Desktop/bishe/E-business-1/server/dao/orderDao.js:25:6)
+    at async.waterfall.addressId (/Users/yuanqiangniu/Desktop/bishe/E-business-1/server/action/orderAction.js:20:14)
+    at fn (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.1.5.2@async/lib/async.js:746:34)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.1.5.2@async/lib/async.js:1213:16
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.1.5.2@async/lib/async.js:166:37
+[2017-04-09 14:04:03.734] [ERROR] logInfo - DB-获取数据库连接异常！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+message:Handshake inactivity timeout
+stack:Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:160:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:127:8)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:48:16)
+    at Object.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:24:10)
+    at Object.module.exports.Orderinfo (/Users/yuanqiangniu/Desktop/bishe/E-business-1/server/dao/orderDao.js:25:6)
+    at async.waterfall.addressId (/Users/yuanqiangniu/Desktop/bishe/E-business-1/server/action/orderAction.js:20:14)
+    at fn (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.1.5.2@async/lib/async.js:746:34)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.1.5.2@async/lib/async.js:1213:16
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.1.5.2@async/lib/async.js:166:37
+[2017-04-09 14:05:42.754] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 14:05:42.755] [INFO] logInfo - success
+[2017-04-09 14:05:42.891] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 14:07:46.738] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 14:07:46.739] [INFO] logInfo - success
+[2017-04-09 14:07:46.945] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 14:07:46.946] [INFO] logInfo - success
+[2017-04-09 14:08:43.785] [ERROR] logInfo - DB-获取数据库连接异常！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+message:Handshake inactivity timeout
+stack:Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:160:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:127:8)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:48:16)
+    at Object.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:24:10)
+    at Object.module.exports.Orderinfo (/Users/yuanqiangniu/Desktop/bishe/E-business-1/server/dao/orderDao.js:25:6)
+    at async.waterfall.addressId (/Users/yuanqiangniu/Desktop/bishe/E-business-1/server/action/orderAction.js:20:14)
+    at fn (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.1.5.2@async/lib/async.js:746:34)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.1.5.2@async/lib/async.js:1213:16
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.1.5.2@async/lib/async.js:166:37
+[2017-04-09 14:09:30.320] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 14:09:30.321] [INFO] logInfo - success
+[2017-04-09 14:09:30.406] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 14:09:30.407] [INFO] logInfo - success
+[2017-04-09 14:09:51.682] [ERROR] logInfo - DB-获取数据库连接异常！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+message:Handshake inactivity timeout
+stack:Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:160:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:127:8)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:48:16)
+    at Object.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:24:10)
+    at Object.module.exports.Orderinfo (/Users/yuanqiangniu/Desktop/bishe/E-business-1/server/dao/orderDao.js:25:6)
+    at async.waterfall.addressId (/Users/yuanqiangniu/Desktop/bishe/E-business-1/server/action/orderAction.js:20:14)
+    at fn (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.1.5.2@async/lib/async.js:746:34)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.1.5.2@async/lib/async.js:1213:16
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.1.5.2@async/lib/async.js:166:37
+[2017-04-09 14:11:05.266] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 14:11:05.275] [INFO] logInfo - success
+[2017-04-09 14:11:05.559] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 14:11:05.559] [INFO] logInfo - success
+[2017-04-09 14:12:33.689] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 14:12:33.689] [INFO] logInfo - success
+[2017-04-09 14:12:34.088] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 14:12:34.089] [INFO] logInfo - success
+[2017-04-09 14:12:50.849] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 14:12:50.849] [INFO] logInfo - success
+[2017-04-09 14:12:51.717] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 14:12:51.717] [INFO] logInfo - success
+[2017-04-09 14:13:16.597] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 14:13:16.598] [INFO] logInfo - success
+[2017-04-09 14:13:19.651] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 14:13:19.652] [INFO] logInfo - success
+[2017-04-09 14:15:10.216] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 14:15:10.217] [INFO] logInfo - success
+[2017-04-09 14:15:10.309] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 14:15:10.309] [INFO] logInfo - success
+[2017-04-09 14:22:09.057] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 14:22:09.058] [INFO] logInfo - success
+[2017-04-09 14:22:09.130] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 14:22:09.130] [INFO] logInfo - success
+[2017-04-09 14:22:40.122] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 14:22:40.123] [INFO] logInfo - success
+[2017-04-09 14:22:40.198] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 14:22:40.198] [INFO] logInfo - success
+[2017-04-09 14:23:23.249] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 14:23:23.249] [INFO] logInfo - success
+[2017-04-09 14:23:23.324] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 14:23:23.325] [INFO] logInfo - success
+[2017-04-09 14:23:43.447] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 14:23:43.449] [INFO] logInfo - success
+[2017-04-09 14:23:43.522] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 14:23:43.523] [INFO] logInfo - success
+[2017-04-09 14:26:07.249] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 14:26:07.249] [INFO] logInfo - success
+[2017-04-09 14:26:07.343] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 14:26:07.343] [INFO] logInfo - success
+[2017-04-09 14:27:37.558] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 14:27:37.558] [INFO] logInfo - success
+[2017-04-09 14:27:37.638] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 14:27:37.639] [INFO] logInfo - success
+[2017-04-09 14:28:30.858] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 14:28:30.859] [INFO] logInfo - success
+[2017-04-09 14:28:30.938] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 14:28:30.938] [INFO] logInfo - success
+[2017-04-09 14:50:39.040] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id) LEFT JOIN t_user tu on (tu.telephone = ts.user_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 14:50:39.042] [INFO] logInfo - success
+[2017-04-09 14:50:39.123] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 14:50:39.123] [INFO] logInfo - success
+[2017-04-09 14:50:55.378] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 14:50:55.379] [INFO] logInfo - success
+[2017-04-09 14:50:58.982] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 14:50:58.983] [INFO] logInfo - success
+[2017-04-09 14:51:19.044] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 14:51:19.045] [INFO] logInfo - success
+[2017-04-09 14:51:23.179] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id) LEFT JOIN t_user tu on (tu.telephone = ts.user_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 14:51:23.180] [INFO] logInfo - success
+[2017-04-09 14:51:23.258] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 14:51:23.259] [INFO] logInfo - success
+[2017-04-09 15:10:19.534] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id) LEFT JOIN t_user tu on (tu.telephone = ts.user_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:10:19.550] [INFO] logInfo - success
+[2017-04-09 15:10:19.626] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:10:19.627] [INFO] logInfo - success
+[2017-04-09 15:10:21.346] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id) LEFT JOIN t_user tu on (tu.telephone = ts.user_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:10:21.346] [INFO] logInfo - success
+[2017-04-09 15:10:21.460] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:10:21.462] [INFO] logInfo - success
+[2017-04-09 15:11:17.983] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id) LEFT JOIN t_user tu on (tu.telephone = ts.user_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:11:17.985] [INFO] logInfo - success
+[2017-04-09 15:11:18.060] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:11:18.061] [INFO] logInfo - success
+[2017-04-09 15:11:19.912] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id) LEFT JOIN t_user tu on (tu.telephone = ts.user_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:11:19.912] [INFO] logInfo - success
+[2017-04-09 15:11:19.987] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:11:19.987] [INFO] logInfo - success
+[2017-04-09 15:12:00.782] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id) LEFT JOIN t_user tu on (tu.telephone = ts.user_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:12:00.782] [INFO] logInfo - success
+[2017-04-09 15:12:00.859] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:12:00.860] [INFO] logInfo - success
+[2017-04-09 15:13:59.974] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id) LEFT JOIN t_user tu on (tu.telephone = ts.user_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:13:59.975] [INFO] logInfo - success
+[2017-04-09 15:14:00.052] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:14:00.053] [INFO] logInfo - success
+[2017-04-09 15:16:46.890] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id) LEFT JOIN t_user tu on (tu.telephone = ts.user_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:16:46.892] [INFO] logInfo - success
+[2017-04-09 15:16:46.970] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:16:46.970] [INFO] logInfo - success
+[2017-04-09 15:16:58.450] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id) LEFT JOIN t_user tu on (tu.telephone = ts.user_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:16:58.451] [INFO] logInfo - success
+[2017-04-09 15:16:58.523] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:16:58.524] [INFO] logInfo - success
+[2017-04-09 15:18:38.710] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 15:18:38.711] [INFO] logInfo - success
+[2017-04-09 15:19:30.623] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 15:19:30.623] [INFO] logInfo - success
+[2017-04-09 15:20:11.465] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 15:20:11.466] [INFO] logInfo - success
+[2017-04-09 15:20:13.402] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id) LEFT JOIN t_user tu on (tu.telephone = ts.user_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:20:13.403] [INFO] logInfo - success
+[2017-04-09 15:20:13.480] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:20:13.481] [INFO] logInfo - success
+[2017-04-09 15:20:17.088] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id) LEFT JOIN t_user tu on (tu.telephone = ts.user_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:20:17.093] [INFO] logInfo - success
+[2017-04-09 15:20:17.168] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:20:17.168] [INFO] logInfo - success
+[2017-04-09 15:20:49.219] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id) LEFT JOIN t_user tu on (tu.telephone = ts.user_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:20:49.220] [INFO] logInfo - success
+[2017-04-09 15:20:49.295] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:20:49.296] [INFO] logInfo - success
+[2017-04-09 15:21:16.466] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id) LEFT JOIN t_user tu on (tu.telephone = ts.user_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:21:16.467] [INFO] logInfo - success
+[2017-04-09 15:21:16.549] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:21:16.549] [INFO] logInfo - success
+[2017-04-09 15:21:54.655] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id) LEFT JOIN t_user tu on (tu.telephone = ts.user_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:21:54.656] [INFO] logInfo - success
+[2017-04-09 15:21:54.735] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:21:54.736] [INFO] logInfo - success
+[2017-04-09 15:22:18.232] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id) LEFT JOIN t_user tu on (tu.telephone = ts.user_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:22:18.233] [INFO] logInfo - success
+[2017-04-09 15:22:18.321] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:22:18.321] [INFO] logInfo - success
+[2017-04-09 15:22:43.738] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id) LEFT JOIN t_user tu on (tu.telephone = ts.user_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:22:43.740] [INFO] logInfo - success
+[2017-04-09 15:22:43.816] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:22:43.817] [INFO] logInfo - success
+[2017-04-09 15:29:46.475] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id) LEFT JOIN t_user tu on (tu.telephone = ts.user_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:29:46.476] [INFO] logInfo - success
+[2017-04-09 15:29:46.598] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:29:46.599] [INFO] logInfo - success
+[2017-04-09 15:29:48.183] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id) LEFT JOIN t_user tu on (tu.telephone = ts.user_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:29:48.183] [INFO] logInfo - success
+[2017-04-09 15:29:48.641] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:29:48.641] [INFO] logInfo - success
+[2017-04-09 15:36:24.604] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:36:24.605] [INFO] logInfo - success
+[2017-04-09 15:36:24.678] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:36:24.678] [INFO] logInfo - success
+[2017-04-09 15:49:36.352] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:49:36.354] [INFO] logInfo - success
+[2017-04-09 15:49:36.430] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:49:36.432] [INFO] logInfo - success
+[2017-04-09 15:49:45.391] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 15:49:45.394] [INFO] logInfo - success
+[2017-04-09 15:57:35.797] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:57:35.799] [INFO] logInfo - success
+[2017-04-09 15:57:35.867] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:57:35.868] [INFO] logInfo - success
+[2017-04-09 15:57:38.597] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 15:57:38.598] [INFO] logInfo - success
+[2017-04-09 15:57:38.670] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 15:57:38.671] [INFO] logInfo - success
+[2017-04-09 15:57:42.367] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 15:57:42.368] [INFO] logInfo - success
+[2017-04-09 16:01:03.630] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 16:01:03.631] [INFO] logInfo - success
+[2017-04-09 16:01:03.707] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 16:01:03.707] [INFO] logInfo - success
+[2017-04-09 16:09:38.807] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 16:09:38.808] [INFO] logInfo - success
+[2017-04-09 16:09:38.888] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 16:09:38.888] [INFO] logInfo - success
+[2017-04-09 16:12:02.763] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 16:12:02.764] [INFO] logInfo - success
+[2017-04-09 16:12:02.846] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 16:12:02.846] [INFO] logInfo - success
+[2017-04-09 16:12:19.255] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 16:12:19.255] [INFO] logInfo - success
+[2017-04-09 16:12:19.328] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 16:12:19.328] [INFO] logInfo - success
+[2017-04-09 16:12:30.745] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 16:12:30.747] [INFO] logInfo - success
+[2017-04-09 16:12:30.820] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 16:12:30.821] [INFO] logInfo - success
+[2017-04-09 16:13:13.370] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 16:13:13.370] [INFO] logInfo - success
+[2017-04-09 16:13:13.445] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 16:13:13.445] [INFO] logInfo - success
+[2017-04-09 16:14:23.746] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 16:14:23.746] [INFO] logInfo - success
+[2017-04-09 16:14:23.820] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 16:14:23.820] [INFO] logInfo - success
+[2017-04-09 16:14:37.104] [INFO] logInfo - pager success id 24
+[2017-04-09 16:14:37.106] [INFO] logInfo - shopbyps by id 24
+[2017-04-09 16:14:37.192] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-04-09 16:14:37.192] [INFO] logInfo - success
+[2017-04-09 16:14:37.264] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-04-09 16:14:37.270] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 16:14:37.270] [INFO] logInfo - success
+[2017-04-09 16:14:37.356] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 16:14:37.356] [INFO] logInfo - success
+[2017-04-09 16:14:37.357] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 16:14:37.358] [INFO] logInfo - success
+[2017-04-09 16:14:37.358] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 16:14:37.359] [INFO] logInfo - success
+[2017-04-09 16:14:37.359] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 16:14:37.360] [INFO] logInfo - success
+[2017-04-09 16:14:37.361] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 16:14:37.362] [INFO] logInfo - success
+[2017-04-09 16:14:50.660] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","24","27","36")
+[2017-04-09 16:14:50.661] [INFO] logInfo - success
+[2017-04-09 16:14:54.081] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order (id,user_id) values (?,?)
+[2017-04-09 16:14:54.082] [INFO] logInfo - success
+[2017-04-09 16:14:54.155] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-04-09 16:14:54.156] [INFO] logInfo - success
+[2017-04-09 16:14:54.157] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-04-09 16:14:54.158] [INFO] logInfo - success
+[2017-04-09 16:14:54.167] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-04-09 16:14:54.167] [INFO] logInfo - success
+[2017-04-09 16:14:54.168] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-04-09 16:14:54.168] [INFO] logInfo - success
+[2017-04-09 16:14:54.228] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-04-09 16:14:54.229] [INFO] logInfo - success
+[2017-04-09 16:14:54.233] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-04-09 16:14:54.234] [INFO] logInfo - success
+[2017-04-09 16:14:54.238] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-04-09 16:14:54.238] [INFO] logInfo - success
+[2017-04-09 16:14:54.241] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-04-09 16:14:54.241] [INFO] logInfo - success
+[2017-04-09 16:14:56.768] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 16:14:56.768] [INFO] logInfo - success
+[2017-04-09 16:14:56.839] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 16:14:56.839] [INFO] logInfo - success
+[2017-04-09 16:15:03.374] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-04-09 16:15:04.679] [INFO] logInfo - pager success id 24
+[2017-04-09 16:15:04.680] [INFO] logInfo - shopbyps by id 24
+[2017-04-09 16:15:04.864] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-04-09 16:15:04.866] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-04-09 16:15:04.867] [INFO] logInfo - success
+[2017-04-09 16:15:04.945] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 16:15:04.946] [INFO] logInfo - success
+[2017-04-09 16:15:04.949] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 16:15:04.949] [INFO] logInfo - success
+[2017-04-09 16:15:05.017] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 16:15:05.018] [INFO] logInfo - success
+[2017-04-09 16:15:05.019] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 16:15:05.019] [INFO] logInfo - success
+[2017-04-09 16:15:05.022] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 16:15:05.023] [INFO] logInfo - success
+[2017-04-09 16:15:05.025] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 16:15:05.026] [INFO] logInfo - success
+[2017-04-09 16:16:44.367] [INFO] logInfo - pager success id 24ps23
+[2017-04-09 16:16:44.367] [INFO] logInfo - shopbyps by id 24ps23
+[2017-04-09 16:16:44.445] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-04-09 16:16:44.445] [INFO] logInfo - success
+[2017-04-09 16:16:44.450] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-04-09 16:16:44.516] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 16:16:44.516] [INFO] logInfo - success
+[2017-04-09 16:16:44.522] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 16:16:44.523] [INFO] logInfo - success
+[2017-04-09 16:16:44.524] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 16:16:44.524] [INFO] logInfo - success
+[2017-04-09 16:16:44.528] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 16:16:44.530] [INFO] logInfo - success
+[2017-04-09 16:16:44.533] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 16:16:44.534] [INFO] logInfo - success
+[2017-04-09 16:16:44.600] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 16:16:44.600] [INFO] logInfo - success
+[2017-04-09 16:32:49.823] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-04-09 16:32:49.824] [INFO] logInfo - success
+[2017-04-09 16:32:53.788] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-04-09 16:32:53.789] [INFO] logInfo - success
+[2017-04-09 16:32:54.855] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-04-09 16:32:54.855] [INFO] logInfo - success
+[2017-04-09 16:32:55.648] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-04-09 16:32:55.649] [INFO] logInfo - success
+[2017-04-09 16:32:55.838] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-04-09 16:32:55.838] [INFO] logInfo - success
+[2017-04-09 16:32:58.657] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-04-09 16:32:58.657] [INFO] logInfo - success
+[2017-04-09 16:32:59.408] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-04-09 16:32:59.409] [INFO] logInfo - success
+[2017-04-09 16:32:59.580] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-04-09 16:32:59.581] [INFO] logInfo - success
+[2017-04-09 17:32:04.246] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-04-09 17:32:04.248] [INFO] logInfo - success
+[2017-04-09 17:32:11.862] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-04-09 17:32:11.863] [INFO] logInfo - success
+[2017-04-09 22:55:33.614] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 22:55:33.617] [INFO] logInfo - success
+[2017-04-09 23:04:12.746] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:04:12.746] [INFO] logInfo - success
+[2017-04-09 23:04:18.043] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 23:04:18.043] [INFO] logInfo - success
+[2017-04-09 23:04:18.114] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 23:04:18.115] [INFO] logInfo - success
+[2017-04-09 23:04:25.261] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:04:25.261] [INFO] logInfo - success
+[2017-04-09 23:06:02.325] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:06:02.325] [INFO] logInfo - success
+[2017-04-09 23:06:31.367] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:06:31.367] [INFO] logInfo - success
+[2017-04-09 23:06:39.113] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 23:06:39.113] [INFO] logInfo - success
+[2017-04-09 23:06:39.187] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 23:06:39.188] [INFO] logInfo - success
+[2017-04-09 23:06:42.031] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:06:42.032] [INFO] logInfo - success
+[2017-04-09 23:06:43.955] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 23:06:43.955] [INFO] logInfo - success
+[2017-04-09 23:06:44.035] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 23:06:44.036] [INFO] logInfo - success
+[2017-04-09 23:06:47.587] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:06:47.587] [INFO] logInfo - success
+[2017-04-09 23:06:52.873] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:06:52.874] [INFO] logInfo - success
+[2017-04-09 23:07:10.378] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-09 23:07:10.378] [INFO] logInfo - success
+[2017-04-09 23:07:10.454] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-04-09 23:07:10.454] [INFO] logInfo - success
+[2017-04-09 23:07:14.358] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:07:14.359] [INFO] logInfo - success
+[2017-04-09 23:07:17.746] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:07:17.746] [INFO] logInfo - success
+[2017-04-09 23:07:33.706] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:07:33.706] [INFO] logInfo - success
+[2017-04-09 23:07:34.210] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:07:34.211] [INFO] logInfo - success
+[2017-04-09 23:13:56.994] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:13:56.995] [INFO] logInfo - success
+[2017-04-09 23:14:21.885] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:14:21.885] [INFO] logInfo - success
+[2017-04-09 23:14:30.037] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:14:30.038] [INFO] logInfo - success
+[2017-04-09 23:14:36.926] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:14:36.926] [INFO] logInfo - success
+[2017-04-09 23:14:53.921] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:14:53.922] [INFO] logInfo - success
+[2017-04-09 23:15:00.236] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:15:00.236] [INFO] logInfo - success
+[2017-04-09 23:26:31.219] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:26:31.220] [INFO] logInfo - success
+[2017-04-09 23:34:00.484] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:34:00.484] [INFO] logInfo - success
+[2017-04-09 23:36:16.654] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:36:16.654] [INFO] logInfo - success
+[2017-04-09 23:37:07.195] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-04-09 23:37:12.661] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-09 23:37:12.662] [INFO] logInfo - success
+[2017-04-09 23:37:55.726] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-04-09 23:38:05.134] [INFO] logInfo - pager success id null
+[2017-04-09 23:38:05.136] [INFO] logInfo - shopbyps by id null
+[2017-04-09 23:38:08.836] [INFO] logInfo - pager success id 24
+[2017-04-09 23:38:08.836] [INFO] logInfo - shopbyps by id 24
+[2017-04-09 23:38:09.647] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-04-09 23:38:09.648] [INFO] logInfo - success
+[2017-04-09 23:38:09.659] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-04-09 23:38:09.660] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-04-09 23:38:09.660] [INFO] logInfo - success
+[2017-04-09 23:38:09.666] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-04-09 23:38:11.355] [INFO] logInfo - pager success id 24
+[2017-04-09 23:38:11.356] [INFO] logInfo - shopbyps by id 24
+[2017-04-09 23:38:11.523] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-04-09 23:38:11.523] [INFO] logInfo - success
+[2017-04-09 23:38:11.528] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-04-09 23:38:11.604] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 23:38:11.604] [INFO] logInfo - success
+[2017-04-09 23:38:11.673] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 23:38:11.673] [INFO] logInfo - success
+[2017-04-09 23:38:11.682] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 23:38:11.682] [INFO] logInfo - success
+[2017-04-09 23:38:11.684] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 23:38:11.685] [INFO] logInfo - success
+[2017-04-09 23:38:11.691] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 23:38:11.692] [INFO] logInfo - success
+[2017-04-09 23:38:11.697] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 23:38:11.697] [INFO] logInfo - success
+[2017-04-09 23:39:18.572] [INFO] logInfo - pager success id null
+[2017-04-09 23:39:18.572] [INFO] logInfo - shopbyps by id null
+[2017-04-09 23:39:19.701] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-04-09 23:39:47.418] [INFO] logInfo - pager success id 24
+[2017-04-09 23:39:47.419] [INFO] logInfo - shopbyps by id 24
+[2017-04-09 23:39:47.599] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-04-09 23:39:47.599] [INFO] logInfo - success
+[2017-04-09 23:39:47.603] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-04-09 23:39:47.670] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 23:39:47.671] [INFO] logInfo - success
+[2017-04-09 23:39:47.749] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 23:39:47.752] [INFO] logInfo - success
+[2017-04-09 23:39:47.754] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 23:39:47.754] [INFO] logInfo - success
+[2017-04-09 23:39:47.755] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 23:39:47.755] [INFO] logInfo - success
+[2017-04-09 23:39:47.756] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 23:39:47.756] [INFO] logInfo - success
+[2017-04-09 23:39:47.758] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-09 23:39:47.758] [INFO] logInfo - success
+[2017-04-09 23:39:58.665] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","24")
+[2017-04-09 23:39:58.666] [INFO] logInfo - success

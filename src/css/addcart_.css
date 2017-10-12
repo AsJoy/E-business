@@ -81,5 +81,14 @@
     line-height: 0.773rem;
     color: #333;
     text-align: center; }
+.join {
+  text-align: center;
+  display: inline-block;
+  font-size: .25rem;
+  padding: .2rem .8rem;
+  border-radius: .05rem;
+  background: #ff6600;
+  color: #fff;
+}
 
 /*# sourceMappingURL=addcart.css.map */

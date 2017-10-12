@@ -19,6 +19,34 @@ module.exports = {
     ],
     app2: [
       './src/js/app1.js'
+    ],
+    shop: [
+      './src/js/App/shop.js'
+    ],
+    login: [
+      './src/js/App/login.js'
+    ],
+    detail: [
+      './src/js/App/detail.js'
+    ],
+    register: [
+      './src/js/App/register.js'
+    ],
+    self: [
+      './src/js/App/self.js'
+    ],
+    shopcart: [
+      './src/js/App/shopcart.js'
+    ],
+    order: [
+      './src/js/App/order.js'
+    ],
+    entry: [
+      './src/js/App/entry.js'
+    ],
+
+    scaleList: [
+      './src/js/App/scaleList.js'
     ]
   },
   resolve: {
@@ -58,7 +86,7 @@ module.exports = {
       loaders: ['style', 'css', 'postcss'],
       include: __dirname
     }, {
-      test: /_\.css$/,
+      test: /_\.css|\.pcss$/,
       loaders: ['style', 'css?modules&localIdentName=[local]__[name]_[hash:base64:5]', 'postcss'],
       include: __dirname
     }, {

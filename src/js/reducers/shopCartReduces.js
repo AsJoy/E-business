@@ -1,7 +1,9 @@
 import * as shopActionType from './../constants/shopCartActionType.js';
 import shopCart from '../util/shopcart.js';
 import assign from 'object-assign';
-const initstate = shopCart.getShopCart();
+const initstate = {
+  ...shopCart.getShopCart()
+};
 
 export default function shopReduce(state = initstate, action) {
   const param = action.param;
@@ -24,6 +26,9 @@ export default function shopReduce(state = initstate, action) {
       state = shopCart.setItem(param.id, param.shopId, param.count);
       obj = Object.assign({}, state, data);
       // obj.cartColumn ++;
+      if (data[param.id].count === 0) {
+        delete  obj[param.id]
+      }
       return obj;
     case shopActionType.SHOP_REDUCE:
       data = {};
@@ -37,7 +42,24 @@ export default function shopReduce(state = initstate, action) {
       }
       shopCart.setItem(param.id, param.shopId, param.count);
       obj = Object.assign({}, state, data);
+      console.log(data[param.id].count)
+      if (data[param.id].count === 0) {
+        delete  obj[param.id]
+      }
       // obj.cartColumn --;
+      return obj;
+    case shopActionType.SHOP_UPDATE_ALL:
+      obj = state;
+      param.forEach(function (item) {
+        shopCart.setItem(item.id, item.shopId, item.count);
+        obj = Object.assign({}, obj, {[item.id]: {
+          count: item.count,
+          itemId: item.id
+        }});
+        if (item.count === 0) {
+          delete  obj[item.id]
+        }
+      })
       return obj;
     default:
       return state;

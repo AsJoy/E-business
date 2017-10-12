@@ -1,0 +1,1134 @@
+[2017-02-28 00:03:37.743] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 00:03:37.744] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 00:03:37.747] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 00:03:37.748] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 00:03:37.748] [INFO] logInfo - success
+[2017-02-28 00:03:37.754] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:03:37.754] [INFO] logInfo - success
+[2017-02-28 00:03:37.756] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:03:37.756] [INFO] logInfo - success
+[2017-02-28 00:03:37.758] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:03:37.758] [INFO] logInfo - success
+[2017-02-28 00:03:37.759] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:03:37.759] [INFO] logInfo - success
+[2017-02-28 00:03:37.763] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:03:37.764] [INFO] logInfo - success
+[2017-02-28 00:03:37.764] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:03:37.765] [INFO] logInfo - success
+[2017-02-28 00:03:52.873] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 00:03:52.874] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 00:03:52.876] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 00:03:52.876] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 00:03:52.876] [INFO] logInfo - success
+[2017-02-28 00:03:52.879] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:03:52.881] [INFO] logInfo - success
+[2017-02-28 00:03:52.882] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:03:52.883] [INFO] logInfo - success
+[2017-02-28 00:03:52.883] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:03:52.883] [INFO] logInfo - success
+[2017-02-28 00:03:52.884] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:03:52.885] [INFO] logInfo - success
+[2017-02-28 00:03:52.887] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:03:52.887] [INFO] logInfo - success
+[2017-02-28 00:03:52.887] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:03:52.888] [INFO] logInfo - success
+[2017-02-28 00:11:57.728] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 00:11:57.728] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 00:11:57.733] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 00:11:57.734] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 00:11:57.734] [INFO] logInfo - success
+[2017-02-28 00:11:57.737] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:11:57.737] [INFO] logInfo - success
+[2017-02-28 00:11:57.738] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:11:57.738] [INFO] logInfo - success
+[2017-02-28 00:11:57.764] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:11:57.766] [INFO] logInfo - success
+[2017-02-28 00:11:57.767] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:11:57.767] [INFO] logInfo - success
+[2017-02-28 00:11:57.773] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:11:57.773] [INFO] logInfo - success
+[2017-02-28 00:11:57.773] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:11:57.773] [INFO] logInfo - success
+[2017-02-28 00:13:56.190] [INFO] logInfo - scale detail success id 24
+[2017-02-28 00:13:56.193] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = 20 and tp.id = pps.product_id   and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-02-28 00:13:56.196] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp , t_productscale_product  pps  where pps.product_scale_id = 20 and tp.id = pps.product_id   and  tp.status = 1
+[2017-02-28 00:13:59.202] [INFO] logInfo - scale detail success id 24
+[2017-02-28 00:13:59.205] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = 20 and tp.id = pps.product_id   and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-02-28 00:13:59.211] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp , t_productscale_product  pps  where pps.product_scale_id = 20 and tp.id = pps.product_id   and  tp.status = 1
+[2017-02-28 00:14:58.980] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 00:14:58.980] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 00:14:58.983] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 00:14:58.983] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 00:14:58.984] [INFO] logInfo - success
+[2017-02-28 00:14:58.987] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:14:58.987] [INFO] logInfo - success
+[2017-02-28 00:14:58.988] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:14:58.988] [INFO] logInfo - success
+[2017-02-28 00:14:58.989] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:14:58.989] [INFO] logInfo - success
+[2017-02-28 00:14:58.991] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:14:58.991] [INFO] logInfo - success
+[2017-02-28 00:14:58.991] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:14:58.993] [INFO] logInfo - success
+[2017-02-28 00:14:58.994] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:14:58.995] [INFO] logInfo - success
+[2017-02-28 00:44:17.029] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 00:44:17.030] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 00:44:17.032] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 00:44:17.032] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 00:44:17.032] [INFO] logInfo - success
+[2017-02-28 00:44:17.037] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:44:17.038] [INFO] logInfo - success
+[2017-02-28 00:44:17.038] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:44:17.038] [INFO] logInfo - success
+[2017-02-28 00:44:17.039] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:44:17.039] [INFO] logInfo - success
+[2017-02-28 00:44:17.041] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:44:17.041] [INFO] logInfo - success
+[2017-02-28 00:44:17.042] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:44:17.042] [INFO] logInfo - success
+[2017-02-28 00:44:17.046] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:44:17.046] [INFO] logInfo - success
+[2017-02-28 00:44:20.104] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 00:44:20.104] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 00:44:20.106] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 00:44:20.107] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 00:44:20.107] [INFO] logInfo - success
+[2017-02-28 00:44:20.112] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:44:20.112] [INFO] logInfo - success
+[2017-02-28 00:44:20.113] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:44:20.113] [INFO] logInfo - success
+[2017-02-28 00:44:20.114] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:44:20.114] [INFO] logInfo - success
+[2017-02-28 00:44:20.115] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:44:20.115] [INFO] logInfo - success
+[2017-02-28 00:44:20.118] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:44:20.118] [INFO] logInfo - success
+[2017-02-28 00:44:20.119] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:44:20.120] [INFO] logInfo - success
+[2017-02-28 00:44:27.874] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 00:44:27.875] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 00:44:27.876] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 00:44:27.911] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 00:44:27.911] [INFO] logInfo - success
+[2017-02-28 00:44:27.918] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:44:27.920] [INFO] logInfo - success
+[2017-02-28 00:44:27.920] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:44:27.921] [INFO] logInfo - success
+[2017-02-28 00:44:27.921] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:44:27.922] [INFO] logInfo - success
+[2017-02-28 00:44:27.922] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:44:27.923] [INFO] logInfo - success
+[2017-02-28 00:44:27.923] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:44:27.924] [INFO] logInfo - success
+[2017-02-28 00:44:27.924] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:44:27.924] [INFO] logInfo - success
+[2017-02-28 00:45:06.013] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 00:45:06.013] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 00:45:06.015] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 00:45:06.016] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 00:45:06.017] [INFO] logInfo - success
+[2017-02-28 00:45:06.024] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:45:06.024] [INFO] logInfo - success
+[2017-02-28 00:45:06.028] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:45:06.028] [INFO] logInfo - success
+[2017-02-28 00:45:06.030] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:45:06.030] [INFO] logInfo - success
+[2017-02-28 00:45:06.033] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:45:06.034] [INFO] logInfo - success
+[2017-02-28 00:45:06.036] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:45:06.037] [INFO] logInfo - success
+[2017-02-28 00:45:06.039] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:45:06.039] [INFO] logInfo - success
+[2017-02-28 00:46:24.050] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 00:46:24.050] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 00:46:24.053] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 00:46:24.054] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 00:46:24.054] [INFO] logInfo - success
+[2017-02-28 00:46:24.058] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:46:24.058] [INFO] logInfo - success
+[2017-02-28 00:46:24.058] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:46:24.059] [INFO] logInfo - success
+[2017-02-28 00:46:24.059] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:46:24.059] [INFO] logInfo - success
+[2017-02-28 00:46:24.062] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:46:24.062] [INFO] logInfo - success
+[2017-02-28 00:46:24.065] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:46:24.065] [INFO] logInfo - success
+[2017-02-28 00:46:24.066] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:46:24.066] [INFO] logInfo - success
+[2017-02-28 00:46:29.531] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 00:46:29.531] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 00:46:29.532] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 00:46:29.533] [INFO] logInfo - success
+[2017-02-28 00:46:29.534] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 00:46:29.537] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:46:29.537] [INFO] logInfo - success
+[2017-02-28 00:46:29.538] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:46:29.538] [INFO] logInfo - success
+[2017-02-28 00:46:29.539] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:46:29.539] [INFO] logInfo - success
+[2017-02-28 00:46:29.539] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:46:29.540] [INFO] logInfo - success
+[2017-02-28 00:46:29.543] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:46:29.543] [INFO] logInfo - success
+[2017-02-28 00:46:29.544] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:46:29.544] [INFO] logInfo - success
+[2017-02-28 00:46:34.947] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 00:46:34.947] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 00:46:34.949] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 00:46:34.950] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 00:46:34.951] [INFO] logInfo - success
+[2017-02-28 00:46:34.955] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:46:34.955] [INFO] logInfo - success
+[2017-02-28 00:46:34.956] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:46:34.956] [INFO] logInfo - success
+[2017-02-28 00:46:34.956] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:46:34.957] [INFO] logInfo - success
+[2017-02-28 00:46:34.959] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:46:34.959] [INFO] logInfo - success
+[2017-02-28 00:46:34.960] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:46:34.960] [INFO] logInfo - success
+[2017-02-28 00:46:34.960] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:46:34.961] [INFO] logInfo - success
+[2017-02-28 00:47:03.468] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 00:47:03.468] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 00:47:03.470] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 00:47:03.471] [INFO] logInfo - success
+[2017-02-28 00:47:03.473] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 00:47:03.475] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:47:03.476] [INFO] logInfo - success
+[2017-02-28 00:47:03.476] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:47:03.477] [INFO] logInfo - success
+[2017-02-28 00:47:03.477] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:47:03.477] [INFO] logInfo - success
+[2017-02-28 00:47:03.478] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:47:03.478] [INFO] logInfo - success
+[2017-02-28 00:47:03.482] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:47:03.482] [INFO] logInfo - success
+[2017-02-28 00:47:03.482] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:47:03.483] [INFO] logInfo - success
+[2017-02-28 00:48:18.923] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 00:48:18.923] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 00:48:18.925] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 00:48:18.926] [INFO] logInfo - success
+[2017-02-28 00:48:18.928] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 00:48:18.930] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:48:18.930] [INFO] logInfo - success
+[2017-02-28 00:48:18.931] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:48:18.931] [INFO] logInfo - success
+[2017-02-28 00:48:18.932] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:48:18.934] [INFO] logInfo - success
+[2017-02-28 00:48:18.934] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:48:18.935] [INFO] logInfo - success
+[2017-02-28 00:48:18.937] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:48:18.938] [INFO] logInfo - success
+[2017-02-28 00:48:18.938] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:48:18.938] [INFO] logInfo - success
+[2017-02-28 00:50:24.824] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 00:50:24.824] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 00:50:24.827] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 00:50:24.828] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 00:50:24.828] [INFO] logInfo - success
+[2017-02-28 00:50:24.832] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:50:24.832] [INFO] logInfo - success
+[2017-02-28 00:50:24.832] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:50:24.833] [INFO] logInfo - success
+[2017-02-28 00:50:24.840] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:50:24.840] [INFO] logInfo - success
+[2017-02-28 00:50:24.841] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:50:24.841] [INFO] logInfo - success
+[2017-02-28 00:50:24.841] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:50:24.842] [INFO] logInfo - success
+[2017-02-28 00:50:24.842] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:50:24.842] [INFO] logInfo - success
+[2017-02-28 00:51:26.047] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 00:51:26.048] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 00:51:26.050] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 00:51:26.059] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 00:51:26.059] [INFO] logInfo - success
+[2017-02-28 00:51:26.062] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:51:26.063] [INFO] logInfo - success
+[2017-02-28 00:51:26.063] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:51:26.063] [INFO] logInfo - success
+[2017-02-28 00:51:26.064] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:51:26.064] [INFO] logInfo - success
+[2017-02-28 00:51:26.067] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:51:26.067] [INFO] logInfo - success
+[2017-02-28 00:51:26.068] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:51:26.068] [INFO] logInfo - success
+[2017-02-28 00:51:26.068] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:51:26.068] [INFO] logInfo - success
+[2017-02-28 00:56:10.823] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 00:56:10.823] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 00:56:10.827] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 00:56:10.829] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 00:56:10.829] [INFO] logInfo - success
+[2017-02-28 00:56:10.832] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:56:10.832] [INFO] logInfo - success
+[2017-02-28 00:56:10.835] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:56:10.835] [INFO] logInfo - success
+[2017-02-28 00:56:10.838] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:56:10.840] [INFO] logInfo - success
+[2017-02-28 00:56:10.840] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:56:10.841] [INFO] logInfo - success
+[2017-02-28 00:56:10.841] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:56:10.841] [INFO] logInfo - success
+[2017-02-28 00:56:10.843] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:56:10.843] [INFO] logInfo - success
+[2017-02-28 00:57:52.003] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 00:57:52.003] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 00:57:52.005] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 00:57:52.010] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 00:57:52.010] [INFO] logInfo - success
+[2017-02-28 00:57:52.016] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:57:52.016] [INFO] logInfo - success
+[2017-02-28 00:57:52.018] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:57:52.018] [INFO] logInfo - success
+[2017-02-28 00:57:52.019] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:57:52.019] [INFO] logInfo - success
+[2017-02-28 00:57:52.020] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:57:52.020] [INFO] logInfo - success
+[2017-02-28 00:57:52.021] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:57:52.022] [INFO] logInfo - success
+[2017-02-28 00:57:52.024] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:57:52.024] [INFO] logInfo - success
+[2017-02-28 00:58:16.772] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 00:58:16.772] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 00:58:16.775] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 00:58:16.778] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 00:58:16.778] [INFO] logInfo - success
+[2017-02-28 00:58:16.781] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:58:16.781] [INFO] logInfo - success
+[2017-02-28 00:58:16.782] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:58:16.782] [INFO] logInfo - success
+[2017-02-28 00:58:16.782] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:58:16.782] [INFO] logInfo - success
+[2017-02-28 00:58:16.783] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:58:16.783] [INFO] logInfo - success
+[2017-02-28 00:58:16.786] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:58:16.786] [INFO] logInfo - success
+[2017-02-28 00:58:16.787] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:58:16.787] [INFO] logInfo - success
+[2017-02-28 00:59:44.416] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 00:59:44.416] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 00:59:44.419] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 00:59:44.419] [INFO] logInfo - success
+[2017-02-28 00:59:44.421] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 00:59:44.423] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:59:44.423] [INFO] logInfo - success
+[2017-02-28 00:59:44.424] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:59:44.424] [INFO] logInfo - success
+[2017-02-28 00:59:44.424] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:59:44.424] [INFO] logInfo - success
+[2017-02-28 00:59:44.425] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:59:44.425] [INFO] logInfo - success
+[2017-02-28 00:59:44.428] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:59:44.428] [INFO] logInfo - success
+[2017-02-28 00:59:44.428] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 00:59:44.429] [INFO] logInfo - success
+[2017-02-28 01:02:47.422] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 01:02:47.422] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 01:02:47.429] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 01:02:47.429] [INFO] logInfo - success
+[2017-02-28 01:02:47.431] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 01:02:47.433] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 01:02:47.434] [INFO] logInfo - success
+[2017-02-28 01:02:47.434] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 01:02:47.434] [INFO] logInfo - success
+[2017-02-28 01:02:47.436] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 01:02:47.436] [INFO] logInfo - success
+[2017-02-28 01:02:47.438] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 01:02:47.438] [INFO] logInfo - success
+[2017-02-28 01:02:47.439] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 01:02:47.439] [INFO] logInfo - success
+[2017-02-28 01:02:47.450] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 01:02:47.451] [INFO] logInfo - success
+[2017-02-28 02:36:05.308] [INFO] logInfo - pager success id 10
+[2017-02-28 02:36:05.309] [INFO] logInfo - shopbyps by id 10
+[2017-02-28 02:36:05.311] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 02:36:05.311] [INFO] logInfo - success
+[2017-02-28 02:36:05.313] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 02:37:47.704] [INFO] logInfo - pager success id 10
+[2017-02-28 02:37:47.704] [INFO] logInfo - shopbyps by id 10
+[2017-02-28 02:37:47.717] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 02:37:47.717] [INFO] logInfo - success
+[2017-02-28 02:37:47.718] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 02:38:40.049] [INFO] logInfo - pager success id 10
+[2017-02-28 02:38:40.049] [INFO] logInfo - shopbyps by id 10
+[2017-02-28 02:38:40.052] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 02:38:40.053] [INFO] logInfo - success
+[2017-02-28 02:38:40.053] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 02:39:12.469] [INFO] logInfo - pager success id 10
+[2017-02-28 02:39:12.469] [INFO] logInfo - shopbyps by id 10
+[2017-02-28 02:39:12.472] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 02:39:12.472] [INFO] logInfo - success
+[2017-02-28 02:39:12.473] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 02:41:07.197] [INFO] logInfo - pager success id 10
+[2017-02-28 02:41:07.197] [INFO] logInfo - shopbyps by id 10
+[2017-02-28 02:41:07.201] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 02:41:07.202] [INFO] logInfo - success
+[2017-02-28 02:41:07.202] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 02:41:48.335] [INFO] logInfo - pager success id 10
+[2017-02-28 02:41:48.335] [INFO] logInfo - shopbyps by id 10
+[2017-02-28 02:41:48.337] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 02:41:48.337] [INFO] logInfo - success
+[2017-02-28 02:41:48.337] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 13:09:45.054] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 13:09:45.055] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 13:09:45.091] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 13:09:45.096] [INFO] logInfo - success
+[2017-02-28 13:09:45.107] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 13:09:45.159] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:09:45.168] [INFO] logInfo - success
+[2017-02-28 13:09:45.171] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:09:45.177] [INFO] logInfo - success
+[2017-02-28 13:09:45.180] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:09:45.185] [INFO] logInfo - success
+[2017-02-28 13:09:45.188] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:09:45.191] [INFO] logInfo - success
+[2017-02-28 13:09:45.193] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:09:45.201] [INFO] logInfo - success
+[2017-02-28 13:09:45.203] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:09:45.210] [INFO] logInfo - success
+[2017-02-28 13:09:50.332] [INFO] logInfo - pager success id 24
+[2017-02-28 13:09:50.333] [INFO] logInfo - shopbyps by id 24
+[2017-02-28 13:09:50.336] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 13:09:50.343] [INFO] logInfo - success
+[2017-02-28 13:09:50.349] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 13:09:50.357] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:09:50.358] [INFO] logInfo - success
+[2017-02-28 13:09:50.360] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:09:50.363] [INFO] logInfo - success
+[2017-02-28 13:09:50.372] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:09:50.376] [INFO] logInfo - success
+[2017-02-28 13:09:50.377] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:09:50.379] [INFO] logInfo - success
+[2017-02-28 13:09:50.381] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:09:50.384] [INFO] logInfo - success
+[2017-02-28 13:09:50.386] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:09:50.391] [INFO] logInfo - success
+[2017-02-28 13:09:59.750] [INFO] logInfo - pager success id 24
+[2017-02-28 13:09:59.750] [INFO] logInfo - shopbyps by id 24
+[2017-02-28 13:09:59.756] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 13:09:59.762] [INFO] logInfo - success
+[2017-02-28 13:09:59.765] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 13:09:59.769] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:09:59.770] [INFO] logInfo - success
+[2017-02-28 13:09:59.773] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:09:59.774] [INFO] logInfo - success
+[2017-02-28 13:09:59.776] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:09:59.779] [INFO] logInfo - success
+[2017-02-28 13:09:59.780] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:09:59.781] [INFO] logInfo - success
+[2017-02-28 13:09:59.782] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:09:59.784] [INFO] logInfo - success
+[2017-02-28 13:09:59.787] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:09:59.790] [INFO] logInfo - success
+[2017-02-28 13:10:21.978] [INFO] logInfo - scale detail success id 24
+[2017-02-28 13:10:21.986] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = 21 and tp.id = pps.product_id   and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-02-28 13:10:21.995] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp , t_productscale_product  pps  where pps.product_scale_id = 21 and tp.id = pps.product_id   and  tp.status = 1
+[2017-02-28 13:10:26.414] [INFO] logInfo - pager success id 24ps23
+[2017-02-28 13:10:26.414] [INFO] logInfo - shopbyps by id 24ps23
+[2017-02-28 13:10:26.421] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 13:10:26.441] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 13:10:26.443] [INFO] logInfo - success
+[2017-02-28 13:10:26.450] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:10:26.455] [INFO] logInfo - success
+[2017-02-28 13:10:26.456] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:10:26.458] [INFO] logInfo - success
+[2017-02-28 13:10:26.460] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:10:26.463] [INFO] logInfo - success
+[2017-02-28 13:10:26.465] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:10:26.475] [INFO] logInfo - success
+[2017-02-28 13:10:26.477] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:10:26.481] [INFO] logInfo - success
+[2017-02-28 13:10:26.482] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:10:26.499] [INFO] logInfo - success
+[2017-02-28 13:10:36.102] [INFO] logInfo - scale detail success id 24
+[2017-02-28 13:10:36.105] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = 20 and tp.id = pps.product_id   and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-02-28 13:10:36.112] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp , t_productscale_product  pps  where pps.product_scale_id = 20 and tp.id = pps.product_id   and  tp.status = 1
+[2017-02-28 13:10:38.537] [INFO] logInfo - scale detail success id 24
+[2017-02-28 13:10:38.541] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = 20 and tp.id = pps.product_id   and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-02-28 13:10:38.550] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp , t_productscale_product  pps  where pps.product_scale_id = 20 and tp.id = pps.product_id   and  tp.status = 1
+[2017-02-28 13:10:45.258] [INFO] logInfo - pager success id 24ps23
+[2017-02-28 13:10:45.258] [INFO] logInfo - shopbyps by id 24ps23
+[2017-02-28 13:10:45.260] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 13:10:45.265] [INFO] logInfo - success
+[2017-02-28 13:10:45.267] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 13:10:45.273] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:10:45.278] [INFO] logInfo - success
+[2017-02-28 13:10:45.280] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:10:45.284] [INFO] logInfo - success
+[2017-02-28 13:10:45.288] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:10:45.290] [INFO] logInfo - success
+[2017-02-28 13:10:45.292] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:10:45.294] [INFO] logInfo - success
+[2017-02-28 13:10:45.300] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:10:45.315] [INFO] logInfo - success
+[2017-02-28 13:10:45.316] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:10:45.320] [INFO] logInfo - success
+[2017-02-28 13:11:20.392] [INFO] logInfo - pager success id 24
+[2017-02-28 13:11:20.395] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 13:11:20.440] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.shop_id = 24  and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-02-28 13:11:20.457] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.shop_id = 24  and  tp.status = 1
+[2017-02-28 13:11:24.648] [INFO] logInfo - pager success id 24
+[2017-02-28 13:11:24.650] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 13:11:24.665] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.shop_id = 24  and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-02-28 13:11:24.669] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.shop_id = 24  and  tp.status = 1
+[2017-02-28 13:11:27.312] [INFO] logInfo - pager success id 24
+[2017-02-28 13:11:27.313] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 13:11:27.317] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.shop_id = 24  and  tp.status = 1 ORDER BY id DESC LIMIT 20,10
+[2017-02-28 13:11:27.321] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.shop_id = 24  and  tp.status = 1
+[2017-02-28 13:11:27.422] [INFO] logInfo - pager success id 24
+[2017-02-28 13:11:27.424] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.shop_id = 24  and  tp.status = 1 ORDER BY id DESC LIMIT 30,10
+[2017-02-28 13:11:27.427] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 13:11:27.430] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.shop_id = 24  and  tp.status = 1
+[2017-02-28 13:27:52.067] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 13:27:52.069] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 13:28:21.612] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 13:28:21.614] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 13:29:40.985] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 13:29:40.986] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 13:30:48.063] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 13:30:48.065] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 13:39:19.826] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 13:39:19.829] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 13:39:20.296] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 13:39:20.444] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 13:39:20.835] [INFO] logInfo - success
+[2017-02-28 13:39:21.157] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:39:21.374] [INFO] logInfo - success
+[2017-02-28 13:39:21.380] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:39:21.428] [INFO] logInfo - success
+[2017-02-28 13:39:21.431] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:39:21.445] [INFO] logInfo - success
+[2017-02-28 13:39:21.446] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:39:21.500] [INFO] logInfo - success
+[2017-02-28 13:39:21.506] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:39:21.517] [INFO] logInfo - success
+[2017-02-28 13:39:21.522] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:39:21.539] [INFO] logInfo - success
+[2017-02-28 13:39:29.835] [INFO] logInfo - pager success id 24ps20
+[2017-02-28 13:39:29.835] [INFO] logInfo - shopbyps by id 24ps20
+[2017-02-28 13:39:29.838] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-02-28 13:39:29.839] [INFO] logInfo - success
+[2017-02-28 13:39:29.845] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-02-28 13:39:29.852] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:39:29.853] [INFO] logInfo - success
+[2017-02-28 13:39:29.858] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:39:29.861] [INFO] logInfo - success
+[2017-02-28 13:39:29.862] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:39:29.866] [INFO] logInfo - success
+[2017-02-28 13:39:29.868] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:39:29.870] [INFO] logInfo - success
+[2017-02-28 13:39:29.873] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:39:29.875] [INFO] logInfo - success
+[2017-02-28 13:39:29.879] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-02-28 13:39:29.881] [INFO] logInfo - success
+[2017-02-28 13:41:33.231] [INFO] logInfo - scale detail success id 24
+[2017-02-28 13:41:33.252] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = 20 and tp.id = pps.product_id   and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-02-28 13:41:33.388] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp , t_productscale_product  pps  where pps.product_scale_id = 20 and tp.id = pps.product_id   and  tp.status = 1
+[2017-02-28 13:41:35.902] [INFO] logInfo - scale detail success id 24
+[2017-02-28 13:41:35.905] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = 20 and tp.id = pps.product_id   and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-02-28 13:41:35.909] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp , t_productscale_product  pps  where pps.product_scale_id = 20 and tp.id = pps.product_id   and  tp.status = 1

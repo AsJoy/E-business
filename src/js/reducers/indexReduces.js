@@ -12,6 +12,7 @@ const initialState = {
 }
 export default function todos(state = initialState, action) {
   const param = action.param;
+  console.log(param)
   switch (action.type) {
     case UPDATE_INDEX:
       return index.getDate(param);

@@ -1,0 +1,321 @@
+[2017-04-04 14:25:45.834] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-04-04 14:25:45.836] [INFO] logInfo - success
+[2017-04-04 14:26:10.470] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-04-04 14:26:10.473] [INFO] logInfo - success
+[2017-04-04 14:26:16.334] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-04-04 14:26:16.335] [INFO] logInfo - success
+[2017-04-04 14:26:19.841] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-04-04 14:26:19.845] [INFO] logInfo - success
+[2017-04-04 14:26:21.572] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-04-04 14:26:21.575] [INFO] logInfo - success
+[2017-04-04 14:30:58.471] [ERROR] logInfo - DB-获取数据库连接异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+message:ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'39.181.121.76' (using password: YES)
+stack:Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'39.181.121.76' (using password: YES)
+    at Handshake.Sequence._packetToError (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Handshake.ErrorPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Handshake.js:103:18)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Pool.js:48:16)
+    at Object.query (D:\code\project\E-business-system\E-business\server\util\dbUtil.js:24:10)
+    at Object.module.exports.shopcart (D:\code\project\E-business-system\E-business\server\dao\productDao.js:46:6)
+    at productAction.post (D:\code\project\E-business-system\E-business\server\action\ProductAction.js:21:16)
+    at Layer.handle [as handle_request] (D:\code\project\E-business-system\E-business\node_modules\.4.14.1@express\lib\router\layer.js:95:5)
+    at next (D:\code\project\E-business-system\E-business\node_modules\.4.14.1@express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\code\project\E-business-system\E-business\node_modules\.4.14.1@express\lib\router\route.js:112:3)
+[2017-04-04 14:31:31.302] [INFO] logInfo - pager success id 24
+[2017-04-04 14:31:31.304] [INFO] logInfo - shopbyps by id 24
+[2017-04-04 14:31:31.432] [ERROR] logInfo - DB-获取数据库连接异常！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+message:ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'39.181.121.76' (using password: YES)
+stack:Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'39.181.121.76' (using password: YES)
+    at Handshake.Sequence._packetToError (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Handshake.ErrorPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Handshake.js:103:18)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Pool.js:48:16)
+    at Object.query (D:\code\project\E-business-system\E-business\server\util\dbUtil.js:24:10)
+    at async.waterfall.funs (D:\code\project\E-business-system\E-business\server\dao\ShopDao.js:55:20)
+    at fn (D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:746:34)
+    at D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:1213:16
+    at D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:166:37
+    at D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:706:43
+[2017-04-04 14:31:34.399] [INFO] logInfo - pager success id 24
+[2017-04-04 14:31:34.402] [INFO] logInfo - shopbyps by id 24
+[2017-04-04 14:31:34.518] [ERROR] logInfo - DB-获取数据库连接异常！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+message:ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'39.181.121.76' (using password: YES)
+stack:Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'39.181.121.76' (using password: YES)
+    at Handshake.Sequence._packetToError (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Handshake.ErrorPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Handshake.js:103:18)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Pool.js:48:16)
+    at Object.query (D:\code\project\E-business-system\E-business\server\util\dbUtil.js:24:10)
+    at async.waterfall.funs (D:\code\project\E-business-system\E-business\server\dao\ShopDao.js:55:20)
+    at fn (D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:746:34)
+    at D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:1213:16
+    at D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:166:37
+    at D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:706:43
+[2017-04-04 14:31:50.877] [INFO] logInfo - pager success id 24
+[2017-04-04 14:31:50.879] [INFO] logInfo - shopbyps by id 24
+[2017-04-04 14:31:51.009] [ERROR] logInfo - DB-获取数据库连接异常！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+message:ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'39.181.121.76' (using password: YES)
+stack:Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'39.181.121.76' (using password: YES)
+    at Handshake.Sequence._packetToError (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Handshake.ErrorPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Handshake.js:103:18)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Pool.js:48:16)
+    at Object.query (D:\code\project\E-business-system\E-business\server\util\dbUtil.js:24:10)
+    at async.waterfall.funs (D:\code\project\E-business-system\E-business\server\dao\ShopDao.js:55:20)
+    at fn (D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:746:34)
+    at D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:1213:16
+    at D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:166:37
+    at D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:706:43
+[2017-04-04 14:32:55.460] [INFO] logInfo - pager success id 24
+[2017-04-04 14:32:55.462] [INFO] logInfo - shopbyps by id 24
+[2017-04-04 14:32:55.606] [ERROR] logInfo - DB-获取数据库连接异常！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+message:ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'39.181.121.76' (using password: YES)
+stack:Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'39.181.121.76' (using password: YES)
+    at Handshake.Sequence._packetToError (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Handshake.ErrorPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Handshake.js:103:18)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Pool.js:48:16)
+    at Object.query (D:\code\project\E-business-system\E-business\server\util\dbUtil.js:24:10)
+    at Object.module.exports.load (D:\code\project\E-business-system\E-business\server\dao\ShopDao.js:19:14)
+    at async.parallel.data.pager (D:\code\project\E-business-system\E-business\server\action\UserAction.js:108:15)
+    at D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:718:13
+    at async.forEachOf.async.eachOf (D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:233:13)
+    at _parallel (D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:717:9)
+[2017-04-04 14:33:06.247] [INFO] logInfo - pager success id 24
+[2017-04-04 14:33:06.253] [INFO] logInfo - shopbyps by id 24
+[2017-04-04 14:33:06.425] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-04-04 14:33:06.446] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-04-04 14:33:06.447] [INFO] logInfo - success
+[2017-04-04 14:33:06.518] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-04 14:33:06.520] [INFO] logInfo - success
+[2017-04-04 14:33:06.527] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-04 14:33:06.529] [INFO] logInfo - success
+[2017-04-04 14:33:06.590] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-04 14:33:06.591] [INFO] logInfo - success
+[2017-04-04 14:33:06.594] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-04 14:33:06.595] [INFO] logInfo - success
+[2017-04-04 14:33:06.600] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-04 14:33:06.602] [INFO] logInfo - success
+[2017-04-04 14:33:06.608] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-04 14:33:06.610] [INFO] logInfo - success
+[2017-04-04 14:33:28.060] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","24","26","27","30")
+[2017-04-04 14:33:28.064] [INFO] logInfo - success
+[2017-04-04 14:43:04.877] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","24","26","27","30")
+[2017-04-04 14:43:04.878] [INFO] logInfo - success
+[2017-04-04 14:43:07.708] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order (id,user_id) values (?,?)
+[2017-04-04 14:43:07.709] [INFO] logInfo - success
+[2017-04-04 14:43:07.780] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-04-04 14:43:07.781] [INFO] logInfo - success
+[2017-04-04 14:43:07.782] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-04-04 14:43:07.782] [INFO] logInfo - success
+[2017-04-04 14:43:07.783] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-04-04 14:43:07.783] [INFO] logInfo - success
+[2017-04-04 14:43:07.785] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-04-04 14:43:07.785] [INFO] logInfo - success
+[2017-04-04 14:43:07.789] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-04-04 14:43:07.790] [INFO] logInfo - success
+[2017-04-04 14:49:41.814] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-04-04 14:49:41.817] [INFO] logInfo - success
+[2017-04-04 15:27:01.739] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-04-04 15:27:01.741] [INFO] logInfo - success
+[2017-04-04 15:38:52.408] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-04 15:38:54.930] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-04 15:39:20.828] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-04-04 15:39:20.833] [INFO] logInfo - success
+[2017-04-04 15:48:47.888] [ERROR] logInfo - DB-获取数据库连接异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:connect ENETUNREACH 112.74.187.219:3306
+stack:Error: connect ENETUNREACH 112.74.187.219:3306
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+    --------------------
+    at Protocol._enqueue (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Pool.js:48:16)
+    at Object.query (D:\code\project\E-business-system\E-business\server\util\dbUtil.js:24:10)
+    at Object.module.exports.shopcart (D:\code\project\E-business-system\E-business\server\dao\productDao.js:46:6)
+    at productAction.post (D:\code\project\E-business-system\E-business\server\action\ProductAction.js:21:16)
+    at Layer.handle [as handle_request] (D:\code\project\E-business-system\E-business\node_modules\.4.14.1@express\lib\router\layer.js:95:5)
+    at next (D:\code\project\E-business-system\E-business\node_modules\.4.14.1@express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\code\project\E-business-system\E-business\node_modules\.4.14.1@express\lib\router\route.js:112:3)
+[2017-04-04 15:52:37.110] [ERROR] logInfo - DB-获取数据库连接异常！
+sql:insert into t_order (id,user_id) values (?,?)
+message:connect ENETUNREACH 112.74.187.219:3306
+stack:Error: connect ENETUNREACH 112.74.187.219:3306
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+    --------------------
+    at Protocol._enqueue (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Pool.js:48:16)
+    at Object.query (D:\code\project\E-business-system\E-business\server\util\dbUtil.js:24:10)
+    at Object.module.exports.insertOd (D:\code\project\E-business-system\E-business\server\dao\productDao.js:93:6)
+    at async.waterfall.async.parallel.rs.msg (D:\code\project\E-business-system\E-business\server\action\ProductAction.js:112:16)
+    at fn (D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:746:34)
+    at D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:1213:16
+    at D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:166:37
+[2017-04-04 16:00:37.699] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:208:25)
+    at D:\code\project\E-business-system\E-business\server\util\dbUtil.js:51:20
+    at Handshake.onConnect [as _callback] (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Pool.js:64:7)
+    at Handshake.Sequence.end (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Handshake.Sequence.OkPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+[2017-04-04 16:00:53.834] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-04-04 16:00:53.838] [INFO] logInfo - success
+[2017-04-04 16:00:57.739] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:208:25)
+    at D:\code\project\E-business-system\E-business\server\util\dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+[2017-04-04 16:01:00.353] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-04-04 16:01:00.355] [INFO] logInfo - success

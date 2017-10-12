@@ -4,7 +4,7 @@ export default class link extends Component {
   render() {
     const { src, href, classNe, style } = this.props;
     let imgCls = 'img';
-    const defaultSrc = 'assets/img/boxed-bg.jpg';
+    const defaultSrc = '/assets/img/box-bg.png';
     // console.log(classNe);
     if (classNe) {
       imgCls = `${classNe} img`

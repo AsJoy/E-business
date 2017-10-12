@@ -1,6 +1,5 @@
 
 class Util {
-
   extend(src, dest) {
     if (typeof dest !== 'object')
       return dest;
@@ -24,9 +23,10 @@ class Util {
     }
     return result.length ? result.substring(0, result.length - 1) : '';
   }
-  serialize(form) {
+  serialize(form, returnObj) {
     var parts = new Array();
     var field = null;
+    var rs = {};
     for (var i = 0, len = form.elements.length; i < len; i++) {
       field = form.elements[i];
       switch (field.type) {
@@ -39,12 +39,14 @@ class Util {
               if (option.hasAttribute) {
                 optValue = (option.hasAttribute('value') ?
                                   option.value : option.text);
+
               } else {
                 optValue = (option.attributes['value'].specified ?
                                   option.value : option.text);
               }
               parts.push(encodeURIComponent(field.name) + '=' +
                               encodeURIComponent(optValue));
+              rs[field.name] = optValue;
             }
           }
           break;
@@ -66,7 +68,11 @@ class Util {
         default:
           parts.push(encodeURIComponent(field.name) + '=' +
                       encodeURIComponent(field.value));
+          rs[field.name] = field.value;
       }
+    }
+    if (returnObj) {
+      return rs;
     }
     return parts.join('&');
   }
@@ -85,7 +91,7 @@ class Util {
   }
 
   getUrl() {
-    return 'http://localhost:8989';
+    return '';
   }
   getParam(name, url) {
     if (!url) {

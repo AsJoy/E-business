@@ -9,7 +9,8 @@ export default class ProductItem extends Component {
       width: '3rem',
       height: `${3*data.height/data.width}rem`
     }
-    data.href = '#';
+    console.log(123)
+    data.href = '/demo/detail.html?productId=' + data.id;
     const { shopReduce, actions, style } = this.props;
     return (
       <div className={itemStyle.productItem} style={style}>

@@ -1,0 +1,1272 @@
+[2017-04-24 00:36:51.984] [INFO] logInfo - pager success id 24
+[2017-04-24 00:36:51.985] [INFO] logInfo - shopbyps by id 24
+[2017-04-24 00:36:52.263] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-04-24 00:36:52.264] [INFO] logInfo - success
+[2017-04-24 00:36:52.268] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-04-24 00:36:52.447] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 00:36:52.448] [INFO] logInfo - success
+[2017-04-24 00:36:52.597] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 00:36:52.597] [INFO] logInfo - success
+[2017-04-24 00:36:52.598] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 00:36:52.599] [INFO] logInfo - success
+[2017-04-24 00:36:52.599] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 00:36:52.599] [INFO] logInfo - success
+[2017-04-24 00:36:52.601] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 00:36:52.602] [INFO] logInfo - success
+[2017-04-24 00:36:52.603] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 00:36:52.603] [INFO] logInfo - success
+[2017-04-24 00:36:59.629] [INFO] logInfo - pager success id 24
+[2017-04-24 00:36:59.629] [INFO] logInfo - shopbyps by id 24
+[2017-04-24 00:36:59.704] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-04-24 00:36:59.708] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-04-24 00:36:59.708] [INFO] logInfo - success
+[2017-04-24 00:36:59.780] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 00:36:59.781] [INFO] logInfo - success
+[2017-04-24 00:36:59.783] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 00:36:59.783] [INFO] logInfo - success
+[2017-04-24 00:36:59.785] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 00:36:59.785] [INFO] logInfo - success
+[2017-04-24 00:36:59.787] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 00:36:59.787] [INFO] logInfo - success
+[2017-04-24 00:36:59.788] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 00:36:59.788] [INFO] logInfo - success
+[2017-04-24 00:36:59.789] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 00:36:59.789] [INFO] logInfo - success
+[2017-04-24 00:37:11.825] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-04-24 00:37:11.826] [INFO] logInfo - success
+[2017-04-24 00:37:42.876] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 00:37:42.948] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 00:38:29.887] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23")
+[2017-04-24 00:38:29.888] [INFO] logInfo - success
+[2017-04-24 00:38:43.181] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23")
+[2017-04-24 00:38:43.181] [INFO] logInfo - success
+[2017-04-24 00:39:27.071] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%12%' or  tp.intro like '%12%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 00:39:27.149] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%12%' or  tp.intro like '%12%' and  tp.status = 1
+[2017-04-24 00:39:36.846] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 00:39:36.915] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 00:39:51.970] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 00:39:52.139] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 00:41:24.158] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 00:41:24.231] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 00:41:33.429] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 00:41:33.507] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 00:43:26.029] [ERROR] logInfo - DB-获取数据库连接异常！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+message:connect ETIMEDOUT
+stack:Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:419:13)
+    at Socket.g (events.js:291:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:342:8)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:48:16)
+    at Object.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:24:10)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/index.js:28:10
+    at fn (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.1.5.2@async/lib/async.js:746:34)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.1.5.2@async/lib/async.js:1213:16
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.1.5.2@async/lib/async.js:166:37
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.1.5.2@async/lib/async.js:706:43
+[2017-04-24 00:47:16.720] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 00:47:16.789] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 00:47:48.138] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 00:47:48.300] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 00:50:55.862] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 00:50:55.928] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 00:50:59.264] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 00:50:59.329] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 00:51:03.125] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 20,10
+[2017-04-24 00:51:03.267] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 00:51:07.047] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 30,10
+[2017-04-24 00:51:07.117] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 00:54:56.826] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 00:54:56.905] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 00:54:59.692] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 00:54:59.761] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 00:55:02.921] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 20,10
+[2017-04-24 00:55:02.995] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 00:55:05.957] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 30,10
+[2017-04-24 00:55:06.023] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 00:55:59.249] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 00:55:59.319] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 00:57:22.644] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 00:57:22.707] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 00:57:25.181] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 00:57:25.251] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 00:57:28.096] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 20,10
+[2017-04-24 00:57:28.160] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 00:57:30.599] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 30,10
+[2017-04-24 00:57:30.688] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 00:58:05.188] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 00:58:05.257] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 00:58:27.493] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 00:58:27.555] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 00:58:30.378] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 00:58:30.441] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 01:01:08.996] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 01:01:09.060] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 01:01:11.935] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 01:01:11.998] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 01:02:37.824] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 01:02:37.894] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 01:02:40.347] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 01:02:40.428] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 01:03:42.200] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 01:03:42.265] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 01:03:45.403] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 01:03:45.467] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 01:06:06.487] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 01:06:06.554] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 01:06:09.812] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 01:06:09.878] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 01:09:11.651] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 01:09:11.725] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 01:09:15.030] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 01:09:15.092] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 01:10:20.269] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 01:10:20.334] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 01:10:23.557] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 01:10:23.620] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 01:10:59.569] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 01:10:59.634] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 01:11:03.702] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 01:11:03.766] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 01:12:36.379] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 01:12:36.451] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 01:12:39.607] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 01:12:39.670] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 01:14:27.179] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 01:14:27.242] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 01:14:32.199] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 01:14:32.266] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 01:15:58.218] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 01:15:58.282] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 01:16:01.152] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 01:16:01.216] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 01:17:26.450] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 01:17:26.516] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 01:17:29.407] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 01:17:29.470] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 01:18:17.865] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 01:18:17.932] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 01:18:20.378] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 01:18:20.441] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 01:20:27.674] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 01:20:27.742] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 01:20:30.275] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 01:20:30.342] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 01:20:33.376] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 20,10
+[2017-04-24 01:20:33.444] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 01:21:18.227] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 01:21:18.296] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 01:21:21.712] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 01:21:21.782] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 01:21:24.735] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 20,10
+[2017-04-24 01:21:24.807] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 01:21:27.795] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 30,10
+[2017-04-24 01:21:27.859] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 21:40:53.314] [INFO] logInfo - pager success id 24
+[2017-04-24 21:40:53.315] [INFO] logInfo - shopbyps by id 24
+[2017-04-24 21:40:55.554] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-04-24 21:40:55.570] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-04-24 21:40:55.570] [INFO] logInfo - success
+[2017-04-24 21:40:55.646] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 21:40:55.647] [INFO] logInfo - success
+[2017-04-24 21:40:55.672] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 21:40:55.672] [INFO] logInfo - success
+[2017-04-24 21:40:55.738] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 21:40:55.738] [INFO] logInfo - success
+[2017-04-24 21:40:55.740] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 21:40:55.740] [INFO] logInfo - success
+[2017-04-24 21:40:55.774] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 21:40:55.775] [INFO] logInfo - success
+[2017-04-24 21:40:55.777] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 21:40:55.777] [INFO] logInfo - success
+[2017-04-24 21:41:00.132] [INFO] logInfo - pager success id 24
+[2017-04-24 21:41:00.132] [INFO] logInfo - shopbyps by id 24
+[2017-04-24 21:41:00.211] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-04-24 21:41:00.212] [INFO] logInfo - success
+[2017-04-24 21:41:00.234] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-04-24 21:41:00.290] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 21:41:00.290] [INFO] logInfo - success
+[2017-04-24 21:41:00.302] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 21:41:00.302] [INFO] logInfo - success
+[2017-04-24 21:41:00.303] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 21:41:00.303] [INFO] logInfo - success
+[2017-04-24 21:41:00.312] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 21:41:00.312] [INFO] logInfo - success
+[2017-04-24 21:41:00.314] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 21:41:00.315] [INFO] logInfo - success
+[2017-04-24 21:41:00.406] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 21:41:00.407] [INFO] logInfo - success
+[2017-04-24 21:41:09.060] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-04-24 21:41:09.060] [INFO] logInfo - success
+[2017-04-24 21:41:41.451] [INFO] logInfo - pager success id 24
+[2017-04-24 21:41:41.451] [INFO] logInfo - shopbyps by id 24
+[2017-04-24 21:41:41.535] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-04-24 21:41:41.536] [INFO] logInfo - success
+[2017-04-24 21:41:41.539] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-04-24 21:41:41.612] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 21:41:41.616] [INFO] logInfo - success
+[2017-04-24 21:41:41.620] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 21:41:41.621] [INFO] logInfo - success
+[2017-04-24 21:41:41.636] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 21:41:41.636] [INFO] logInfo - success
+[2017-04-24 21:41:41.637] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 21:41:41.637] [INFO] logInfo - success
+[2017-04-24 21:41:41.640] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 21:41:41.642] [INFO] logInfo - success
+[2017-04-24 21:41:41.642] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-04-24 21:41:41.643] [INFO] logInfo - success
+[2017-04-24 21:41:53.373] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%1%' or  tp.intro like '%1%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 21:41:53.449] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%1%' or  tp.intro like '%1%' and  tp.status = 1
+[2017-04-24 21:41:58.777] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%ti%' or  tp.intro like '%ti%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 21:41:58.863] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%ti%' or  tp.intro like '%ti%' and  tp.status = 1
+[2017-04-24 21:42:00.729] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%ti%' or  tp.intro like '%ti%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 21:42:00.830] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%ti%' or  tp.intro like '%ti%' and  tp.status = 1
+[2017-04-24 21:42:02.038] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%tian%' or  tp.intro like '%tian%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 21:42:02.121] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%tian%' or  tp.intro like '%tian%' and  tp.status = 1
+[2017-04-24 21:42:02.748] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 21:42:02.835] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 21:42:06.771] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 21:42:06.864] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 21:42:11.457] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 20,10
+[2017-04-24 21:42:11.553] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 21:42:13.735] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 30,10
+[2017-04-24 21:42:13.809] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 21:42:24.620] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1order bydata ORDER BY id DESC LIMIT 30,10
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'bydata ORDER BY id DESC LIMIT 30,10' at line 3
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'bydata ORDER BY id DESC LIMIT 30,10' at line 3
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:49:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-04-24 21:45:39.886] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 21:45:39.990] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 21:45:43.084] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 21:45:43.177] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 21:45:48.295] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 20,10
+[2017-04-24 21:45:48.394] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 21:45:58.151] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 ORDER BY id DESC LIMIT 30,10
+[2017-04-24 21:45:58.254] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 21:52:09.693] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%tian23%' or  tp.intro like '%tian23%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 21:52:09.772] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%tian23%' or  tp.intro like '%tian23%' and  tp.status = 1
+[2017-04-24 21:52:10.531] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%tian234%' or  tp.intro like '%tian234%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 21:52:10.612] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%tian234%' or  tp.intro like '%tian234%' and  tp.status = 1
+[2017-04-24 21:52:17.380] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%tian2%' or  tp.intro like '%tian2%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 21:52:17.457] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%tian2%' or  tp.intro like '%tian2%' and  tp.status = 1
+[2017-04-24 21:52:59.842] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%tian2342%' or  tp.intro like '%tian2342%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 21:52:59.925] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%tian2342%' or  tp.intro like '%tian2342%' and  tp.status = 1
+[2017-04-24 21:55:58.254] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%tian23%' or  tp.intro like '%tian23%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 21:55:58.332] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%tian23%' or  tp.intro like '%tian23%' and  tp.status = 1
+[2017-04-24 21:56:02.384] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%ti%' or  tp.intro like '%ti%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 21:56:02.463] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%ti%' or  tp.intro like '%ti%' and  tp.status = 1
+[2017-04-24 21:56:02.974] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%t%' or  tp.intro like '%t%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 21:56:03.056] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%t%' or  tp.intro like '%t%' and  tp.status = 1
+[2017-04-24 21:56:06.029] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 21:56:06.114] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 21:56:06.559] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 21:56:06.640] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 21:56:09.027] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 21:56:09.108] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 21:56:12.052] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 20,10
+[2017-04-24 21:56:12.131] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 21:56:14.719] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 30,10
+[2017-04-24 21:56:14.802] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 21:57:14.645] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1order byname ORDER BY id DESC LIMIT 0,10
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'byname ORDER BY id DESC LIMIT 0,10' at line 3
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'byname ORDER BY id DESC LIMIT 0,10' at line 3
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:49:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-04-24 21:59:44.303] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%tian2342%' or  tp.intro like '%tian2342%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 21:59:44.403] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%tian2342%' or  tp.intro like '%tian2342%' and  tp.status = 1
+[2017-04-24 21:59:54.365] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%\%' or  tp.intro like '%\%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 21:59:54.467] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%\%' or  tp.intro like '%\%' and  tp.status = 1
+[2017-04-24 21:59:58.419] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%tian2%' or  tp.intro like '%tian2%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 21:59:58.516] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%tian2%' or  tp.intro like '%tian2%' and  tp.status = 1
+[2017-04-24 22:00:01.324] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%tian%' or  tp.intro like '%tian%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 22:00:01.423] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%tian%' or  tp.intro like '%tian%' and  tp.status = 1
+[2017-04-24 22:00:02.089] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%ti%' or  tp.intro like '%ti%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 22:00:02.186] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%ti%' or  tp.intro like '%ti%' and  tp.status = 1
+[2017-04-24 22:00:02.905] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%t%' or  tp.intro like '%t%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 22:00:03.015] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%t%' or  tp.intro like '%t%' and  tp.status = 1
+[2017-04-24 22:00:10.691] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 22:00:10.793] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 22:00:14.198] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 22:00:14.296] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 22:00:18.213] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 20,10
+[2017-04-24 22:00:18.309] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 22:00:20.892] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 30,10
+[2017-04-24 22:00:20.988] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 22:03:41.177] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1order byprice ORDER BY id DESC LIMIT 0,10
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'byprice ORDER BY id DESC LIMIT 0,10' at line 3
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'byprice ORDER BY id DESC LIMIT 0,10' at line 3
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:49:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-04-24 22:11:32.769] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 22:11:32.864] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 22:11:35.833] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-04-24 22:11:35.927] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 22:11:38.000] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 20,10
+[2017-04-24 22:11:38.100] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 22:11:39.476] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 30,10
+[2017-04-24 22:11:39.575] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 22:11:44.976] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price ORDER BY id DESC LIMIT 0,10
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY id DESC LIMIT 0,10' at line 3
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY id DESC LIMIT 0,10' at line 3
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:49:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-04-24 22:12:54.141] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-04-24 22:12:54.225] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 22:12:56.160] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price ORDER BY id DESC LIMIT 0,10
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY id DESC LIMIT 0,10' at line 3
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY id DESC LIMIT 0,10' at line 3
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:49:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-04-24 22:16:14.876] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天k%' or  tp.intro like '%天k%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 22:16:14.960] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天k%' or  tp.intro like '%天k%' and  tp.status = 1
+[2017-04-24 22:16:15.705] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 22:16:15.783] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 22:16:17.049] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天kon%' or  tp.intro like '%天kon%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 22:16:17.128] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天kon%' or  tp.intro like '%天kon%' and  tp.status = 1
+[2017-04-24 22:16:17.787] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天空%' or  tp.intro like '%天空%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 22:16:17.866] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天空%' or  tp.intro like '%天空%' and  tp.status = 1
+[2017-04-24 22:16:20.539] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 22:16:20.617] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 22:16:25.383] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 LIMIT 10,10
+[2017-04-24 22:16:25.469] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 22:16:28.911] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by priceDESC LIMIT 0,10
+message:ER_BAD_FIELD_ERROR: Unknown column 'priceDESC' in 'order clause'
+stack:Error: ER_BAD_FIELD_ERROR: Unknown column 'priceDESC' in 'order clause'
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:49:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-04-24 22:16:44.647] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price DESC LIMIT 0,10
+[2017-04-24 22:16:44.721] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price DESC
+[2017-04-24 22:16:51.348] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price DESC LIMIT 0,10
+[2017-04-24 22:16:51.425] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price DESC
+[2017-04-24 22:17:00.418] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 LIMIT 10,10
+[2017-04-24 22:17:00.490] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 23:08:20.164] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天空%' or  tp.intro like '%天空%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 23:08:20.245] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天空%' or  tp.intro like '%天空%' and  tp.status = 1
+[2017-04-24 23:08:26.749] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 23:08:26.829] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 23:08:29.795] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 LIMIT 10,10
+[2017-04-24 23:08:29.873] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 23:08:32.568] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 LIMIT 20,10
+[2017-04-24 23:08:32.645] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 23:08:35.225] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 LIMIT 30,10
+[2017-04-24 23:08:35.304] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 23:08:36.872] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 DESC LIMIT 0,10
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC LIMIT 0,10' at line 3
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC LIMIT 0,10' at line 3
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:49:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-04-24 23:11:11.620] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 23:11:11.692] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 23:11:13.444] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price DESC LIMIT 0,10
+[2017-04-24 23:11:13.515] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price DESC
+[2017-04-24 23:11:20.058] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price DESC LIMIT 10,10
+[2017-04-24 23:11:20.128] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price DESC
+[2017-04-24 23:11:22.926] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price ASC LIMIT 0,10
+[2017-04-24 23:11:22.996] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price ASC
+[2017-04-24 23:11:28.847] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price ASC LIMIT 10,10
+[2017-04-24 23:11:28.926] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price ASC
+[2017-04-24 23:14:08.497] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 23:14:08.569] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 23:14:10.626] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price DESC LIMIT 0,10
+[2017-04-24 23:14:10.696] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price DESC
+[2017-04-24 23:14:16.907] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price DESC LIMIT 10,10
+[2017-04-24 23:14:16.977] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price DESC
+[2017-04-24 23:14:18.056] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price DESC LIMIT 20,10
+[2017-04-24 23:14:18.137] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price DESC
+[2017-04-24 23:14:46.436] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 23:14:46.515] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 23:14:51.016] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 10,10
+[2017-04-24 23:14:51.087] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 23:14:54.419] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by price DESC LIMIT 0,10
+[2017-04-24 23:14:54.492] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by price DESC
+[2017-04-24 23:15:00.216] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by price DESC LIMIT 10,10
+[2017-04-24 23:15:00.289] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by price DESC
+[2017-04-24 23:16:17.961] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by price ASC LIMIT 0,10
+[2017-04-24 23:16:18.035] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by price ASC
+[2017-04-24 23:16:23.693] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by price ASC LIMIT 10,10
+[2017-04-24 23:16:23.764] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by price ASC
+[2017-04-24 23:16:26.013] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by price ASC LIMIT 20,10
+[2017-04-24 23:16:26.083] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by price ASC
+[2017-04-24 23:16:44.371] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by name DESC LIMIT 0,10
+[2017-04-24 23:16:44.446] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by name DESC
+[2017-04-24 23:16:46.291] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by name ASC LIMIT 0,10
+[2017-04-24 23:16:46.366] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by name ASC
+[2017-04-24 23:16:48.495] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by name DESC LIMIT 0,10
+[2017-04-24 23:16:48.565] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by name DESC
+[2017-04-24 23:17:29.465] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by name DESC LIMIT 10,10
+[2017-04-24 23:17:29.537] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by name DESC
+[2017-04-24 23:17:31.648] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by name DESC LIMIT 20,10
+[2017-04-24 23:17:31.718] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by name DESC
+[2017-04-24 23:17:39.239] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by price DESC LIMIT 0,10
+[2017-04-24 23:17:39.310] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by price DESC
+[2017-04-24 23:17:42.498] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by price DESC LIMIT 10,10
+[2017-04-24 23:17:42.567] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 order by price DESC
+[2017-04-24 23:24:13.960] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%d%' or  tp.intro like '%d%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 23:24:14.039] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%d%' or  tp.intro like '%d%' and  tp.status = 1
+[2017-04-24 23:24:14.592] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%da%' or  tp.intro like '%da%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 23:24:14.668] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%da%' or  tp.intro like '%da%' and  tp.status = 1
+[2017-04-24 23:24:20.947] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%da%' or  tp.intro like '%da%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 23:24:21.025] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%da%' or  tp.intro like '%da%' and  tp.status = 1
+[2017-04-24 23:42:57.974] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%undefined%' or  tp.intro like '%undefined%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 23:42:58.063] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%undefined%' or  tp.intro like '%undefined%' and  tp.status = 1
+[2017-04-24 23:43:30.502] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 23:43:30.593] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-04-24 23:44:04.213] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 23:44:04.308] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 23:51:51.960] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 23:51:52.041] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 23:51:57.904] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 23:51:57.983] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 23:52:44.113] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 23:52:44.195] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 23:54:17.915] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 23:54:17.990] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 23:55:55.623] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 23:55:55.701] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-04-24 23:57:50.144] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-04-24 23:57:50.220] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1

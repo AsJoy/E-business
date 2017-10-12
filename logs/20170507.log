@@ -1,0 +1,1563 @@
+[2017-05-07 16:17:27.852] [INFO] logInfo - pager success id 24
+[2017-05-07 16:17:27.853] [INFO] logInfo - shopbyps by id 24
+[2017-05-07 16:17:28.031] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-05-07 16:17:28.033] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-05-07 16:17:28.033] [INFO] logInfo - success
+[2017-05-07 16:17:28.110] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 16:17:28.110] [INFO] logInfo - success
+[2017-05-07 16:17:28.122] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 16:17:28.123] [INFO] logInfo - success
+[2017-05-07 16:17:28.214] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 16:17:28.215] [INFO] logInfo - success
+[2017-05-07 16:17:28.216] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 16:17:28.217] [INFO] logInfo - success
+[2017-05-07 16:17:28.219] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 16:17:28.219] [INFO] logInfo - success
+[2017-05-07 16:17:28.222] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 16:17:28.224] [INFO] logInfo - success
+[2017-05-07 16:17:34.714] [INFO] logInfo - pager success id 36
+[2017-05-07 16:17:34.714] [INFO] logInfo - shopbyps by id 36
+[2017-05-07 16:17:34.784] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-05-07 16:17:34.785] [INFO] logInfo - success
+[2017-05-07 16:17:34.798] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-05-07 16:17:34.860] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 16:17:34.861] [INFO] logInfo - success
+[2017-05-07 16:18:37.075] [INFO] logInfo - pager success id 36
+[2017-05-07 16:18:37.076] [INFO] logInfo - shopbyps by id 36
+[2017-05-07 16:18:37.152] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-05-07 16:18:37.153] [INFO] logInfo - success
+[2017-05-07 16:18:37.156] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-05-07 16:18:37.235] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 16:18:37.236] [INFO] logInfo - success
+[2017-05-07 16:18:51.299] [INFO] logInfo - pager success id 36
+[2017-05-07 16:18:51.299] [INFO] logInfo - shopbyps by id 36
+[2017-05-07 16:18:51.391] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-05-07 16:18:51.392] [INFO] logInfo - success
+[2017-05-07 16:18:51.394] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-05-07 16:18:51.486] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 16:18:51.486] [INFO] logInfo - success
+[2017-05-07 16:24:37.677] [INFO] logInfo - pager success id 36
+[2017-05-07 16:24:37.678] [INFO] logInfo - shopbyps by id 36
+[2017-05-07 16:25:02.119] [INFO] logInfo - pager success id 36
+[2017-05-07 16:25:02.119] [INFO] logInfo - shopbyps by id 36
+[2017-05-07 16:25:02.276] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-05-07 16:25:02.281] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-05-07 16:25:02.281] [INFO] logInfo - success
+[2017-05-07 16:25:02.363] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 16:25:02.363] [INFO] logInfo - success
+[2017-05-07 16:25:07.793] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-05-07 16:25:07.794] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-05-07 16:25:07.794] [INFO] logInfo - success
+[2017-05-07 16:25:07.871] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 16:25:07.872] [INFO] logInfo - success
+[2017-05-07 17:33:45.131] [INFO] logInfo - pager success id 24
+[2017-05-07 17:33:45.132] [INFO] logInfo - shopbyps by id 24
+[2017-05-07 17:33:55.456] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-05-07 17:33:55.458] [INFO] logInfo - success
+[2017-05-07 17:33:55.460] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-05-07 17:33:55.606] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 17:33:55.606] [INFO] logInfo - success
+[2017-05-07 17:33:55.779] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 17:33:55.780] [INFO] logInfo - success
+[2017-05-07 17:33:55.790] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 17:33:55.790] [INFO] logInfo - success
+[2017-05-07 17:33:55.791] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 17:33:55.791] [INFO] logInfo - success
+[2017-05-07 17:33:55.806] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 17:33:55.807] [INFO] logInfo - success
+[2017-05-07 17:33:55.812] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 17:33:55.818] [INFO] logInfo - success
+[2017-05-07 17:34:11.506] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26")
+[2017-05-07 17:34:11.506] [INFO] logInfo - success
+[2017-05-07 17:34:40.399] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 17:34:45.302] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 17:35:25.039] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 17:36:36.703] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 17:37:27.213] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 17:37:27.215] [INFO] logInfo - success
+[2017-05-07 17:37:31.143] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 17:37:32.665] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 17:37:34.028] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 17:37:35.401] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 17:40:10.666] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 18:40:12.059] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 18:40:36.348] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 18:43:54.160] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 18:43:54.162] [INFO] logInfo - success
+[2017-05-07 18:46:58.730] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 18:46:58.730] [INFO] logInfo - success
+[2017-05-07 18:47:00.518] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 18:47:00.518] [INFO] logInfo - success
+[2017-05-07 18:47:01.540] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 18:47:01.541] [INFO] logInfo - success
+[2017-05-07 18:47:01.758] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 18:47:01.758] [INFO] logInfo - success
+[2017-05-07 18:47:06.410] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 18:47:06.410] [INFO] logInfo - success
+[2017-05-07 18:52:26.291] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 18:52:26.292] [INFO] logInfo - success
+[2017-05-07 18:52:35.351] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 18:52:35.352] [INFO] logInfo - success
+[2017-05-07 18:53:08.118] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-05-07 18:53:08.119] [INFO] logInfo - success
+[2017-05-07 18:55:46.078] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_user (telephone,create_date,email,password,userName,picSrc,type,status) values (?,?,?,?,?,?,?,?)
+[2017-05-07 18:55:46.080] [INFO] logInfo - success
+[2017-05-07 18:56:11.007] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 18:56:11.007] [INFO] logInfo - success
+[2017-05-07 18:56:14.823] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 18:56:14.824] [INFO] logInfo - success
+[2017-05-07 19:06:19.842] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 19:06:20.517] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 19:06:25.162] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 19:06:25.389] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 19:06:46.629] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23")
+[2017-05-07 19:06:46.630] [INFO] logInfo - success
+[2017-05-07 19:06:49.169] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-05-07 19:06:49.170] [INFO] logInfo - success
+[2017-05-07 19:06:52.960] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-05-07 19:06:52.961] [INFO] logInfo - success
+[2017-05-07 19:07:23.275] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_address (user_id,name,sex,telephone,address) values (?,?,?,?,?)
+[2017-05-07 19:07:23.275] [INFO] logInfo - success
+[2017-05-07 19:07:23.639] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-05-07 19:07:23.639] [INFO] logInfo - success
+[2017-05-07 19:07:35.291] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23")
+[2017-05-07 19:07:35.292] [INFO] logInfo - success
+[2017-05-07 19:09:12.209] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23")
+[2017-05-07 19:09:12.211] [INFO] logInfo - success
+[2017-05-07 19:09:17.295] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order (id,user_id) values (?,?)
+[2017-05-07 19:09:17.295] [INFO] logInfo - success
+[2017-05-07 19:09:17.376] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-05-07 19:09:17.377] [INFO] logInfo - success
+[2017-05-07 19:09:17.431] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-05-07 19:09:17.432] [INFO] logInfo - success
+[2017-05-07 19:09:17.457] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-05-07 19:09:17.458] [INFO] logInfo - success
+[2017-05-07 19:09:17.761] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-05-07 19:09:17.761] [INFO] logInfo - success
+[2017-05-07 19:09:20.725] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-05-07 19:09:20.726] [INFO] logInfo - success
+[2017-05-07 19:09:20.808] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-05-07 19:09:20.809] [INFO] logInfo - success
+[2017-05-07 19:09:24.767] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 19:09:29.276] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-05-07 19:09:29.278] [INFO] logInfo - success
+[2017-05-07 19:09:29.492] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 19:09:31.356] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 19:09:31.446] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 19:09:31.768] [INFO] logInfo - pager success id 24
+[2017-05-07 19:09:31.769] [INFO] logInfo - shopbyps by id 24
+[2017-05-07 19:09:31.854] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-05-07 19:09:31.855] [INFO] logInfo - success
+[2017-05-07 19:09:31.915] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-05-07 19:09:31.947] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 19:09:31.948] [INFO] logInfo - success
+[2017-05-07 19:09:32.000] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 19:09:32.000] [INFO] logInfo - success
+[2017-05-07 19:09:32.005] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 19:09:32.005] [INFO] logInfo - success
+[2017-05-07 19:09:32.012] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 19:09:32.012] [INFO] logInfo - success
+[2017-05-07 19:09:32.013] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 19:09:32.014] [INFO] logInfo - success
+[2017-05-07 19:09:32.037] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 19:09:32.037] [INFO] logInfo - success
+[2017-05-07 19:09:36.283] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 19:09:36.369] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 19:09:56.986] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("28","29")
+[2017-05-07 19:09:56.986] [INFO] logInfo - success
+[2017-05-07 19:09:59.513] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-05-07 19:09:59.513] [INFO] logInfo - success
+[2017-05-07 19:10:00.672] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("28","29")
+[2017-05-07 19:10:00.673] [INFO] logInfo - success
+[2017-05-07 19:10:13.008] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order (id,user_id) values (?,?)
+[2017-05-07 19:10:13.009] [INFO] logInfo - success
+[2017-05-07 19:10:13.081] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-05-07 19:10:13.081] [INFO] logInfo - success
+[2017-05-07 19:10:13.084] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-05-07 19:10:13.085] [INFO] logInfo - success
+[2017-05-07 19:10:13.152] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-05-07 19:10:13.153] [INFO] logInfo - success
+[2017-05-07 19:10:13.166] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-05-07 19:10:13.167] [INFO] logInfo - success
+[2017-05-07 19:10:16.204] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-05-07 19:10:16.205] [INFO] logInfo - success
+[2017-05-07 19:10:16.274] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-05-07 19:10:16.275] [INFO] logInfo - success
+[2017-05-07 22:01:54.166] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Handshake.onConnect (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:64:7)
+    at Handshake.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 22:02:22.769] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:02:22.944] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:02:27.973] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 22:02:32.905] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:02:32.999] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:02:38.898] [INFO] logInfo - DB-执行查询语句成功！
+sql:select *, tp.id as tpid, tp.intro as tpintro, tp.picSrc as tppicSrc, tp.name as tpname
+     from t_product tp left JOIN t_shop ts on (ts.id = tp.shop_id) where tp.id = ?
+[2017-05-07 22:02:38.898] [INFO] logInfo - success
+[2017-05-07 22:02:52.968] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:02:53.059] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:02:55.341] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:02:55.418] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:03:03.872] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 22:03:06.955] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:03:07.037] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:03:31.374] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:03:31.477] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:03:33.989] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 22:07:08.448] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:07:08.529] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:07:54.299] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:07:54.380] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:08:00.107] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:08:00.180] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:08:02.430] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 22:09:28.877] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:09:29.012] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:09:42.214] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天空%' or  tp.intro like '%天空%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:09:42.359] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天空%' or  tp.intro like '%天空%' and  tp.status = 1
+[2017-05-07 22:09:52.506] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:09:52.607] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-05-07 22:09:56.237] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 LIMIT 10,10
+[2017-05-07 22:09:56.326] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-05-07 22:10:00.251] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 LIMIT 20,10
+[2017-05-07 22:10:00.341] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-05-07 22:10:02.245] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price DESC LIMIT 0,10
+[2017-05-07 22:10:02.318] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by price DESC
+[2017-05-07 22:10:04.479] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by name DESC LIMIT 0,10
+[2017-05-07 22:10:04.570] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by name DESC
+[2017-05-07 22:10:08.053] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by name DESC LIMIT 10,10
+[2017-05-07 22:10:08.152] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by name DESC
+[2017-05-07 22:10:11.842] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by name DESC LIMIT 20,10
+[2017-05-07 22:10:11.929] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 order by name DESC
+[2017-05-07 22:12:03.080] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:12:03.166] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:12:23.486] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:12:23.577] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-05-07 22:12:26.569] [INFO] logInfo - DB-执行查询语句成功！
+sql:select *, tp.id as tpid, tp.intro as tpintro, tp.picSrc as tppicSrc, tp.name as tpname
+     from t_product tp left JOIN t_shop ts on (ts.id = tp.shop_id) where tp.id = ?
+[2017-05-07 22:12:26.569] [INFO] logInfo - success
+[2017-05-07 22:12:35.372] [INFO] logInfo - pager success id 24
+[2017-05-07 22:12:35.373] [INFO] logInfo - shopbyps by id 24
+[2017-05-07 22:12:35.460] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-05-07 22:12:35.461] [INFO] logInfo - success
+[2017-05-07 22:12:35.543] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 22:12:35.545] [INFO] logInfo - success
+[2017-05-07 22:12:35.546] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-05-07 22:12:35.587] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 22:12:35.587] [INFO] logInfo - success
+[2017-05-07 22:12:35.599] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 22:12:35.599] [INFO] logInfo - success
+[2017-05-07 22:12:35.728] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 22:12:35.729] [INFO] logInfo - success
+[2017-05-07 22:12:35.730] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 22:12:35.730] [INFO] logInfo - success
+[2017-05-07 22:12:35.731] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 22:12:35.745] [INFO] logInfo - success
+[2017-05-07 22:12:47.739] [INFO] logInfo - DB-执行查询语句成功！
+sql:select *, tp.id as tpid, tp.intro as tpintro, tp.picSrc as tppicSrc, tp.name as tpname
+     from t_product tp left JOIN t_shop ts on (ts.id = tp.shop_id) where tp.id = ?
+[2017-05-07 22:12:47.739] [INFO] logInfo - success
+[2017-05-07 22:12:52.689] [INFO] logInfo - pager success id 24ps21
+[2017-05-07 22:12:52.689] [INFO] logInfo - shopbyps by id 24ps21
+[2017-05-07 22:12:52.765] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-05-07 22:12:52.770] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-05-07 22:12:52.770] [INFO] logInfo - success
+[2017-05-07 22:12:52.847] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 22:12:52.847] [INFO] logInfo - success
+[2017-05-07 22:12:52.849] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 22:12:52.849] [INFO] logInfo - success
+[2017-05-07 22:12:52.853] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 22:12:52.854] [INFO] logInfo - success
+[2017-05-07 22:12:52.856] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 22:12:52.856] [INFO] logInfo - success
+[2017-05-07 22:12:52.857] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 22:12:52.857] [INFO] logInfo - success
+[2017-05-07 22:12:52.866] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-05-07 22:12:52.867] [INFO] logInfo - success
+[2017-05-07 22:12:56.891] [INFO] logInfo - DB-执行查询语句成功！
+sql:select *, tp.id as tpid, tp.intro as tpintro, tp.picSrc as tppicSrc, tp.name as tpname
+     from t_product tp left JOIN t_shop ts on (ts.id = tp.shop_id) where tp.id = ?
+[2017-05-07 22:12:56.891] [INFO] logInfo - success
+[2017-05-07 22:14:45.447] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:14:45.516] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-05-07 22:14:48.147] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 LIMIT 10,10
+[2017-05-07 22:14:48.233] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-05-07 22:14:50.306] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1 LIMIT 20,10
+[2017-05-07 22:14:50.386] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%天%' or  tp.intro like '%天%' and  tp.status = 1
+[2017-05-07 22:14:56.869] [INFO] logInfo - DB-执行查询语句成功！
+sql:select *, tp.id as tpid, tp.intro as tpintro, tp.picSrc as tppicSrc, tp.name as tpname
+     from t_product tp left JOIN t_shop ts on (ts.id = tp.shop_id) where tp.id = ?
+[2017-05-07 22:14:56.869] [INFO] logInfo - success
+[2017-05-07 22:15:20.165] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:15:20.239] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:15:28.086] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:15:28.155] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:15:31.935] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("39")
+[2017-05-07 22:15:31.936] [INFO] logInfo - success
+[2017-05-07 22:15:38.151] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order (id,user_id) values (?,?)
+[2017-05-07 22:15:38.151] [INFO] logInfo - success
+[2017-05-07 22:15:38.247] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-05-07 22:15:38.247] [INFO] logInfo - success
+[2017-05-07 22:15:38.320] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-05-07 22:15:38.320] [INFO] logInfo - success
+[2017-05-07 22:15:40.931] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-05-07 22:15:40.931] [INFO] logInfo - success
+[2017-05-07 22:15:41.017] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-05-07 22:15:41.018] [INFO] logInfo - success
+[2017-05-07 22:15:57.085] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 22:15:59.165] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:15:59.274] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:16:06.062] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 22:16:09.241] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:16:09.339] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:16:41.946] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-05-07 22:16:41.947] [INFO] logInfo - success
+[2017-05-07 22:16:54.729] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-05-07 22:16:54.731] [INFO] logInfo - success
+[2017-05-07 22:16:57.333] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-05-07 22:16:57.334] [INFO] logInfo - success
+[2017-05-07 22:17:11.866] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-05-07 22:17:11.867] [INFO] logInfo - success
+[2017-05-07 22:17:24.640] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-05-07 22:17:24.640] [INFO] logInfo - success
+[2017-05-07 22:17:46.720] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:17:47.273] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:17:56.941] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23","24","25")
+[2017-05-07 22:17:56.941] [INFO] logInfo - success
+[2017-05-07 22:18:02.520] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order (id,user_id) values (?,?)
+[2017-05-07 22:18:02.520] [INFO] logInfo - success
+[2017-05-07 22:18:02.600] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-05-07 22:18:02.601] [INFO] logInfo - success
+[2017-05-07 22:18:02.696] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-05-07 22:18:02.696] [INFO] logInfo - success
+[2017-05-07 22:18:02.712] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-05-07 22:18:02.713] [INFO] logInfo - success
+[2017-05-07 22:18:02.720] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-05-07 22:18:02.720] [INFO] logInfo - success
+[2017-05-07 22:18:02.796] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-05-07 22:18:02.796] [INFO] logInfo - success
+[2017-05-07 22:18:02.801] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-05-07 22:18:02.802] [INFO] logInfo - success
+[2017-05-07 22:18:02.829] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-05-07 22:18:02.829] [INFO] logInfo - success
+[2017-05-07 22:18:02.900] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-05-07 22:18:02.900] [INFO] logInfo - success
+[2017-05-07 22:18:05.689] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-05-07 22:18:05.689] [INFO] logInfo - success
+[2017-05-07 22:18:05.766] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-05-07 22:18:05.767] [INFO] logInfo - success
+[2017-05-07 22:18:09.174] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 22:18:10.941] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:18:11.014] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:18:15.349] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-05-07 22:18:15.349] [INFO] logInfo - success
+[2017-05-07 22:18:19.518] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-05-07 22:18:19.519] [INFO] logInfo - success
+[2017-05-07 22:18:19.580] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-05-07 22:18:19.580] [INFO] logInfo - success
+[2017-05-07 22:18:26.788] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-05-07 22:18:26.789] [INFO] logInfo - success
+[2017-05-07 22:18:32.904] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:18:32.971] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:18:39.202] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 22:18:43.497] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:18:43.585] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:19:01.608] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 22:19:05.272] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:19:05.367] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:19:20.307] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 22:19:31.140] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:19:31.229] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:19:32.972] [INFO] logInfo - DB-执行查询语句成功！
+sql:select *, tp.id as tpid, tp.intro as tpintro, tp.picSrc as tppicSrc, tp.name as tpname
+     from t_product tp left JOIN t_shop ts on (ts.id = tp.shop_id) where tp.id = ?
+[2017-05-07 22:19:32.973] [INFO] logInfo - success
+[2017-05-07 22:24:05.547] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:24:05.632] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:24:15.965] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-05-07 22:24:15.966] [INFO] logInfo - success
+[2017-05-07 22:24:18.204] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-05-07 22:24:18.205] [INFO] logInfo - success
+[2017-05-07 22:24:18.281] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-05-07 22:24:18.281] [INFO] logInfo - success
+[2017-05-07 22:24:49.807] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-05-07 22:24:49.809] [INFO] logInfo - success
+[2017-05-07 22:24:52.579] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-05-07 22:24:52.580] [INFO] logInfo - success
+[2017-05-07 22:24:52.747] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-05-07 22:24:52.749] [INFO] logInfo - success
+[2017-05-07 22:28:16.934] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-05-07 22:28:16.935] [INFO] logInfo - success
+[2017-05-07 22:28:17.014] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-05-07 22:28:17.014] [INFO] logInfo - success
+[2017-05-07 22:33:00.346] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-05-07 22:33:00.350] [INFO] logInfo - success
+[2017-05-07 22:33:09.796] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tor.id as combine_id, top.id as order_product_id from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id) 
+ WHERE tor.user_id = ? 
+[2017-05-07 22:33:09.797] [INFO] logInfo - success
+[2017-05-07 22:33:11.154] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-05-07 22:33:11.155] [INFO] logInfo - success
+[2017-05-07 22:33:11.258] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-05-07 22:33:11.258] [INFO] logInfo - success
+[2017-05-07 22:33:31.399] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-05-07 22:33:31.399] [INFO] logInfo - success
+[2017-05-07 22:33:31.492] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-05-07 22:33:31.492] [INFO] logInfo - success
+[2017-05-07 22:33:34.113] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:33:34.194] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:35:05.647] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 22:35:08.247] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:35:08.334] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:35:14.073] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23")
+[2017-05-07 22:35:14.074] [INFO] logInfo - success
+[2017-05-07 22:35:16.514] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order (id,user_id) values (?,?)
+[2017-05-07 22:35:16.515] [INFO] logInfo - success
+[2017-05-07 22:35:16.615] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-05-07 22:35:16.616] [INFO] logInfo - success
+[2017-05-07 22:35:16.682] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-05-07 22:35:16.683] [INFO] logInfo - success
+[2017-05-07 22:35:16.690] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-05-07 22:35:16.690] [INFO] logInfo - success
+[2017-05-07 22:35:16.765] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-05-07 22:35:16.765] [INFO] logInfo - success
+[2017-05-07 22:35:19.500] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-05-07 22:35:19.501] [INFO] logInfo - success
+[2017-05-07 22:35:19.586] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-05-07 22:35:19.587] [INFO] logInfo - success
+[2017-05-07 22:35:25.406] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 22:36:43.586] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:36:43.681] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:36:49.550] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23")
+[2017-05-07 22:36:49.550] [INFO] logInfo - success
+[2017-05-07 22:36:52.085] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order (id,user_id) values (?,?)
+[2017-05-07 22:36:52.086] [INFO] logInfo - success
+[2017-05-07 22:36:52.964] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-05-07 22:36:52.964] [INFO] logInfo - success
+[2017-05-07 22:36:53.137] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-05-07 22:36:53.137] [INFO] logInfo - success
+[2017-05-07 22:36:53.137] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-05-07 22:36:53.138] [INFO] logInfo - success
+[2017-05-07 22:36:53.212] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-05-07 22:36:53.213] [INFO] logInfo - success
+[2017-05-07 22:36:53.247] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order (id,user_id) values (?,?)
+[2017-05-07 22:36:53.248] [INFO] logInfo - success
+[2017-05-07 22:36:53.443] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-05-07 22:36:53.444] [INFO] logInfo - success
+[2017-05-07 22:36:53.444] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-05-07 22:36:53.445] [INFO] logInfo - success
+[2017-05-07 22:36:53.551] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-05-07 22:36:53.551] [INFO] logInfo - success
+[2017-05-07 22:36:53.552] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-05-07 22:36:53.553] [INFO] logInfo - success
+[2017-05-07 22:36:55.971] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-05-07 22:36:55.973] [INFO] logInfo - success
+[2017-05-07 22:36:56.042] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-05-07 22:36:56.042] [INFO] logInfo - success
+[2017-05-07 22:36:59.879] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 22:37:03.357] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-05-07 22:37:03.359] [INFO] logInfo - success
+[2017-05-07 22:37:03.447] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-05-07 22:37:03.447] [INFO] logInfo - success
+[2017-05-07 22:37:13.531] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-05-07 22:37:13.531] [INFO] logInfo - success
+[2017-05-07 22:37:13.616] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-05-07 22:37:13.616] [INFO] logInfo - success
+[2017-05-07 22:37:15.760] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 22:38:06.153] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:38:06.667] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:38:06.859] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:38:06.942] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:38:13.665] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("28","29")
+[2017-05-07 22:38:13.666] [INFO] logInfo - success
+[2017-05-07 22:38:17.122] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order (id,user_id) values (?,?)
+[2017-05-07 22:38:17.122] [INFO] logInfo - success
+[2017-05-07 22:38:17.207] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-05-07 22:38:17.208] [INFO] logInfo - success
+[2017-05-07 22:38:17.220] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-05-07 22:38:17.220] [INFO] logInfo - success
+[2017-05-07 22:38:17.289] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-05-07 22:38:17.290] [INFO] logInfo - success
+[2017-05-07 22:38:17.302] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-05-07 22:38:17.302] [INFO] logInfo - success
+[2017-05-07 22:38:19.893] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-05-07 22:38:19.894] [INFO] logInfo - success
+[2017-05-07 22:38:19.977] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-05-07 22:38:19.978] [INFO] logInfo - success
+[2017-05-07 22:38:23.792] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 22:38:26.431] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-05-07 22:38:26.432] [INFO] logInfo - success
+[2017-05-07 22:38:26.521] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-05-07 22:38:26.521] [INFO] logInfo - success
+[2017-05-07 22:39:17.874] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-05-07 22:39:17.874] [INFO] logInfo - success
+[2017-05-07 22:39:17.959] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-05-07 22:39:17.960] [INFO] logInfo - success
+[2017-05-07 22:39:23.344] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 22:39:25.348] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-05-07 22:39:25.350] [INFO] logInfo - success
+[2017-05-07 22:39:25.456] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-05-07 22:39:25.457] [INFO] logInfo - success
+[2017-05-07 22:39:29.593] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:39:29.684] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:40:17.182] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 22:40:22.202] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:40:22.292] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1
+[2017-05-07 22:40:25.184] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22")
+[2017-05-07 22:40:25.185] [INFO] logInfo - success
+[2017-05-07 22:40:27.059] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order (id,user_id) values (?,?)
+[2017-05-07 22:40:27.060] [INFO] logInfo - success
+[2017-05-07 22:40:27.136] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_order_product (order_id,user_id,product_id,shop_id,address_id,count) values (?,?,?,?,?,?)
+[2017-05-07 22:40:27.137] [INFO] logInfo - success
+[2017-05-07 22:40:27.212] [INFO] logInfo - DB-执行查询语句成功！
+sql:update t_product t set t.leftAmount = t.amount-? where t.id = ?
+[2017-05-07 22:40:27.212] [INFO] logInfo - success
+[2017-05-07 22:40:29.853] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-05-07 22:40:29.854] [INFO] logInfo - success
+[2017-05-07 22:40:29.932] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-05-07 22:40:29.932] [INFO] logInfo - success
+[2017-05-07 22:40:31.606] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 22:40:38.194] [INFO] logInfo - DB-执行查询语句成功！
+sql:SELECT *, top.status as order_status, tp.name as pname, ts.user_id as saler_id, tp.picSrc as ppicSrc, tp.intro as pintro from t_order tor 
+LEFT JOIN  t_order_product top on (tor.id = top.order_id) LEFT JOIN t_product tp on (tp.id = top.product_id)
+ left JOIN t_shop ts on (ts.id = tp.shop_id)  WHERE tor.user_id = ? and tor.id = ? 
+[2017-05-07 22:40:38.197] [INFO] logInfo - success
+[2017-05-07 22:40:38.281] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where id = ?
+[2017-05-07 22:40:38.282] [INFO] logInfo - success
+[2017-05-07 22:41:08.190] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:208:25)
+    at /Users/yuanqiangniu/Desktop/bishe/E-business-1/server/util/dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yuanqiangniu/Desktop/bishe/E-business-1/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+[2017-05-07 22:41:10.763] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as pagerSearchheight, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1 LIMIT 0,10
+[2017-05-07 22:41:10.846] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.name like '%%' or  tp.intro like '%%' and  tp.status = 1

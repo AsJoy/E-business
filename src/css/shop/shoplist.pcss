@@ -1,0 +1,39 @@
+.article {
+  section {
+    &:after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+    .title {
+      line-height: .6rem;
+      font-size: .4rem;
+      padding-left: .2rem;
+      color: #aaa;
+      padding-top: .4rem;
+    }
+    .more {
+      float: right;
+      color: #6666FF;
+      font-size: .2rem;
+      margin-right: .15rem;
+      line-height: .4rem;
+      i {
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        display: inline-block;
+        font-size: .3rem;
+      }
+    }
+  }
+  .loading {
+    text-align: center;
+    color: #999;
+    line-height: 1.1rem;
+    font-size: .4rem;
+    width: 7.5rem;
+    z-index: 100;
+    border-top: 1px solid #e5e5e5;
+    clear: both;
+  }
+}

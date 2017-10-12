@@ -23,7 +23,7 @@ function pagination(page, pageSize, sql, callback) {
             cb(null, results);
           }
         },
-        sql: sql + ' ORDER BY id DESC LIMIT ' + start + ',' + pageSize
+        sql: sql + ' LIMIT ' + start + ',' + pageSize
       };
       db.query(config);
     },
@@ -31,6 +31,7 @@ function pagination(page, pageSize, sql, callback) {
     function (dataList, cb) {
       var config = {
         handler(error, results) {
+          console.log(results)
           if (error) {
             cb(error);
           } else {
@@ -42,7 +43,7 @@ function pagination(page, pageSize, sql, callback) {
             });
           }
         },
-        sql: sql.replace(/select .+ from/i, 'select count(*) from')
+        sql: sql.replace(/select (?:.|[\r\n])+ from/i, 'select count(*) from')
       };
       db.query(config);
     }

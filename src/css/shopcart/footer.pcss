@@ -1,0 +1,36 @@
+html body {
+  padding: 0;
+}
+html {
+  background: #fff;
+}
+.footer {
+  position: fixed;;
+  border-top: 1px solid #ddd;
+  bottom: 0;
+  height: 1rem;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+  &:after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+  font-size:.25rem;
+  .fl {
+    width: 5rem;
+    padding: 0 .4rem;
+    line-height:1rem;
+    float: left;
+  }
+  .fr {
+    width: 2rem;
+    text-align: center;
+    line-height:1rem;
+    float: right;
+    height: 1rem;
+    background: #f40;
+    color: #fff;
+  }
+}

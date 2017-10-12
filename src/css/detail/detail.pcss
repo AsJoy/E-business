@@ -1,0 +1,105 @@
+html body {
+  background: #e3e3e3;
+  padding-top: 0;
+  padding-bottom: 1.5rem;
+}
+.detail {
+  width: 7.5rem;
+  .img {
+    width: 7.5rem;
+    height: 9rem;
+  }
+  .intro {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: .3rem;
+    background: #fff;
+    padding: 0 .3rem;
+  }
+  h4 {
+    font-size: .35rem;
+    line-height:.7rem;
+    color: #333;
+  }
+  .introcol {
+    font-size:.25rem;
+    line-height: .35rem;
+    color: #666;
+  }
+  .price {
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+    p {float: left}
+    .now {
+      color: red;
+      font-size:.3rem;
+      span:last-child {
+        font-size:.45rem;
+      }
+      margin-right: .5rem;
+    }
+    .oldPrice {
+      text-decoration: line-through;
+      vertical-align: baseline;
+      padding-top: .14rem;
+      font-size: .3rem;
+    }
+  }
+}
+.shop {
+  background: #fff;
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .img {
+    width: 1.2rem;
+    height: 1.2rem;
+    float: left;
+    margin-right: .3rem;
+  }
+  .shopInfo {
+    padding: .1rem 0;
+    font-size: .25rem;
+    line-height:.4rem;
+  }
+}
+
+.footer {
+  position: fixed;
+  width: 7.5rem;
+  background: #fff;
+  bottom: 0;
+  height: .9rem;
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .con {
+    width: 6rem;
+    text-align: right;
+
+    float: left;
+    &>div {
+      width: 1.9rem;
+      margin-top: .08rem;
+      float: right;
+      &>div {
+        height:  0.6rem;
+        padding: .1rem .2rem .1rem .2rem;
+
+      }
+    }
+  }
+
+  .cart {
+    position: static;
+    display: inline-block;
+    float: left;
+    margin-left: .35rem;
+  }
+}

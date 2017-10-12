@@ -1,84 +1,101 @@
--- MySQL dump 10.13  Distrib 5.7.9, for osx10.9 (x86_64)
---
--- Host: 127.0.0.1    Database: weishop
--- ------------------------------------------------------
--- Server version	5.7.13
+/*
+ Navicat Premium Data Transfer
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
-/*!40103 SET TIME_ZONE='+00:00' */;
-/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+ Source Server         : 112.74.187.219
+ Source Server Type    : MariaDB
+ Source Server Version : 50552
+ Source Host           : 112.74.187.219
+ Source Database       : weishop
 
---
--- Table structure for table `t_order`
---
+ Target Server Type    : MariaDB
+ Target Server Version : 50552
+ File Encoding         : utf-8
 
-DROP TABLE IF EXISTS `t_order`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `t_order` (
+ Date: 05/27/2017 00:06:21 AM
+*/
+
+SET NAMES utf8;
+SET FOREIGN_KEY_CHECKS = 0;
+
+-- ----------------------------
+--  Table structure for `t_address`
+-- ----------------------------
+DROP TABLE IF EXISTS `t_address`;
+CREATE TABLE `t_address` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
+  `telephone` varchar(255) DEFAULT NULL,
+  `sex` varchar(255) DEFAULT NULL,
+  `address` varchar(255) DEFAULT NULL,
+  `user_id` varchar(255) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `sexxx` (`user_id`),
+  CONSTRAINT `sexxx` FOREIGN KEY (`user_id`) REFERENCES `t_user` (`telephone`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+--  Records of `t_address`
+-- ----------------------------
+BEGIN;
+INSERT INTO `t_address` VALUES ('1', '13588202969', '先生', '浙江工商大学钱江湾生活区24#410', '12312312312', '牛元强'), ('2', '13412344321', '先生', '射雕英雄传第一集42分45秒', '12312312312', '靖哥哥'), ('3', '12343212345', '先生', '益乐新村71幢401', '12312312312', '军哥哥'), ('4', '13412341234', '先生', '咕噜咕噜1号娶', '12312312312', '陈大傻'), ('5', '13412341234', '先生', '咕噜咕噜1号', '12312312312', '陈大傻'), ('6', '13588202959', '先生', 'hkhkkjhk', '12312312312', 'jkhjkhk'), ('7', '12341234123', '先生', '傻逼住所', '13121801021', '傻逼盛'), ('8', '13588202969', '先生', 'zxxxxxx', '13588202969', 'adin'), ('9', '13588202969', '先生', '我哈哈大厦1号楼14层301', '13588202969', '厉害人物');
+COMMIT;
+
+-- ----------------------------
+--  Table structure for `t_order`
+-- ----------------------------
+DROP TABLE IF EXISTS `t_order`;
+CREATE TABLE `t_order` (
+  `id` varchar(255) NOT NULL,
   `user_id` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `FKA0C0C3C3E3763469` (`user_id`),
   CONSTRAINT `FKA0C0C3C3E3763469` FOREIGN KEY (`user_id`) REFERENCES `t_user` (`telephone`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-/*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `t_order`
---
+-- ----------------------------
+--  Records of `t_order`
+-- ----------------------------
+BEGIN;
+INSERT INTO `t_order` VALUES ('0df8e3e5-b0cf-428b-907b-7f86fb81297e', '12312312312'), ('0f65b154-5bc4-44d4-9510-65aa36777699', '12312312312'), ('144e8c38-2ee5-4b41-98d2-e10edafd5d74', '12312312312'), ('3c8a1aa3-8e2e-49bb-9560-1700e06952e4', '12312312312'), ('431aa72c-a103-42d5-b045-163ffcbd464e', '12312312312'), ('46376c08-282d-41e9-8f6e-41dd3684dc60', '12312312312'), ('4aad1bea-92e4-4f2b-ba1a-0e68f67c1613', '12312312312'), ('54c872e6-5027-4fd4-bba3-49211c34f0ac', '12312312312'), ('5be7e4b6-bfae-4469-b120-43ca89f3b373', '12312312312'), ('65fa27ce-c749-4e24-ac14-695ebfcc5cdc', '12312312312'), ('689a8cf3-1816-4148-9b5f-853b709918b7', '12312312312'), ('779175ac-2023-46ac-8d93-855867cb95cc', '12312312312'), ('862778bb-71ba-4458-b61a-d07de1c7a9aa', '12312312312'), ('9bd94e6c-39da-40c6-9757-a11a348514c7', '12312312312'), ('a4e9d3d3-de26-4c1b-94bd-2319f60e24c2', '12312312312'), ('a9a8bf93-d8b7-4d18-b4f2-c8b0b0e287bf', '12312312312'), ('ac7ce8bd-a44d-4bbf-b894-758adef8792e', '12312312312'), ('adc22fdb-04ff-4d52-9c0a-a856b71aa3ec', '12312312312'), ('f1e03300-47a8-4775-a6b1-3cab898700ee', '12312312312'), ('6233b101-b99f-4095-8fd3-0f35cd77a1c6', '13121801021'), ('ad5bbb9a-1e5a-4483-ac46-29f968b0acf6', '13121801021'), ('e906bb29-1dc4-48e6-8b75-fd9a2fc3f50d', '13121801021'), ('04353e8c-6223-427d-a8b8-787183e1d9ec', '13588202969'), ('3a0bece0-1d86-4e15-b837-89f5658e4861', '13588202969'), ('571eee91-49c0-4597-849b-3173a03aff13', '13588202969'), ('8d8bb675-2b15-42a2-9362-906c51f16878', '13588202969'), ('8e625415-0e7d-4548-b692-71024ba3a5b2', '13588202969'), ('973b86f1-deaf-4ce2-9361-c4130f42660f', '13588202969'), ('b36801a6-351e-4f82-9d45-d00e4dd7372c', '13588202969'), ('cf31e6cf-2567-4c49-a517-7a6d895cb3b7', '13588202969'), ('cf61a549-a124-44a4-a956-f4aa76d379a8', '13588202969'), ('f53f139c-f55f-4cbd-ad4c-fa44b47bd770', '13588202969');
+COMMIT;
 
-LOCK TABLES `t_order` WRITE;
-/*!40000 ALTER TABLE `t_order` DISABLE KEYS */;
-/*!40000 ALTER TABLE `t_order` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `t_order_product`
---
-
+-- ----------------------------
+--  Table structure for `t_order_product`
+-- ----------------------------
 DROP TABLE IF EXISTS `t_order_product`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `t_order_product` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `count` int(11) NOT NULL,
-  `order_id` int(11) DEFAULT NULL,
+  `order_id` varchar(255) DEFAULT NULL,
   `product_id` int(11) DEFAULT NULL,
   `shop_id` int(11) DEFAULT NULL,
+  `address_id` int(11) DEFAULT NULL,
+  `user_id` varchar(255) DEFAULT NULL,
+  `status` varchar(255) DEFAULT '0' COMMENT '0为待配送， 1为接单， 2为送达',
   PRIMARY KEY (`id`),
   KEY `FK6B8BC473E46A7E4B` (`order_id`),
   KEY `FK6B8BC473676F6089` (`shop_id`),
   KEY `FK6B8BC473E4B0FE6B` (`product_id`),
+  KEY `adasdas` (`address_id`),
+  KEY `user_id` (`user_id`),
+  CONSTRAINT `FK_1sg939jxjmxxgg5htbnodrjgc` FOREIGN KEY (`order_id`) REFERENCES `t_order` (`id`),
+  CONSTRAINT `adasdas` FOREIGN KEY (`address_id`) REFERENCES `t_address` (`id`),
   CONSTRAINT `FK6B8BC473676F6089` FOREIGN KEY (`shop_id`) REFERENCES `t_shop` (`id`),
-  CONSTRAINT `FK6B8BC473E46A7E4B` FOREIGN KEY (`order_id`) REFERENCES `t_order` (`id`),
-  CONSTRAINT `FK6B8BC473E4B0FE6B` FOREIGN KEY (`product_id`) REFERENCES `t_product` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-/*!40101 SET character_set_client = @saved_cs_client */;
+  CONSTRAINT `FK6B8BC473E4B0FE6B` FOREIGN KEY (`product_id`) REFERENCES `t_product` (`id`),
+  CONSTRAINT `t_order_product_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `t_user` (`telephone`)
+) ENGINE=InnoDB AUTO_INCREMENT=149 DEFAULT CHARSET=utf8;
 
---
--- Dumping data for table `t_order_product`
---
+-- ----------------------------
+--  Records of `t_order_product`
+-- ----------------------------
+BEGIN;
+INSERT INTO `t_order_product` VALUES ('54', '1', 'a9a8bf93-d8b7-4d18-b4f2-c8b0b0e287bf', '23', '24', '1', '12312312312', '0'), ('55', '1', 'a9a8bf93-d8b7-4d18-b4f2-c8b0b0e287bf', '24', '24', '1', '12312312312', '0'), ('56', '1', 'a9a8bf93-d8b7-4d18-b4f2-c8b0b0e287bf', '25', '24', '1', '12312312312', '0'), ('57', '1', 'a9a8bf93-d8b7-4d18-b4f2-c8b0b0e287bf', '26', '24', '1', '12312312312', '0'), ('58', '1', '54c872e6-5027-4fd4-bba3-49211c34f0ac', '22', '24', '1', '12312312312', '0'), ('59', '1', '54c872e6-5027-4fd4-bba3-49211c34f0ac', '23', '24', '1', '12312312312', '0'), ('60', '1', '54c872e6-5027-4fd4-bba3-49211c34f0ac', '24', '24', '1', '12312312312', '0'), ('61', '1', '54c872e6-5027-4fd4-bba3-49211c34f0ac', '25', '24', '1', '12312312312', '0'), ('62', '1', '54c872e6-5027-4fd4-bba3-49211c34f0ac', '26', '24', '1', '12312312312', '0'), ('63', '1', '3c8a1aa3-8e2e-49bb-9560-1700e06952e4', '22', '24', '1', '12312312312', '0'), ('64', '1', '3c8a1aa3-8e2e-49bb-9560-1700e06952e4', '23', '24', '1', '12312312312', '0'), ('65', '1', '3c8a1aa3-8e2e-49bb-9560-1700e06952e4', '24', '24', '1', '12312312312', '0'), ('66', '1', '3c8a1aa3-8e2e-49bb-9560-1700e06952e4', '26', '24', '1', '12312312312', '0'), ('67', '1', '144e8c38-2ee5-4b41-98d2-e10edafd5d74', '22', '24', '1', '12312312312', '0'), ('68', '1', '144e8c38-2ee5-4b41-98d2-e10edafd5d74', '23', '24', '1', '12312312312', '0'), ('69', '1', '144e8c38-2ee5-4b41-98d2-e10edafd5d74', '24', '24', '1', '12312312312', '0'), ('70', '1', '144e8c38-2ee5-4b41-98d2-e10edafd5d74', '25', '24', '1', '12312312312', '0'), ('71', '1', '144e8c38-2ee5-4b41-98d2-e10edafd5d74', '26', '24', '1', '12312312312', '0'), ('72', '1', 'a4e9d3d3-de26-4c1b-94bd-2319f60e24c2', '30', '24', '1', '12312312312', '0'), ('73', '1', 'a4e9d3d3-de26-4c1b-94bd-2319f60e24c2', '22', '24', '1', '12312312312', '0'), ('74', '1', 'a4e9d3d3-de26-4c1b-94bd-2319f60e24c2', '23', '24', '1', '12312312312', '0'), ('75', '1', 'a4e9d3d3-de26-4c1b-94bd-2319f60e24c2', '27', '24', '1', '12312312312', '0'), ('76', '1', 'a4e9d3d3-de26-4c1b-94bd-2319f60e24c2', '24', '24', '1', '12312312312', '0'), ('77', '1', 'a4e9d3d3-de26-4c1b-94bd-2319f60e24c2', '26', '24', '1', '12312312312', '0'), ('78', '1', '431aa72c-a103-42d5-b045-163ffcbd464e', '22', '24', '2', '12312312312', '0'), ('79', '1', '431aa72c-a103-42d5-b045-163ffcbd464e', '27', '24', '2', '12312312312', '0'), ('80', '1', '431aa72c-a103-42d5-b045-163ffcbd464e', '24', '24', '2', '12312312312', '0'), ('81', '1', '431aa72c-a103-42d5-b045-163ffcbd464e', '26', '24', '2', '12312312312', '0'), ('82', '1', '431aa72c-a103-42d5-b045-163ffcbd464e', '30', '24', '2', '12312312312', '0'), ('83', '1', 'adc22fdb-04ff-4d52-9c0a-a856b71aa3ec', '23', '24', '3', '12312312312', '0'), ('84', '1', 'adc22fdb-04ff-4d52-9c0a-a856b71aa3ec', '25', '24', '3', '12312312312', '0'), ('85', '1', 'adc22fdb-04ff-4d52-9c0a-a856b71aa3ec', '26', '24', '3', '12312312312', '0'), ('86', '1', 'f1e03300-47a8-4775-a6b1-3cab898700ee', '22', '24', '3', '12312312312', '0'), ('87', '1', 'f1e03300-47a8-4775-a6b1-3cab898700ee', '27', '24', '3', '12312312312', '0'), ('88', '1', 'f1e03300-47a8-4775-a6b1-3cab898700ee', '23', '24', '3', '12312312312', '0'), ('89', '1', 'f1e03300-47a8-4775-a6b1-3cab898700ee', '24', '24', '3', '12312312312', '0'), ('90', '1', 'f1e03300-47a8-4775-a6b1-3cab898700ee', '36', '24', '3', '12312312312', '0'), ('91', '1', 'f1e03300-47a8-4775-a6b1-3cab898700ee', '25', '24', '3', '12312312312', '0'), ('92', '1', 'ac7ce8bd-a44d-4bbf-b894-758adef8792e', '22', '24', '3', '12312312312', '0'), ('93', '1', 'ac7ce8bd-a44d-4bbf-b894-758adef8792e', '24', '24', '3', '12312312312', '0'), ('94', '1', '779175ac-2023-46ac-8d93-855867cb95cc', '22', '24', '3', '12312312312', '0'), ('95', '1', '779175ac-2023-46ac-8d93-855867cb95cc', '24', '24', '3', '12312312312', '0'), ('96', '1', '9bd94e6c-39da-40c6-9757-a11a348514c7', '24', '24', '3', '12312312312', '0'), ('97', '1', '9bd94e6c-39da-40c6-9757-a11a348514c7', '27', '24', '3', '12312312312', '0'), ('98', '1', '5be7e4b6-bfae-4469-b120-43ca89f3b373', '27', '24', '3', '12312312312', '0'), ('99', '1', '5be7e4b6-bfae-4469-b120-43ca89f3b373', '30', '24', '3', '12312312312', '0'), ('100', '1', '65fa27ce-c749-4e24-ac14-695ebfcc5cdc', '22', '24', '3', '12312312312', '0'), ('101', '1', '65fa27ce-c749-4e24-ac14-695ebfcc5cdc', '24', '24', '3', '12312312312', '0'), ('102', '3', '65fa27ce-c749-4e24-ac14-695ebfcc5cdc', '27', '24', '3', '12312312312', '0'), ('103', '5', '65fa27ce-c749-4e24-ac14-695ebfcc5cdc', '36', '24', '3', '12312312312', '0'), ('104', '1', '862778bb-71ba-4458-b61a-d07de1c7a9aa', '23', '24', '1', '12312312312', '0'), ('105', '1', '0f65b154-5bc4-44d4-9510-65aa36777699', '23', '24', '6', '12312312312', '0'), ('106', '1', '4aad1bea-92e4-4f2b-ba1a-0e68f67c1613', '22', '24', '6', '12312312312', '0'), ('107', '1', '4aad1bea-92e4-4f2b-ba1a-0e68f67c1613', '24', '24', '6', '12312312312', '0'), ('108', '1', '4aad1bea-92e4-4f2b-ba1a-0e68f67c1613', '23', '24', '6', '12312312312', '0'), ('109', '1', '0df8e3e5-b0cf-428b-907b-7f86fb81297e', '23', '24', '6', '12312312312', '0'), ('110', '2', '0df8e3e5-b0cf-428b-907b-7f86fb81297e', '22', '24', '6', '12312312312', '0'), ('111', '1', '0df8e3e5-b0cf-428b-907b-7f86fb81297e', '49', '24', '6', '12312312312', '0'), ('112', '1', '0df8e3e5-b0cf-428b-907b-7f86fb81297e', '50', '24', '6', '12312312312', '0'), ('113', '1', '0df8e3e5-b0cf-428b-907b-7f86fb81297e', '47', '24', '6', '12312312312', '0'), ('114', '2', '46376c08-282d-41e9-8f6e-41dd3684dc60', '22', '24', '6', '12312312312', '0'), ('115', '1', '46376c08-282d-41e9-8f6e-41dd3684dc60', '23', '24', '6', '12312312312', '0'), ('116', '1', '46376c08-282d-41e9-8f6e-41dd3684dc60', '47', '24', '6', '12312312312', '0'), ('117', '1', '46376c08-282d-41e9-8f6e-41dd3684dc60', '50', '24', '6', '12312312312', '0'), ('118', '1', '46376c08-282d-41e9-8f6e-41dd3684dc60', '49', '24', '6', '12312312312', '0'), ('119', '1', 'e906bb29-1dc4-48e6-8b75-fd9a2fc3f50d', '22', '24', '7', '13121801021', '0'), ('120', '1', 'e906bb29-1dc4-48e6-8b75-fd9a2fc3f50d', '23', '24', '7', '13121801021', '0'), ('121', '1', 'ad5bbb9a-1e5a-4483-ac46-29f968b0acf6', '29', '24', '7', '13121801021', '0'), ('122', '1', 'ad5bbb9a-1e5a-4483-ac46-29f968b0acf6', '28', '24', '7', '13121801021', '0'), ('123', '3', '6233b101-b99f-4095-8fd3-0f35cd77a1c6', '39', '24', '7', '13121801021', '0'), ('124', '1', 'b36801a6-351e-4f82-9d45-d00e4dd7372c', '22', '24', '7', '13588202969', '0'), ('125', '1', 'b36801a6-351e-4f82-9d45-d00e4dd7372c', '23', '24', '7', '13588202969', '0'), ('126', '1', 'b36801a6-351e-4f82-9d45-d00e4dd7372c', '25', '24', '7', '13588202969', '0'), ('127', '1', 'b36801a6-351e-4f82-9d45-d00e4dd7372c', '24', '24', '7', '13588202969', '0'), ('128', '1', '973b86f1-deaf-4ce2-9361-c4130f42660f', '22', '24', '7', '13588202969', '0'), ('129', '1', '973b86f1-deaf-4ce2-9361-c4130f42660f', '23', '24', '7', '13588202969', '0'), ('130', '1', '3a0bece0-1d86-4e15-b837-89f5658e4861', '22', '24', '7', '13588202969', '0'), ('131', '1', '3a0bece0-1d86-4e15-b837-89f5658e4861', '23', '24', '7', '13588202969', '0'), ('132', '1', '8d8bb675-2b15-42a2-9362-906c51f16878', '23', '24', '7', '13588202969', '0'), ('133', '1', '8d8bb675-2b15-42a2-9362-906c51f16878', '22', '24', '7', '13588202969', '0'), ('134', '1', '571eee91-49c0-4597-849b-3173a03aff13', '28', '24', '7', '13588202969', '0'), ('135', '1', '571eee91-49c0-4597-849b-3173a03aff13', '29', '24', '7', '13588202969', '0'), ('136', '1', '8e625415-0e7d-4548-b692-71024ba3a5b2', '22', '24', '7', '13588202969', '0'), ('137', '1', 'f53f139c-f55f-4cbd-ad4c-fa44b47bd770', '67', '36', '7', '13588202969', '0'), ('138', '1', 'f53f139c-f55f-4cbd-ad4c-fa44b47bd770', '66', '36', '7', '13588202969', '0'), ('139', '1', 'f53f139c-f55f-4cbd-ad4c-fa44b47bd770', '68', '36', '7', '13588202969', '2'), ('140', '1', 'cf61a549-a124-44a4-a956-f4aa76d379a8', '24', '24', '8', '13588202969', '0'), ('141', '1', 'cf61a549-a124-44a4-a956-f4aa76d379a8', '26', '24', '8', '13588202969', '0'), ('142', '1', '04353e8c-6223-427d-a8b8-787183e1d9ec', '22', '24', '9', '13588202969', '0'), ('143', '1', '04353e8c-6223-427d-a8b8-787183e1d9ec', '23', '24', '9', '13588202969', '0'), ('144', '4', '04353e8c-6223-427d-a8b8-787183e1d9ec', '24', '24', '9', '13588202969', '0'), ('145', '1', '04353e8c-6223-427d-a8b8-787183e1d9ec', '25', '24', '9', '13588202969', '0'), ('146', '1', 'cf31e6cf-2567-4c49-a517-7a6d895cb3b7', '26', '24', '9', '13588202969', '0'), ('147', '1', 'cf31e6cf-2567-4c49-a517-7a6d895cb3b7', '24', '24', '9', '13588202969', '0'), ('148', '1', 'cf31e6cf-2567-4c49-a517-7a6d895cb3b7', '68', '36', '9', '13588202969', '0');
+COMMIT;
 
-LOCK TABLES `t_order_product` WRITE;
-/*!40000 ALTER TABLE `t_order_product` DISABLE KEYS */;
-/*!40000 ALTER TABLE `t_order_product` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `t_product`
---
-
+-- ----------------------------
+--  Table structure for `t_product`
+-- ----------------------------
 DROP TABLE IF EXISTS `t_product`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `t_product` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `amount` int(11) NOT NULL,
@@ -96,57 +113,90 @@ CREATE TABLE `t_product` (
   PRIMARY KEY (`id`),
   KEY `FKA91FC024676F6089` (`shop_id`),
   CONSTRAINT `FKA91FC024676F6089` FOREIGN KEY (`shop_id`) REFERENCES `t_shop` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=56 DEFAULT CHARSET=utf8;
-/*!40101 SET character_set_client = @saved_cs_client */;
+) ENGINE=InnoDB AUTO_INCREMENT=75 DEFAULT CHARSET=utf8;
 
---
--- Dumping data for table `t_product`
---
+-- ----------------------------
+--  Records of `t_product`
+-- ----------------------------
+BEGIN;
+INSERT INTO `t_product` VALUES ('22', '30', null, '123123qwe', '29', '天空花园', '100', 'resources/dc1abb59-0537-4d3e-9e33-5a5c90c3ed551.jpeg', '20', '2', '24', '683', '480'), ('23', '30', null, 'hello 木马', '29', '菲洛丽亚', '100', 'resources/d515182c-918c-4121-a5a1-d675db0883e62.jpeg', '11', '2', '24', '640', '427'), ('24', '30', null, 'hello 木马', '29', '天色绯红', '100', 'resources/f355d52c-a46f-4e2e-a9a5-098c77de128a4.jpeg', '9', '1', '24', '543', '405'), ('25', '30', null, 'hello 木马', '29', '夏日新曲', '100', 'resources/9ab0136a-cc4f-4f82-8367-1ab2b189cbde5.jpeg', '100', '1', '24', '720', '480'), ('26', '30', null, '过个国歌', '29', '小清新', '100', 'resources/a6f9147b-d13c-44ec-b0bb-dcf32de6e7706.jpeg', '101', '1', '24', '480', '360'), ('27', '30', null, '生活孜然味', '27', '遇见未来', '100', 'resources/a5c2bddb-1f9e-4d7b-a949-4564bf0f0beb480.jpeg', '13', '1', '24', '717', '480'), ('28', '30', null, '生活孜然味', '29', '遇见未来', '100', 'resources/dea3df27-0bde-43d8-bb06-fd4486a1487d2.jpeg', '10', '1', '24', '640', '427'), ('29', '30', null, '生活孜然味', '29', '天边的自己', '100', 'resources/3c0a75ec-efe5-476d-9f18-eda46b0f750d6.jpeg', '10', '1', '24', '480', '360'), ('30', '30', null, '生活孜然味', '29', '果核人生', '100', 'resources/c5f027ff-c852-4663-b4c8-5400d9a526335.jpeg', '10', '1', '24', '720', '480'), ('31', '30', null, '生活孜然味', '30', '生活的姿态', '100', 'resources/691a248f-189b-45d3-8fd1-18d789e7cda85.jpeg', '10', '1', '24', '720', '480'), ('32', '30', null, '生活孜然味', '30', 'ambitions for', '100', 'resources/6584d355-1547-4dbe-a88c-1b0b7ccd3942480.jpeg', '10', '1', '24', '717', '480'), ('33', '30', null, '生活孜然味', '30', 'alibaba', '100', 'resources/5be3a70b-2f4f-4809-acb3-a97cf4091a0b5.jpeg', '10', '1', '24', '720', '480'), ('34', '30', null, '生活孜然味', '30', '路过生活', '100', 'resources/808c5bff-2733-4eb3-b175-1edd631448364.jpeg', '10', '1', '24', '543', '405'), ('35', '30', null, '生活孜然味', '30', '否定之否定', '100', 'resources/5f62bee8-4819-4a8d-808f-f56aa87af97c1.jpeg', '10', '2', '24', '683', '480'), ('36', '100', null, '路人皆知', '95', '天马行空', '100', 'resources/9d3ddecf-a9d1-4478-b4b6-d72aeef4b9a2480.jpeg', '10', '2', '24', '717', '480'), ('37', '10', null, '产品简述', '10', '天马行空', '10', 'resources/206eb4a9-1b2c-4128-a111-628987fb15095.jpeg', '10', '2', '24', '720', '480'), ('38', '10', null, '产品简述', '10', '天马行空', '10', 'resources/d18cee54-d1c5-47c6-9421-9a5eadf0df7c4.jpeg', '10', '2', '24', '543', '405'), ('39', '10', null, '产品简述', '7', '天马行空', '10', 'resources/a437eaf1-efef-4a1c-9860-3cc370c9b3e9shopbg.jpg', '10', '1', '24', '394', '700'), ('40', '10', null, '产品简述', '10', '天马行空', '10', 'resources/68e0091b-dc1a-49ef-8aeb-72beeff009031.jpeg', '10', '1', '24', '683', '480'), ('41', '10', null, '产品简述', '10', '天马行空', '10', 'resources/e5c16354-1d95-464a-9e33-12ca8770d6d2480.jpeg', '10', '1', '24', '717', '480'), ('42', '10', null, '产品简述', '10', '天马行空', '10', 'resources/8bcb4eec-9463-4912-b6b6-2f14d2375c245.jpeg', '10', '1', '24', '720', '480'), ('43', '10', null, '产品简述', '10', '天马行空', '10', 'resources/eaf6c4b4-3714-4896-8a96-e664a27af22b2.jpeg', '10', '1', '24', '640', '427'), ('44', '10', null, '产品简述', '10', '天马行空', '10', 'resources/08ac744c-6d27-49d9-a04c-e5b8f9abc97a4.jpeg', '10', '1', '24', '543', '405'), ('45', '10', null, '产品简述', '10', '天马行空', '10', 'resources/9bce4e04-7011-4b46-80cd-d56e34f5da703.jpeg', '10', '1', '24', '720', '480'), ('46', '10', null, '产品简述', '10', '天马行空', '10', 'resources/f1fd72b4-8164-4011-be2e-996a903bbf8e480.jpeg', '10', '1', '24', '717', '480'), ('47', '10', null, '产品简述', '9', '天马行空', '10', 'resources/834ba045-d4a8-4c04-9a9a-c4e2765aaa1bshopbg.jpg', '10', '1', '24', '394', '700'), ('48', '10', null, '产品简述', '10', '天马行空', '10', 'resources/628837ce-4b7f-48d8-9cf7-f73101dba7004.jpeg', '10', '1', '24', '543', '405'), ('49', '10', null, '产品简述', '9', '天马行空', '10', 'resources/6bedc274-dbe2-4d19-96a5-c136062ea34b2.jpeg', '10', '1', '24', '640', '427'), ('50', '10', null, '产品简述', '9', '天马行空', '10', 'resources/df29f430-512c-4896-9583-026f20805fb11.jpeg', '10', '1', '24', '683', '480'), ('51', '10', null, '产品简述', '10', '天马行空', '10', 'resources/49d26a54-b98f-490d-9607-bcb0963a562e5.jpeg', '10', '1', '24', '720', '480'), ('52', '10', null, '产品简述', '10', '天马行空', '10', 'resources/653a9b29-6e53-4445-aae3-333bb173becc6.jpeg', '10', '1', '24', '480', '360'), ('53', '10', null, '产品简述', '10', '天马行空', '10', 'resources/fdc6ac3a-805f-486b-860c-538c43e1df92shopbg.jpg', '10', '1', '24', '394', '700'), ('54', '10', null, 'qwe', '10', 'qwe', '100', 'resources/06ee9574-7830-4641-81e5-9354abe0277f480.jpeg', '100', '0', '24', '717', '480'), ('55', '10', null, 'qweqwe', '10', 'qweqweqwe', '10', 'resources/0dd8f9d6-e6f2-4572-8350-6475862b58f78.jpeg', '10', '0', '25', '320', '480'), ('61', '50', null, 'sadasd', '50', 'qweqwe', '20', 'resources/38874228-2a3f-466e-ac75-fa82a936c1c456b5a2ea0f8eaf28bb342b505b15a54716a2d85a2c885-abeam4_fw236.jpg', '10', '1', '30', '314', '236'), ('62', '10', null, '驱蚊器翁', '10', '驱蚊器翁', '120', 'resources/9757a62b-706c-4b86-94d5-7865ab0e3d745b465e11ee0b9b21e9fb07ab61f8b13a1b4b5d1816a8d-wIh0C8_fw236.jpg', '1', '0', '30', '357', '236'), ('63', '20', null, '阿萨德', '20', '哇塞多', '20', 'resources/784e555d-bb4d-4ec6-8a5e-2dcda7e53057b6b9d04c0fda739e9143604b936e31356558dfad2c512f-ZxrT4n_fw236.jpg', '10', '0', '31', '420', '236'), ('64', '100', null, 'mm', '0', '迷妹', '100', 'resources/5c610aa7-cc25-404f-9eda-92ed412b3ef20c06a1e5-bca9-4dc0-a2bc-3f907c809932.jpg', '100', '2', '36', '100', '100'), ('65', '100', null, 'mm', '0', '迷妹', '100', 'resources/012fbaa8-df8c-402f-b74f-68f954fa83f50.png', '100', '2', '36', '550', '750'), ('66', '100', null, 'mm', '99', '迷妹', '100', 'resources/639a2d4e-18da-46c1-bd5f-598c9ef80dc011.png', '1000', '1', '36', '949', '750'), ('67', '10', null, '迷你', '9', '迷妹', '100', 'resources/a2388588-9513-47ed-af7b-c678c726618011.png', '100', '1', '36', '949', '750'), ('68', '10', null, '宝书', '9', '红宝书', '100', 'resources/30848a47-ebd3-4503-ad23-e632f386a85811.png', '100', '1', '36', '949', '750'), ('69', '10', null, '好玩', '0', 'javascript', '100', 'resources/4a4acd15-5abe-4630-a4ef-fdc8480f826c11.png', '100', '1', '36', '949', '750'), ('70', '10', null, '贼有意思', '0', 'redux', '100', 'resources/854102a8-2ee2-419b-ad20-cf10e86386ab11.png', '1000', '1', '36', '949', '750'), ('71', '1', null, 'regenerator', '0', '换一张图', '10', 'resources/9afd0aed-0e40-42ed-bbdd-80cb600e60565c33e183-17a4-446a-b57a-5cbcfd52fc094daaf63bc4f7b2f3a053b8b89d14135461ac408c10adc-PLqFdz_fw236.jpg', '100', '1', '36', '289', '236'), ('72', '10', null, '好玩', '0', 'relax', '100', 'resources/8489f9bf-0b84-413d-8792-b2ac2d0fdd1d4cfdcf89-3e61-488b-a691-fd62363444695b465e11ee0b9b21e9fb07ab61f8b13a1b4b5d1816a8d-wIh0C8_fw236.jpg', '1000', '1', '36', '357', '236'), ('73', '10', null, '上皮', '0', '商品1', '10', 'resources/932445dd-26b1-4648-b614-1e593c63f11ci6-邀请函h5-06.jpg', '2', '2', '38', '1206', '750'), ('74', '10', null, '男裤短', '0', '男裤', '1001', 'resources/4e1b9520-a8eb-42d7-8283-24019bbb6280i6-邀请函h5-07.jpg', '10', '1', '39', '1206', '750');
+COMMIT;
 
-LOCK TABLES `t_product` WRITE;
-/*!40000 ALTER TABLE `t_product` DISABLE KEYS */;
-INSERT INTO `t_product` VALUES (22,30,NULL,'123123qwe',0,'天空花园',100,'resources/dc1abb59-0537-4d3e-9e33-5a5c90c3ed551.jpeg',10,1,24,683,480),(23,30,NULL,'hello 木马',0,'菲洛丽亚',100,'resources/d515182c-918c-4121-a5a1-d675db0883e62.jpeg',10,1,24,640,427),(24,30,NULL,'hello 木马',0,'天色绯红',100,'resources/f355d52c-a46f-4e2e-a9a5-098c77de128a4.jpeg',10,1,24,543,405),(25,30,NULL,'hello 木马',0,'夏日新曲',100,'resources/9ab0136a-cc4f-4f82-8367-1ab2b189cbde5.jpeg',10,1,24,720,480),(26,30,NULL,'过个国歌',0,'小清新',100,'resources/a6f9147b-d13c-44ec-b0bb-dcf32de6e7706.jpeg',10,1,24,480,360),(27,30,NULL,'生活孜然味',0,'遇见未来',100,'resources/a5c2bddb-1f9e-4d7b-a949-4564bf0f0beb480.jpeg',10,1,24,717,480),(28,30,NULL,'生活孜然味',0,'遇见未来',100,'resources/dea3df27-0bde-43d8-bb06-fd4486a1487d2.jpeg',10,1,24,640,427),(29,30,NULL,'生活孜然味',0,'天边的自己',100,'resources/3c0a75ec-efe5-476d-9f18-eda46b0f750d6.jpeg',10,1,24,480,360),(30,30,NULL,'生活孜然味',0,'果核人生',100,'resources/c5f027ff-c852-4663-b4c8-5400d9a526335.jpeg',10,1,24,720,480),(31,30,NULL,'生活孜然味',0,'生活的姿态',100,'resources/691a248f-189b-45d3-8fd1-18d789e7cda85.jpeg',10,1,24,720,480),(32,30,NULL,'生活孜然味',0,'ambitions for',100,'resources/6584d355-1547-4dbe-a88c-1b0b7ccd3942480.jpeg',10,1,24,717,480),(33,30,NULL,'生活孜然味',0,'alibaba',100,'resources/5be3a70b-2f4f-4809-acb3-a97cf4091a0b5.jpeg',10,1,24,720,480),(34,30,NULL,'生活孜然味',0,'路过生活',100,'resources/808c5bff-2733-4eb3-b175-1edd631448364.jpeg',10,1,24,543,405),(35,30,NULL,'生活孜然味',0,'否定之否定',100,'resources/5f62bee8-4819-4a8d-808f-f56aa87af97c1.jpeg',10,1,24,683,480),(36,100,NULL,'路人皆知',0,'天马行空',100,'resources/9d3ddecf-a9d1-4478-b4b6-d72aeef4b9a2480.jpeg',10,1,24,717,480),(37,10,NULL,'产品简述',0,'天马行空',10,'resources/206eb4a9-1b2c-4128-a111-628987fb15095.jpeg',10,1,24,720,480),(38,10,NULL,'产品简述',0,'天马行空',10,'resources/d18cee54-d1c5-47c6-9421-9a5eadf0df7c4.jpeg',10,1,24,543,405),(39,10,NULL,'产品简述',0,'天马行空',10,'resources/a437eaf1-efef-4a1c-9860-3cc370c9b3e9shopbg.jpg',10,1,24,394,700),(40,10,NULL,'产品简述',0,'天马行空',10,'resources/68e0091b-dc1a-49ef-8aeb-72beeff009031.jpeg',10,1,24,683,480),(41,10,NULL,'产品简述',0,'天马行空',10,'resources/e5c16354-1d95-464a-9e33-12ca8770d6d2480.jpeg',10,1,24,717,480),(42,10,NULL,'产品简述',0,'天马行空',10,'resources/8bcb4eec-9463-4912-b6b6-2f14d2375c245.jpeg',10,1,24,720,480),(43,10,NULL,'产品简述',0,'天马行空',10,'resources/eaf6c4b4-3714-4896-8a96-e664a27af22b2.jpeg',10,1,24,640,427),(44,10,NULL,'产品简述',0,'天马行空',10,'resources/08ac744c-6d27-49d9-a04c-e5b8f9abc97a4.jpeg',10,1,24,543,405),(45,10,NULL,'产品简述',0,'天马行空',10,'resources/9bce4e04-7011-4b46-80cd-d56e34f5da703.jpeg',10,1,24,720,480),(46,10,NULL,'产品简述',0,'天马行空',10,'resources/f1fd72b4-8164-4011-be2e-996a903bbf8e480.jpeg',10,1,24,717,480),(47,10,NULL,'产品简述',0,'天马行空',10,'resources/834ba045-d4a8-4c04-9a9a-c4e2765aaa1bshopbg.jpg',10,1,24,394,700),(48,10,NULL,'产品简述',0,'天马行空',10,'resources/628837ce-4b7f-48d8-9cf7-f73101dba7004.jpeg',10,1,24,543,405),(49,10,NULL,'产品简述',0,'天马行空',10,'resources/6bedc274-dbe2-4d19-96a5-c136062ea34b2.jpeg',10,1,24,640,427),(50,10,NULL,'产品简述',0,'天马行空',10,'resources/df29f430-512c-4896-9583-026f20805fb11.jpeg',10,1,24,683,480),(51,10,NULL,'产品简述',0,'天马行空',10,'resources/49d26a54-b98f-490d-9607-bcb0963a562e5.jpeg',10,1,24,720,480),(52,10,NULL,'产品简述',0,'天马行空',10,'resources/653a9b29-6e53-4445-aae3-333bb173becc6.jpeg',10,1,24,480,360),(53,10,NULL,'产品简述',0,'天马行空',10,'resources/fdc6ac3a-805f-486b-860c-538c43e1df92shopbg.jpg',10,1,24,394,700),(54,10,NULL,'qwe',0,'qwe',100,'resources/06ee9574-7830-4641-81e5-9354abe0277f480.jpeg',100,0,24,717,480),(55,10,NULL,'qweqwe',0,'qweqweqwe',10,'resources/0dd8f9d6-e6f2-4572-8350-6475862b58f78.jpeg',10,0,25,320,480);
-/*!40000 ALTER TABLE `t_product` ENABLE KEYS */;
-UNLOCK TABLES;
+-- ----------------------------
+--  Table structure for `t_productscale`
+-- ----------------------------
+DROP TABLE IF EXISTS `t_productscale`;
+CREATE TABLE `t_productscale` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) DEFAULT NULL,
+  `shop_id` int(11) DEFAULT NULL,
+  `createdate` datetime DEFAULT NULL,
+  `status` int(11) NOT NULL,
+  `telephone` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK18A9BFA6676F6089` (`shop_id`),
+  CONSTRAINT `FK18A9BFA6676F6089` FOREIGN KEY (`shop_id`) REFERENCES `t_shop` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8;
 
---
--- Table structure for table `t_shop`
---
+-- ----------------------------
+--  Records of `t_productscale`
+-- ----------------------------
+BEGIN;
+INSERT INTO `t_productscale` VALUES ('10', 'admin', '29', '2017-02-24 15:35:28', '0', 'root123'), ('11', 'admin', '30', '2017-02-24 15:36:03', '0', 'root123'), ('12', 'adminaas', '29', '2017-02-24 15:36:08', '0', 'root123'), ('13', 'asdsa', '29', '2017-02-24 15:56:08', '0', 'root123'), ('14', 'adasd ', '29', '2017-02-24 16:17:34', '0', 'root123'), ('15', 'wqwe', '5', '2017-02-24 16:18:56', '0', '12313'), ('16', '阿萨德撒多', '29', '2017-02-25 19:55:29', '0', 'root123'), ('17', 'hjkhkl', '29', '2017-02-26 21:53:38', '0', 'root123'), ('18', 'hjkhlj', '29', '2017-02-26 21:57:56', '0', 'root123'), ('19', '尾萼蔷薇', '29', '2017-02-27 09:39:10', '0', 'root123'), ('20', '好吃', '24', '2017-02-27 12:30:01', '0', 'root123'), ('21', '非常好吃', '24', '2017-02-27 12:30:10', '0', 'root123'), ('22', '春季爆款', '24', '2017-02-27 12:30:16', '0', 'root123'), ('23', '上新', '24', '2017-02-27 18:05:00', '0', 'root123'), ('24', '买一送一', '24', '2017-02-27 18:05:21', '0', 'root123'), ('25', '满减', '24', '2017-02-27 18:05:27', '0', 'root123'), ('28', 'mimi', '36', '2017-05-07 15:40:55', '0', '13588202969'), ('29', 'hello', '36', '2017-05-22 22:13:07', '0', '13588202969'), ('30', '那幢', '39', '2017-05-22 22:16:32', '0', '13588202969');
+COMMIT;
 
+-- ----------------------------
+--  Table structure for `t_productscale_product`
+-- ----------------------------
+DROP TABLE IF EXISTS `t_productscale_product`;
+CREATE TABLE `t_productscale_product` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `product_id` int(11) DEFAULT NULL,
+  `product_scale_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FKCF82D56E4B0FE6B` (`product_id`),
+  KEY `FKCF82D562D1152AA` (`product_scale_id`),
+  CONSTRAINT `FKCF82D562D1152AA` FOREIGN KEY (`product_scale_id`) REFERENCES `t_productscale` (`id`),
+  CONSTRAINT `FKCF82D56E4B0FE6B` FOREIGN KEY (`product_id`) REFERENCES `t_product` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=67 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+--  Records of `t_productscale_product`
+-- ----------------------------
+BEGIN;
+INSERT INTO `t_productscale_product` VALUES ('1', '22', '20'), ('2', '23', '20'), ('3', '24', '20'), ('4', '26', '20'), ('5', '27', '20'), ('6', '30', '20'), ('7', '31', '20'), ('8', '25', '20'), ('9', '28', '20'), ('10', '29', '20'), ('11', '32', '20'), ('12', '33', '20'), ('13', '34', '20'), ('14', '35', '20'), ('15', '36', '20'), ('16', '37', '20'), ('17', '38', '20'), ('18', '22', '22'), ('19', '23', '22'), ('20', '24', '22'), ('21', '25', '22'), ('22', '26', '22'), ('23', '27', '22'), ('24', '28', '22'), ('25', '29', '22'), ('26', '30', '22'), ('27', '31', '22'), ('28', '32', '22'), ('29', '33', '22'), ('30', '34', '22'), ('31', '35', '22'), ('32', '36', '22'), ('33', '37', '22'), ('34', '22', '21'), ('35', '23', '21'), ('36', '24', '21'), ('37', '25', '21'), ('38', '26', '21'), ('39', '22', '23'), ('40', '23', '23'), ('41', '24', '23'), ('42', '25', '23'), ('43', '26', '23'), ('44', '27', '23'), ('45', '23', '24'), ('46', '24', '24'), ('47', '25', '24'), ('48', '26', '24'), ('49', '22', '25'), ('50', '35', '25'), ('51', '36', '25'), ('52', '38', '25'), ('53', '37', '25'), ('54', '40', '25'), ('55', '41', '25'), ('56', '42', '25'), ('57', '43', '25'), ('58', '64', '28'), ('59', '66', '28'), ('60', '67', '28'), ('61', '68', '28'), ('62', '69', '28'), ('63', '70', '28'), ('64', '71', '28'), ('65', '72', '28'), ('66', '74', '30');
+COMMIT;
+
+-- ----------------------------
+--  Table structure for `t_shop`
+-- ----------------------------
 DROP TABLE IF EXISTS `t_shop`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `t_shop` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `background` varchar(255) DEFAULT NULL,
   `create_date` datetime DEFAULT NULL,
   `intro` varchar(255) DEFAULT NULL,
   `name` varchar(255) DEFAULT NULL,
   `picSrc` varchar(255) DEFAULT NULL,
   `user_id` varchar(255) DEFAULT NULL,
+  `logoStr` varchar(255) DEFAULT NULL,
+  `type` varchar(255) DEFAULT NULL,
+  `status` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `FKCB62BBE1E3763469` (`user_id`),
   CONSTRAINT `FKCB62BBE1E3763469` FOREIGN KEY (`user_id`) REFERENCES `t_user` (`telephone`)
-) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8;
-/*!40101 SET character_set_client = @saved_cs_client */;
+) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=utf8;
 
---
--- Dumping data for table `t_shop`
---
+-- ----------------------------
+--  Records of `t_shop`
+-- ----------------------------
+BEGIN;
+INSERT INTO `t_shop` VALUES ('5', '2016-06-24 02:48:37', '23543', '2312', '/resources/00000000-3b9a-ca00-0000-000000000001psb.jpeg', '12313', null, null, '0'), ('6', '2016-06-24 02:50:12', '787889', '224', 'resources/00000000-3b9a-ca00-0000-000000000001psb.jpeg', '12313', null, null, '0'), ('7', '2016-06-24 02:53:41', '787889', '224', 'resources/00000000-3b9a-ca00-0000-000000000001psb.jpeg', '12313', null, null, '0'), ('10', '2016-06-25 01:09:57', 'qweqwe', 'qweqweqwe', 'http://localhost:8989/resources/00000000-3b9a-ca00-0000-000000000001psb.jpeg', '12313', null, null, '0'), ('20', '2016-06-25 12:48:18', 'qwe', 'qwe', 'resources/be0a46dc-8f31-493b-ac0a-d39f8cca578dpsb.jpeg', 'qweqweqwsdf', null, null, '0'), ('21', '2016-06-25 12:50:14', '123', '123123qwe', 'resources/0942ac2c-a4e3-46f7-a958-2e8398d96a3apsb.jpeg', 'qweqweqwsdf', null, null, '0'), ('24', '2017-05-07 14:30:06', '零食', '牛牛零食店', 'resources/f259b91b-fa35-467d-9b6f-20a51fd0d810timg (1).jpg', 'root123', 'resources/a4d88145-a7d6-4bc5-a0b3-8dcf4a4965c4timg (1).jpg', 'hello', '0'), ('25', '2016-06-30 21:05:35', 'qweqwe', 'qweqweqwe', 'resources/9ff7f72d-8423-4b0d-9670-85ccbe95dd81=.png', 'qweqweqweqqweqwret', null, null, '0'), ('26', '2016-07-01 11:10:32', 'qweqwe', 'ad', 'resources/68d6e44a-9cbd-4de2-b174-1bc20ff89ea76.jpeg', 'qweqweqweqqweqwret', null, null, '0'), ('29', '2017-02-23 23:45:56', 'admin', 'admin请问', 'resources/cf3a0a20-d7a9-404f-8fbd-715dfc6cba0bb6b9d04c0fda739e9143604b936e31356558dfad2c512f-ZxrT4n_fw236.jpg', 'root123', 'resources/87587e4e-9e69-4307-98dc-a5828a679a5bb6b9d04c0fda739e9143604b936e31356558dfad2c512f-ZxrT4n_fw236.jpg', '阿萨德', '0'), ('30', '2017-02-24 14:44:15', 'admin', 'asdasd', 'resources/f827e6b3-d31d-41a6-a1d1-ba2ece5b2023abad41fbe859e0f113cb94c001515ecea5f5a9515b61f-fiYnED_fw236.jpg', 'root123', 'resources/76024de4-0a2e-4591-9d31-920521f552e45b465e11ee0b9b21e9fb07ab61f8b13a1b4b5d1816a8d-wIh0C8_fw236.jpg', 'zxc', '0'), ('31', '2017-02-25 19:50:12', '驱蚊器翁', '全额群翁', 'resources/7572b56c-22d9-4e8d-8b1e-c991b038c509abad41fbe859e0f113cb94c001515ecea5f5a9515b61f-fiYnED_fw236.jpg', 'root123', 'resources/9a92a6c3-b94a-4c97-bbbf-f340624642a74daaf63bc4f7b2f3a053b8b89d14135461ac408c10adc-PLqFdz_fw236.jpg', '萨达多所', '0'), ('32', '2017-02-26 22:38:01', '1 ', '12 ', 'resources/ad5d7d33-4d67-42cc-89f1-409374c365b04daaf63bc4f7b2f3a053b8b89d14135461ac408c10adc-PLqFdz_fw236.jpg', 'root123', 'resources/bd59bf01-17b0-4f54-99a5-85c93181d73d5b465e11ee0b9b21e9fb07ab61f8b13a1b4b5d1816a8d-wIh0C8_fw236.jpg', '1', '0'), ('33', '2017-02-26 22:55:32', '1 ', '12 ', 'resources/ad5d7d33-4d67-42cc-89f1-409374c365b04daaf63bc4f7b2f3a053b8b89d14135461ac408c10adc-PLqFdz_fw236.jpg', 'root123', 'resources/bd59bf01-17b0-4f54-99a5-85c93181d73d5b465e11ee0b9b21e9fb07ab61f8b13a1b4b5d1816a8d-wIh0C8_fw236.jpg', '1', '0'), ('34', '2017-05-07 14:29:51', '请问', '123 ', 'resources/89e5d4be-fcc2-4337-b3d5-7f6fd77e1d3b0c06a1e5-bca9-4dc0-a2bc-3f907c809932.jpg', 'root123', 'resources/376f3622-7616-42b0-b4cd-fa9e1e7cf0bf0c06a1e5-bca9-4dc0-a2bc-3f907c809932.jpg', 'as', '0'), ('35', '2017-05-07 14:26:24', 'world', 'hello', 'resources/492099cc-d58d-4b9c-84fe-0e8d46ce2f1dWechatIMG3.jpeg', 'root123', 'resources/e6aeaa7a-d182-4f92-b6cf-bd493119f81aWechatIMG3.jpeg', 'word1', '0'), ('36', '2017-05-07 16:03:54', '迷你', '迷你', 'resources/649b8928-e645-4f82-81b1-f88502954ab50c06a1e5-bca9-4dc0-a2bc-3f907c809932.jpg', '13588202969', 'resources/fa50eafe-154c-4781-a121-1b57fc5430de0c06a1e5-bca9-4dc0-a2bc-3f907c809932.jpg', '羞', '0'), ('37', '2017-05-22 22:11:41', '店铺迷哦书', '店铺名称', 'resources/f319070a-62d3-4d79-97fe-cb9885a1b686i6-邀请函h5-05.jpg', '13588202969', 'resources/6553dd8f-a4e7-4c6c-aecf-991460de1dcei6-邀请函h5-01.jpg', 'hallo', '0'), ('38', '2017-05-22 22:12:51', '点铺', '店铺2', 'resources/2a41544e-49ea-4150-9af7-8c32d0ebabaci6-邀请函h5-05.jpg', '13588202969', 'resources/33edc778-8325-48db-8506-c11f4d59cce9i6-邀请函h5-06.jpg', '森马', '0'), ('39', '2017-05-22 22:16:13', '描述', '店铺23', 'resources/75667788-ec42-4a2d-8674-0ebd5bfab781i6-邀请函h5-07.jpg', '13588202969', 'resources/b1d9e975-59ca-4424-8ab5-2f3e8a8bacf8i6-邀请函h5-03.jpg', '森马', '0');
+COMMIT;
 
-LOCK TABLES `t_shop` WRITE;
-/*!40000 ALTER TABLE `t_shop` DISABLE KEYS */;
-INSERT INTO `t_shop` VALUES (2,'235435',NULL,'123123','123123',NULL,'12313'),(5,'45657765','2016-06-24 02:48:37','23543','2312','/resources/00000000-3b9a-ca00-0000-000000000001psb.jpeg','12313'),(6,'0-090-87897','2016-06-24 02:50:12','787889','224','resources/00000000-3b9a-ca00-0000-000000000001psb.jpeg','12313'),(7,'0-090-87897','2016-06-24 02:53:41','787889','224','resources/00000000-3b9a-ca00-0000-000000000001psb.jpeg','12313'),(10,'qweqwe','2016-06-25 01:09:57','qweqwe','qweqweqwe','http://localhost:8989/resources/00000000-3b9a-ca00-0000-000000000001psb.jpeg','12313'),(20,'green','2016-06-25 12:48:18','qwe','qwe','resources/be0a46dc-8f31-493b-ac0a-d39f8cca578dpsb.jpeg','qweqweqwsdf'),(21,'blue','2016-06-25 12:50:14','123','123123qwe','resources/0942ac2c-a4e3-46f7-a958-2e8398d96a3apsb.jpeg','qweqweqwsdf'),(24,'#fff','2016-06-25 15:08:55','稍微加一些描述','稍微加一些描述','resources/be0a46dc-8f31-123-ac0a-d39f8cca578dpsb.jpeg','qweqweqweqqweqwret'),(25,'darkgray','2016-06-30 21:05:35','qweqwe','qweqweqwe','resources/9ff7f72d-8423-4b0d-9670-85ccbe95dd81=.png','qweqweqweqqweqwret'),(26,'gray','2016-07-01 11:10:32','qweqwe','ad','resources/68d6e44a-9cbd-4de2-b174-1bc20ff89ea76.jpeg','qweqweqweqqweqwret');
-/*!40000 ALTER TABLE `t_shop` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `t_user`
---
-
+-- ----------------------------
+--  Table structure for `t_user`
+-- ----------------------------
 DROP TABLE IF EXISTS `t_user`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `t_user` (
   `telephone` varchar(255) NOT NULL,
   `create_date` datetime DEFAULT NULL,
@@ -158,25 +208,12 @@ CREATE TABLE `t_user` (
   `type` int(11) NOT NULL,
   PRIMARY KEY (`telephone`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-/*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `t_user`
---
+-- ----------------------------
+--  Records of `t_user`
+-- ----------------------------
+BEGIN;
+INSERT INTO `t_user` VALUES ('12312312312', '2017-03-19 17:58:49', '1347827212@qq.com', '12312312', '', '匿名用户', '0', '2'), ('12313', null, '1347827212@qq.com', 'qweqweqweqwe', 'resources/f1ed2a87-f2f9-4647-9461-2fbec82ce4f64daaf63bc4f7b2f3a053b8b89d14135461ac408c10adc-PLqFdz_fw236.jpg', '好人', '0', '0'), ('13121801021', '2017-05-07 18:55:46', '1347827212@qq.com', 'woo', '', '匿名用户', '0', '2'), ('13588202968', '2017-05-22 21:59:42', '1347827212@qq.com', '580231', '', '匿名用户', '0', '2'), ('13588202969', '2017-05-07 14:32:56', '1347827212@qq.com', '580231LOve?', 'resources/a1f72da0-558d-46e5-b433-279de2caf5590c06a1e5-bca9-4dc0-a2bc-3f907c809932.jpg', 'fenshifen', '0', '1'), ('admin', null, null, 'admin123', null, '超级管理员', '0', '1'), ('asdasdasdasdasdasdasdasd', '2017-03-19 19:49:18', '', '', '', '匿名用户', '0', '2'), ('asdasdasdasdasdasdsdasd', '2017-03-19 19:49:56', '', '', '', '匿名用户', '0', '2'), ('qweqweqweqqweqwret', null, null, 'qweqweqwe', null, 'qwqweqweqqwe', '0', '0'), ('qweqweqwsdf', null, null, 'qweqweqwe', null, 'qwe', '0', '1'), ('root123', null, null, 'root1234', null, 'root233', '0', '1');
+COMMIT;
 
-LOCK TABLES `t_user` WRITE;
-/*!40000 ALTER TABLE `t_user` DISABLE KEYS */;
-INSERT INTO `t_user` VALUES ('12313',NULL,NULL,'qweqweqweqwe',NULL,'123',0,0),('12313qweqwe',NULL,NULL,'rytyytutyu',NULL,'123',0,0),('12313qweqwe2',NULL,NULL,'wwerereter',NULL,'123',0,0),('admin',NULL,NULL,'admin123',NULL,'超级管理员',0,0),('qeqweqweqwe',NULL,NULL,'qweqweqweqwe',NULL,'qweqwe',0,0),('qwe',NULL,NULL,'yrtyrtyryrtyrt',NULL,'qwe',0,0),('qweqweqwe',NULL,NULL,'qweqweqwe',NULL,'qwe',0,0),('qweqweqweq',NULL,NULL,'qweqqweqwe',NULL,'qwe',0,0),('qweqweqweqqweqwret',NULL,NULL,'qweqweqwe',NULL,'qwqweqweqqwe',0,0),('qweqweqweqweqqweqwret',NULL,NULL,'qweqweqweqwe',NULL,'qwe',0,0),('qweqweqweqweqwret',NULL,NULL,'qweqweqwe',NULL,'qweq',0,0),('qweqweqwsdf',NULL,NULL,'qweqweqwe',NULL,'qwe',0,0);
-/*!40000 ALTER TABLE `t_user` ENABLE KEYS */;
-UNLOCK TABLES;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
-
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
--- Dump completed on 2016-07-30 11:58:32
+SET FOREIGN_KEY_CHECKS = 1;

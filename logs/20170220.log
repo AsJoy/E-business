@@ -1,0 +1,124 @@
+[2017-02-20 15:45:54.214] [INFO] logInfo - pager success id 24
+[2017-02-20 15:45:54.383] [ERROR] logInfo - DB-获取数据库连接异常！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount, tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, tp.picSrc as picSrc, tp.price as price from t_product tp where tp.shop_id = 24  and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+message:ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+stack:Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Handshake.ErrorPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Handshake.js:103:18)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Pool.js:48:16)
+    at Object.query (D:\code\project\E-business-system\E-business\server\util\dbUtil.js:24:10)
+    at D:\code\project\E-business-system\E-business\server\util\index.js:28:10
+    at fn (D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:746:34)
+    at D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:1213:16
+    at D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:166:37
+    at D:\code\project\E-business-system\E-business\node_modules\.1.5.2@async\lib\async.js:706:43
+[2017-02-20 15:49:26.076] [INFO] logInfo - pager success id 24
+[2017-02-20 15:49:26.197] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount, tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, tp.picSrc as picSrc, tp.price as price from t_product tp where tp.shop_id = 24  and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-02-20 15:49:26.271] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.shop_id = 24  and  tp.status = 1
+[2017-02-20 15:49:26.394] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.intro as intro, ts.background as background from t_shop ts where ts.id = ?
+[2017-02-20 15:49:35.482] [INFO] logInfo - pager success id 24
+[2017-02-20 15:49:35.489] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount, tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, tp.picSrc as picSrc, tp.price as price from t_product tp where tp.shop_id = 24  and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-02-20 15:49:35.494] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.intro as intro, ts.background as background from t_shop ts where ts.id = ?
+[2017-02-20 15:49:35.498] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.shop_id = 24  and  tp.status = 1
+[2017-02-20 15:49:48.935] [INFO] logInfo - pager success id 24
+[2017-02-20 15:49:48.940] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.intro as intro, ts.background as background from t_shop ts where ts.id = ?
+[2017-02-20 15:49:48.943] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount, tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, tp.picSrc as picSrc, tp.price as price from t_product tp where tp.shop_id = 24  and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-02-20 15:49:48.955] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.shop_id = 24  and  tp.status = 1
+[2017-02-20 15:50:33.954] [INFO] logInfo - pager success id 24
+[2017-02-20 15:50:33.962] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount, tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, tp.picSrc as picSrc, tp.price as price from t_product tp where tp.shop_id = 24  and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-02-20 15:50:33.969] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.intro as intro, ts.background as background from t_shop ts where ts.id = ?
+[2017-02-20 15:50:33.973] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.shop_id = 24  and  tp.status = 1
+[2017-02-20 15:50:51.253] [INFO] logInfo - pager success id 24
+[2017-02-20 15:50:51.257] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.intro as intro, ts.background as background from t_shop ts where ts.id = ?
+[2017-02-20 15:50:51.262] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount, tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, tp.picSrc as picSrc, tp.price as price from t_product tp where tp.shop_id = 24  and  tp.status = 1 ORDER BY id DESC LIMIT 10,10
+[2017-02-20 15:50:51.289] [INFO] logInfo - pager success id 24
+[2017-02-20 15:50:51.293] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.shop_id = 24  and  tp.status = 1
+[2017-02-20 15:50:51.379] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount, tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, tp.picSrc as picSrc, tp.price as price from t_product tp where tp.shop_id = 24  and  tp.status = 1 ORDER BY id DESC LIMIT 20,10
+[2017-02-20 15:50:51.473] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.intro as intro, ts.background as background from t_shop ts where ts.id = ?
+[2017-02-20 15:50:51.477] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.shop_id = 24  and  tp.status = 1
+[2017-02-20 15:50:56.378] [INFO] logInfo - pager success id 24
+[2017-02-20 15:50:56.382] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.intro as intro, ts.background as background from t_shop ts where ts.id = ?
+[2017-02-20 15:50:56.390] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount, tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, tp.picSrc as picSrc, tp.price as price from t_product tp where tp.shop_id = 24  and  tp.status = 1 ORDER BY id DESC LIMIT 30,10
+[2017-02-20 15:50:56.413] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.shop_id = 24  and  tp.status = 1
+[2017-02-20 16:21:13.507] [INFO] logInfo - pager success id 24
+[2017-02-20 16:21:13.509] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.intro as intro, ts.background as background from t_shop ts where ts.id = ?
+[2017-02-20 16:21:13.517] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount, tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, tp.picSrc as picSrc, tp.price as price from t_product tp where tp.shop_id = 24  and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-02-20 16:21:13.527] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.shop_id = 24  and  tp.status = 1
+[2017-02-20 16:21:17.661] [INFO] logInfo - pager success id 27
+[2017-02-20 16:21:17.663] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount, tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, tp.picSrc as picSrc, tp.price as price from t_product tp where tp.shop_id = 27  and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-02-20 16:21:17.668] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.intro as intro, ts.background as background from t_shop ts where ts.id = ?
+[2017-02-20 16:21:17.679] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.shop_id = 27  and  tp.status = 1
+[2017-02-20 16:24:57.512] [INFO] logInfo - pager success id 27
+[2017-02-20 16:24:57.517] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount, tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, tp.picSrc as picSrc, tp.price as price from t_product tp where tp.shop_id = 27  and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-02-20 16:24:57.530] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.intro as intro, ts.background as background from t_shop ts where ts.id = ?
+[2017-02-20 16:24:57.535] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.shop_id = 27  and  tp.status = 1
+[2017-02-20 16:25:55.975] [INFO] logInfo - pager success id 28
+[2017-02-20 16:25:55.978] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.intro as intro, ts.background as background from t_shop ts where ts.id = ?
+[2017-02-20 16:25:55.982] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount, tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, tp.picSrc as picSrc, tp.price as price from t_product tp where tp.shop_id = 28  and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-02-20 16:25:55.984] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.shop_id = 28  and  tp.status = 1
+[2017-02-20 16:26:53.025] [INFO] logInfo - pager success id 28
+[2017-02-20 16:26:53.028] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.intro as intro, ts.background as background from t_shop ts where ts.id = ?
+[2017-02-20 16:26:53.033] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount, tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, tp.picSrc as picSrc, tp.price as price from t_product tp where tp.shop_id = 28  and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-02-20 16:26:53.036] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.shop_id = 28  and  tp.status = 1
+[2017-02-20 16:29:14.758] [INFO] logInfo - pager success id 29
+[2017-02-20 16:29:14.761] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.intro as intro, ts.background as background from t_shop ts where ts.id = ?
+[2017-02-20 16:29:14.765] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount, tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, tp.picSrc as picSrc, tp.price as price from t_product tp where tp.shop_id = 29  and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-02-20 16:29:14.792] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.shop_id = 29  and  tp.status = 1
+[2017-02-20 16:29:35.947] [INFO] logInfo - pager success id 29
+[2017-02-20 16:29:35.950] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.intro as intro, ts.background as background from t_shop ts where ts.id = ?
+[2017-02-20 16:29:35.953] [INFO] logInfo - DB-执行查询语句成功！
+sql:select tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount, tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, tp.picSrc as picSrc, tp.price as price from t_product tp where tp.shop_id = 29  and  tp.status = 1 ORDER BY id DESC LIMIT 0,10
+[2017-02-20 16:29:35.963] [INFO] logInfo - DB-执行查询语句成功！
+sql:select count(*) from t_product tp where tp.shop_id = 29  and  tp.status = 1

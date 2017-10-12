@@ -6,16 +6,55 @@ const
 
 var config = {
   // 设置合并后可查看原文件
-  devtool: 'cheap-module-eval-source-map',
+  // 'cheap-module-eval-source-map'
+  devtool: 'source-map',
   entry: {
-    app1: [
+    // app1: [
+    //   'webpack-hot-middleware/client',
+    //   './src/js/app.js'
+    // ],
+    // app2: [
+    //   'webpack-hot-middleware/client',
+    //   './src/js/app1.js'
+    // ],
+    shop: [
       'webpack-hot-middleware/client',
-      './src/js/app.js'
+      './src/js/App/shop.js'
     ],
-    app2: [
+      login: [
+          'webpack-hot-middleware/client',
+          './src/js/App/login.js'
+      ],
+      register: [
+          'webpack-hot-middleware/client',
+          './src/js/App/register.js'
+      ],
+      self: [
+        'webpack-hot-middleware/client',
+        './src/js/App/self.js'
+      ],
+    shopcart: [
       'webpack-hot-middleware/client',
-      './src/js/app1.js'
+      './src/js/App/shopcart.js'
+    ],
+    order: [
+      'webpack-hot-middleware/client',
+      './src/js/App/order.js'
+    ],
+    entry: [
+      'webpack-hot-middleware/client',
+      './src/js/App/entry.js'
+    ],
+    detail: [
+      'webpack-hot-middleware/client',
+      './src/js/App/detail.js'
+    ],
+
+      scaleList: [
+        'webpack-hot-middleware/client',
+        './src/js/App/scaleList.js'
     ]
+
   },
   output: {
     path: path.join(__dirname, 'build'),
@@ -48,7 +87,7 @@ var config = {
         include: __dirname
       },
       {
-        test: /_\.css$/,
+        test: /_\.css|\.pcss$/,
         loaders: ['style', 'css?modules&localIdentName=[local]__[name]_[hash:base64:5]', 'postcss'],
         include: __dirname
       },

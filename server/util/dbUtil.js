@@ -39,12 +39,11 @@ module.exports = {
           log.logInfo.error('DB-执行查询语句异常！\nsql:' + options.sql + '\nmessage:' + error.message + '\nstack:' + error.stack);
         } else {
           log.logInfo.info('DB-执行查询语句成功！\nsql:' + options.sql);
-          console.log('sql:' + options.sql + '\nresult:' + JSON.stringify(results, null, '    '));
+          console.log('sql:' + options.sql + '\n');
         }
         // 处理结果
         handler(error, results);
       };
-
       // 执行查询
       if (!args) {
         connection.query(sql, callback);

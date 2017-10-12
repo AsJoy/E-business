@@ -32,3 +32,22 @@ export const index = {
     }
   }
 };
+
+ export const shop = {
+     getSHop(data) {
+         return data.shop[0];
+     },
+     getMain(data) {
+         return data.pager;
+     },
+     getTitle(data) {
+         return data.shop[0].name;
+     },
+     getDate(data) {
+         return {
+             shop: this.getSHop(data),
+             main: this.getMain(data),
+             title: this.getTitle(data)
+         }
+     }
+ };

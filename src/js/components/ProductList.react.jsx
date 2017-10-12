@@ -57,7 +57,7 @@ export default class ProductList extends Component {
         {
           dl
         }
-        <div className={styles.loading} visible={this.state}>end......</div>
+        <div className={styles.loading} >end......</div>
       </div>
     );
   }

@@ -1,0 +1,160 @@
+[2017-03-26 00:02:09.534] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-03-26 00:02:09.535] [INFO] logInfo - success
+[2017-03-26 00:04:34.749] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-03-26 00:04:34.752] [INFO] logInfo - success
+[2017-03-26 00:04:38.982] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-03-26 00:04:38.984] [INFO] logInfo - success
+[2017-03-26 00:05:17.361] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-03-26 00:05:17.362] [INFO] logInfo - success
+[2017-03-26 10:51:46.383] [INFO] logInfo - pager success id 24
+[2017-03-26 10:51:46.385] [INFO] logInfo - shopbyps by id 24
+[2017-03-26 10:51:46.586] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-03-26 10:51:46.593] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-03-26 10:51:46.594] [INFO] logInfo - success
+[2017-03-26 10:51:46.673] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-26 10:51:46.675] [INFO] logInfo - success
+[2017-03-26 10:51:46.679] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-26 10:51:46.681] [INFO] logInfo - success
+[2017-03-26 10:51:46.682] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-26 10:51:46.683] [INFO] logInfo - success
+[2017-03-26 10:51:46.685] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-26 10:51:46.690] [INFO] logInfo - success
+[2017-03-26 10:51:46.693] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-26 10:51:46.694] [INFO] logInfo - success
+[2017-03-26 10:51:46.697] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-26 10:51:46.699] [INFO] logInfo - success
+[2017-03-26 10:52:00.929] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-03-26 10:52:00.930] [INFO] logInfo - success
+[2017-03-26 10:52:08.670] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-03-26 10:52:08.672] [INFO] logInfo - success
+[2017-03-26 10:52:11.349] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-03-26 10:52:11.352] [INFO] logInfo - success
+[2017-03-26 21:30:31.992] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-03-26 21:30:31.998] [INFO] logInfo - success
+[2017-03-26 21:30:34.592] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-03-26 21:30:34.594] [INFO] logInfo - success
+[2017-03-26 21:31:33.774] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-03-26 21:31:33.780] [INFO] logInfo - success
+[2017-03-26 21:34:24.023] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   telephone as telephone , create_date as create_date , email as email , password as password , userName as userName , picSrc as picSrc , type as type , status as status  from t_user  where telephone = ? and password = ?
+[2017-03-26 21:34:24.028] [INFO] logInfo - success
+[2017-03-26 21:34:31.834] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-03-26 21:34:31.836] [INFO] logInfo - success
+[2017-03-26 21:34:34.709] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-03-26 21:34:34.711] [INFO] logInfo - success
+[2017-03-26 21:43:20.349] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_address (user_id,name,sex,telephone,address) values (?,?,?,?,?)
+[2017-03-26 21:43:20.353] [INFO] logInfo - success
+[2017-03-26 21:43:20.438] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-03-26 21:43:20.441] [INFO] logInfo - success
+[2017-03-26 21:44:48.099] [INFO] logInfo - DB-执行查询语句成功！
+sql:insert into t_address (user_id,name,sex,telephone,address) values (?,?,?,?,?)
+[2017-03-26 21:44:48.102] [INFO] logInfo - success
+[2017-03-26 21:44:48.176] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-03-26 21:44:48.177] [INFO] logInfo - success
+[2017-03-26 21:48:19.619] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-03-26 21:48:19.620] [INFO] logInfo - success
+[2017-03-26 21:48:27.252] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-03-26 21:48:27.252] [INFO] logInfo - success
+[2017-03-26 21:48:29.583] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-03-26 21:48:29.583] [INFO] logInfo - success
+[2017-03-26 21:48:31.584] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-03-26 21:48:31.585] [INFO] logInfo - success
+[2017-03-26 21:48:36.707] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-03-26 21:48:36.708] [INFO] logInfo - success
+[2017-03-26 22:00:16.756] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-03-26 22:00:16.767] [INFO] logInfo - success
+[2017-03-26 22:02:20.312] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-03-26 22:02:20.322] [INFO] logInfo - success
+[2017-03-26 22:02:41.697] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-03-26 22:02:41.699] [INFO] logInfo - success
+[2017-03-26 22:07:46.834] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-03-26 22:07:46.835] [INFO] logInfo - success
+[2017-03-26 22:08:14.292] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-03-26 22:08:14.294] [INFO] logInfo - success
+[2017-03-26 22:43:22.388] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-03-26 22:43:22.409] [INFO] logInfo - success
+[2017-03-26 22:45:48.920] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-03-26 22:45:48.922] [INFO] logInfo - success
+[2017-03-26 22:57:21.690] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-03-26 22:57:21.692] [INFO] logInfo - success
+[2017-03-26 23:03:38.901] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-03-26 23:03:38.903] [INFO] logInfo - success
+[2017-03-26 23:04:29.645] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-03-26 23:04:29.646] [INFO] logInfo - success
+[2017-03-26 23:06:53.925] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-03-26 23:06:53.928] [INFO] logInfo - success
+[2017-03-26 23:06:55.788] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-03-26 23:06:55.789] [INFO] logInfo - success
+[2017-03-26 23:09:26.707] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-03-26 23:09:26.712] [INFO] logInfo - success
+[2017-03-26 23:10:14.848] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-03-26 23:10:14.848] [INFO] logInfo - success
+[2017-03-26 23:19:38.085] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-03-26 23:19:38.106] [INFO] logInfo - success
+[2017-03-26 23:19:51.822] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-03-26 23:19:51.824] [INFO] logInfo - success
+[2017-03-26 23:19:54.048] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-03-26 23:19:54.052] [INFO] logInfo - success
+[2017-03-26 23:20:00.725] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-03-26 23:20:00.755] [INFO] logInfo - success
+[2017-03-26 23:20:02.458] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , telephone as telephone , sex as sex , name as name , address as address , user_id as user_id  from t_address  where user_id = ?
+[2017-03-26 23:20:02.459] [INFO] logInfo - success

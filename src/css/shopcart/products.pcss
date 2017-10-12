@@ -1,0 +1,96 @@
+html body {
+  padding: 0;
+  background: #fafafa;
+}
+html {
+}
+
+.products {
+  padding-bottom: 2.5rem;
+  .add-cart-wrapper {
+    position: absolute;
+    right: .25rem;
+    bottom: .2rem;
+  }
+  .item {
+    background: #fff;
+    position: relative;
+    height: 2rem;
+    &:after {
+      content: '';
+      clear: both;
+      display: block;
+    }
+    box-sizing: border-box;
+    padding: .2rem;
+    padding-left: 0;
+    border-top: 1px solid #ddd;
+    &:last-child {
+      border-bottom: 1px solid #ddd;
+    }
+  }
+  .img {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: .2rem;
+    float: left;
+    font-size: 0;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .detail{
+    float: left;
+    width: 4rem;
+  }
+  .name {
+    font-size: .25rem;
+    font-weight: bold;
+    line-height: .5rem;
+  }
+  .intro {
+    line-height: .5rem;
+  }
+  .price {
+    line-height:.5rem;
+  }
+  .header {
+    background: #fff;
+    font-size:.25rem;
+    line-height: .5rem;
+    .radioSimo {
+      position: relative;
+    }
+  }
+  .item {
+    .radioSimo {
+      float: left;
+      position: relative;
+      top: .6rem;
+      width: .4rem;
+      text-align: center;
+    }
+  }
+  .radioSimo {
+    display: inline-block;
+    margin: 0 .05rem;
+    input {
+      display: none;
+    }
+    span {
+      display: inline-block;
+      width: .25rem;
+      height: .25rem;
+      border: 1px solid #ddd;
+      background-clip: content-box;
+      padding: .03rem;
+      border-radius: 50%;
+      background-color: #fff;
+    }
+    input:checked + span  {
+     background-color: #f40;
+    }
+  }
+
+}

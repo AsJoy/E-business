@@ -27,9 +27,9 @@
       num = _cart[itemId].count || 0;
     }
     if (count === 0 && _cart[itemId]) {
+      _cart.cartColumn -= _cart[itemId].count;
       delete _cart[itemId];
       _setLocal();
-      _cart.cartColumn --;
       return _cart;
     }
 
@@ -61,7 +61,9 @@
       _cart[itemId].count = 0;
     } else {
       _cart[itemId].count --;
+      _cart.cartColumn --;
     }
+
     _setLocal();
   }
 

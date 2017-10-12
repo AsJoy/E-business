@@ -14,11 +14,14 @@ function updateUI(evtTarget) {
     l = numNode.getBoundingClientRect().left - positionObj.x || 0,
     t = numNode.getBoundingClientRect().top - positionObj.y || 0,
     newNode = document.createElement('span');
+  window.console.log(positionObj);
+
   animNode.style.cssText = `position: fixed;z-index: 105;left:${positionObj.x}px;top:${positionObj.y}px;`;
   newNode.style.cssText = 'position: absolute;left: 0;top: -0.56rem;background-color: #fa4100;color: #fff;text-align: center;width: 0.4rem;height: 0.4rem;line-height: 0.4rem;border-radius: 100%;-webkit-transition: 0.7s left linear, .7s top ease-in; z-index: 114;font-size: 0.293rem;-webkit-transform: translate3d(0, 0, 0);';
   newNode.textContent = 1;
   animNode.appendChild(newNode);
   document.body.appendChild(animNode);
+  window.console.log(animNode)
   setTimeout(() => {
     newNode.style.left = `${l}px`;
     newNode.style.top = `${t}px`;
@@ -76,7 +79,7 @@ export default class addCart extends Component {
     e.stopPropagation();
   }
   render() {
-    const { data, shopReduce } = this.props,
+    const { data, shopReduce, cart, count1 } = this.props,
       cartSelected = shopReduce[`${data.id}`];
     let statusClass = '',
       text = '';
@@ -88,18 +91,20 @@ export default class addCart extends Component {
     const count = (shopReduce[`${data.id}`] && shopReduce[`${data.id}`].count) || 0;
     data.tipsClassName = styles.someTips;
     return (
-      <div className={statusClass}>
-        <div
+      <div>
+        {count1!== undefined&&!count1? <div className={styles.join} onClick={this.handlerClickAddCart.bind(this, data)}>加入购物车</div>: <div className={statusClass}>
+          <div
           className={styles.reduce}
           onClick={this.handlerClickReduceCart.bind(this, data)}
-        > </div>
-        <div className={styles.num} onClick={this.preventDefaut}>{count}</div>
-        <div
+          > </div>
+          <div className={styles.num} onClick={this.preventDefaut}>{count}</div>
+          <div
           className={styles.add}
           onClick={this.handlerClickAddCart.bind(this, data)}
-        >
-        </div>
-        {text}
+          >
+          </div>
+          {text}
+          </div>}
       </div>
     );
   }

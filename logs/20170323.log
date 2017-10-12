@@ -1,0 +1,665 @@
+[2017-03-23 11:42:27.482] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26")
+[2017-03-23 11:42:27.484] [INFO] logInfo - success
+[2017-03-23 12:17:05.250] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 12:17:05.254] [INFO] logInfo - success
+[2017-03-23 12:17:23.416] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 12:17:23.418] [INFO] logInfo - success
+[2017-03-23 12:18:11.973] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 12:18:11.974] [INFO] logInfo - success
+[2017-03-23 12:18:54.820] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 12:18:54.823] [INFO] logInfo - success
+[2017-03-23 12:21:44.828] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 12:21:44.830] [INFO] logInfo - success
+[2017-03-23 12:23:59.749] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 12:23:59.751] [INFO] logInfo - success
+[2017-03-23 12:25:31.519] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 12:25:31.521] [INFO] logInfo - success
+[2017-03-23 12:26:14.232] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 12:26:14.236] [INFO] logInfo - success
+[2017-03-23 12:27:27.831] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 12:27:27.835] [INFO] logInfo - success
+[2017-03-23 12:30:02.868] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 12:30:02.869] [INFO] logInfo - success
+[2017-03-23 12:33:56.206] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 12:33:56.208] [INFO] logInfo - success
+[2017-03-23 12:34:22.354] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 12:34:22.355] [INFO] logInfo - success
+[2017-03-23 12:35:40.494] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 12:35:40.496] [INFO] logInfo - success
+[2017-03-23 12:48:23.714] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 12:48:23.715] [INFO] logInfo - success
+[2017-03-23 13:06:24.727] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:06:24.730] [INFO] logInfo - success
+[2017-03-23 13:06:49.563] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:06:49.564] [INFO] logInfo - success
+[2017-03-23 13:08:07.351] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:08:07.352] [INFO] logInfo - success
+[2017-03-23 13:09:45.597] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:09:45.598] [INFO] logInfo - success
+[2017-03-23 13:10:36.080] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:10:36.096] [INFO] logInfo - success
+[2017-03-23 13:11:17.094] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:11:17.095] [INFO] logInfo - success
+[2017-03-23 13:11:39.297] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:11:39.337] [INFO] logInfo - success
+[2017-03-23 13:12:51.690] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:12:51.692] [INFO] logInfo - success
+[2017-03-23 13:17:58.313] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:17:58.313] [INFO] logInfo - success
+[2017-03-23 13:19:09.858] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:19:09.859] [INFO] logInfo - success
+[2017-03-23 13:25:06.218] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:25:06.220] [INFO] logInfo - success
+[2017-03-23 13:27:17.683] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:27:17.685] [INFO] logInfo - success
+[2017-03-23 13:29:03.503] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:29:03.504] [INFO] logInfo - success
+[2017-03-23 13:34:26.061] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:34:26.063] [INFO] logInfo - success
+[2017-03-23 13:34:55.607] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:34:55.608] [INFO] logInfo - success
+[2017-03-23 13:37:00.548] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:37:00.549] [INFO] logInfo - success
+[2017-03-23 13:38:22.595] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:38:22.597] [INFO] logInfo - success
+[2017-03-23 13:38:58.318] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:38:58.332] [INFO] logInfo - success
+[2017-03-23 13:41:13.111] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:41:13.112] [INFO] logInfo - success
+[2017-03-23 13:42:59.963] [INFO] logInfo - pager success id 24
+[2017-03-23 13:42:59.964] [INFO] logInfo - shopbyps by id 24
+[2017-03-23 13:43:00.429] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-03-23 13:43:00.433] [INFO] logInfo - success
+[2017-03-23 13:43:00.437] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-03-23 13:43:00.552] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 13:43:00.553] [INFO] logInfo - success
+[2017-03-23 13:43:00.556] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 13:43:00.557] [INFO] logInfo - success
+[2017-03-23 13:43:00.558] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 13:43:00.560] [INFO] logInfo - success
+[2017-03-23 13:43:00.561] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 13:43:00.564] [INFO] logInfo - success
+[2017-03-23 13:43:00.567] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 13:43:00.580] [INFO] logInfo - success
+[2017-03-23 13:43:00.580] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 13:43:00.586] [INFO] logInfo - success
+[2017-03-23 13:43:11.973] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23","26")
+[2017-03-23 13:43:11.974] [INFO] logInfo - success
+[2017-03-23 13:43:20.488] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("23","26")
+[2017-03-23 13:43:20.488] [INFO] logInfo - success
+[2017-03-23 13:46:14.063] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:46:14.064] [INFO] logInfo - success
+[2017-03-23 13:46:55.443] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 13:46:55.444] [INFO] logInfo - success
+[2017-03-23 13:48:04.875] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:208:25)
+    at D:\code\project\E-business-system\E-business\server\util\dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+[2017-03-23 13:48:04.875] [INFO] logInfo - success
+[2017-03-23 13:49:53.679] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:208:25)
+    at D:\code\project\E-business-system\E-business\server\util\dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+[2017-03-23 13:49:53.679] [INFO] logInfo - success
+[2017-03-23 13:53:35.282] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:208:25)
+    at D:\code\project\E-business-system\E-business\server\util\dbUtil.js:51:20
+    at Handshake.onConnect [as _callback] (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Pool.js:64:7)
+    at Handshake.Sequence.end (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Handshake.Sequence.OkPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+[2017-03-23 13:54:10.707] [INFO] logInfo - pager success id 24
+[2017-03-23 13:54:10.709] [INFO] logInfo - shopbyps by id 24
+[2017-03-23 13:54:10.766] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-03-23 13:54:10.770] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-03-23 13:54:10.806] [INFO] logInfo - success
+[2017-03-23 13:54:10.826] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 13:54:10.827] [INFO] logInfo - success
+[2017-03-23 13:54:10.829] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 13:54:10.833] [INFO] logInfo - success
+[2017-03-23 13:54:10.841] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 13:54:10.842] [INFO] logInfo - success
+[2017-03-23 13:54:10.842] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 13:54:10.843] [INFO] logInfo - success
+[2017-03-23 13:54:10.846] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 13:54:10.846] [INFO] logInfo - success
+[2017-03-23 13:54:10.851] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 13:54:10.851] [INFO] logInfo - success
+[2017-03-23 13:54:25.946] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23","24","26","27","30")
+[2017-03-23 13:54:25.947] [INFO] logInfo - success
+[2017-03-23 13:54:42.510] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:208:25)
+    at D:\code\project\E-business-system\E-business\server\util\dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+[2017-03-23 13:54:45.784] [INFO] logInfo - pager success id 24
+[2017-03-23 13:54:45.787] [INFO] logInfo - shopbyps by id 24
+[2017-03-23 13:54:45.826] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-03-23 13:54:45.827] [INFO] logInfo - success
+[2017-03-23 13:54:45.836] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-03-23 13:54:45.854] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 13:54:45.858] [INFO] logInfo - success
+[2017-03-23 13:54:45.870] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 13:54:45.880] [INFO] logInfo - success
+[2017-03-23 13:54:45.881] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 13:54:45.883] [INFO] logInfo - success
+[2017-03-23 13:54:45.884] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 13:54:45.887] [INFO] logInfo - success
+[2017-03-23 13:54:45.894] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 13:54:45.900] [INFO] logInfo - success
+[2017-03-23 13:54:45.903] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 13:54:45.909] [INFO] logInfo - success
+[2017-03-23 13:54:57.334] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23","24","26","27","30")
+[2017-03-23 13:54:57.337] [INFO] logInfo - success
+[2017-03-23 13:57:12.096] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23","24","26","27","30")
+[2017-03-23 13:57:12.097] [INFO] logInfo - success
+[2017-03-23 15:01:37.733] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23","24","26","27","30")
+[2017-03-23 15:01:37.738] [INFO] logInfo - success
+[2017-03-23 15:03:21.546] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23","24","26","27","30")
+[2017-03-23 15:03:21.549] [INFO] logInfo - success
+[2017-03-23 15:04:11.989] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23","24","26","27","30")
+[2017-03-23 15:04:11.994] [INFO] logInfo - success
+[2017-03-23 15:05:00.270] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23","24","26","27","30")
+[2017-03-23 15:05:00.271] [INFO] logInfo - success
+[2017-03-23 15:05:29.398] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23","24","26","27","30")
+[2017-03-23 15:05:29.405] [INFO] logInfo - success
+[2017-03-23 15:06:39.432] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23","24","26","27","30")
+[2017-03-23 15:06:39.435] [INFO] logInfo - success
+[2017-03-23 15:07:59.954] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23","24","26","27","30")
+[2017-03-23 15:07:59.955] [INFO] logInfo - success
+[2017-03-23 15:19:16.458] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("23","24","26","27","30")
+[2017-03-23 15:19:16.462] [INFO] logInfo - success
+[2017-03-23 15:21:04.495] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("24","26","27","30")
+[2017-03-23 15:21:04.496] [INFO] logInfo - success
+[2017-03-23 15:22:17.541] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26","27","30")
+[2017-03-23 15:22:17.544] [INFO] logInfo - success
+[2017-03-23 15:23:38.843] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 15:23:38.846] [INFO] logInfo - success
+[2017-03-23 15:23:42.687] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("26")
+[2017-03-23 15:23:42.691] [INFO] logInfo - success
+[2017-03-23 15:24:19.093] [INFO] logInfo - pager success id 24
+[2017-03-23 15:24:19.093] [INFO] logInfo - shopbyps by id 24
+[2017-03-23 15:24:19.097] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-03-23 15:24:19.100] [INFO] logInfo - success
+[2017-03-23 15:24:19.106] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-03-23 15:24:19.110] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:24:19.110] [INFO] logInfo - success
+[2017-03-23 15:24:19.111] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:24:19.114] [INFO] logInfo - success
+[2017-03-23 15:24:19.116] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:24:19.118] [INFO] logInfo - success
+[2017-03-23 15:24:19.119] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:24:19.120] [INFO] logInfo - success
+[2017-03-23 15:24:19.121] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:24:19.122] [INFO] logInfo - success
+[2017-03-23 15:24:19.124] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:24:19.126] [INFO] logInfo - success
+[2017-03-23 15:24:29.106] [INFO] logInfo - pager success id 24
+[2017-03-23 15:24:29.106] [INFO] logInfo - shopbyps by id 24
+[2017-03-23 15:24:29.112] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-03-23 15:24:29.114] [INFO] logInfo - success
+[2017-03-23 15:24:29.118] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-03-23 15:24:29.122] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:24:29.126] [INFO] logInfo - success
+[2017-03-23 15:24:29.127] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:24:29.131] [INFO] logInfo - success
+[2017-03-23 15:24:29.131] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:24:29.134] [INFO] logInfo - success
+[2017-03-23 15:24:29.136] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:24:29.167] [INFO] logInfo - success
+[2017-03-23 15:24:29.168] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:24:29.173] [INFO] logInfo - success
+[2017-03-23 15:24:29.174] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:24:29.177] [INFO] logInfo - success
+[2017-03-23 15:24:36.088] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23","24","26","27","30")
+[2017-03-23 15:24:36.089] [INFO] logInfo - success
+[2017-03-23 15:25:04.174] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("23","24","26","27")
+[2017-03-23 15:25:04.180] [INFO] logInfo - success
+[2017-03-23 15:26:25.182] [INFO] logInfo - pager success id 24
+[2017-03-23 15:26:25.182] [INFO] logInfo - shopbyps by id 24
+[2017-03-23 15:26:25.185] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-03-23 15:26:25.190] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-03-23 15:26:25.192] [INFO] logInfo - success
+[2017-03-23 15:26:25.195] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:26:25.196] [INFO] logInfo - success
+[2017-03-23 15:26:25.197] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:26:25.197] [INFO] logInfo - success
+[2017-03-23 15:26:25.198] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:26:25.205] [INFO] logInfo - success
+[2017-03-23 15:26:25.206] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:26:25.210] [INFO] logInfo - success
+[2017-03-23 15:26:25.224] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:26:25.229] [INFO] logInfo - success
+[2017-03-23 15:26:25.230] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:26:25.232] [INFO] logInfo - success
+[2017-03-23 15:26:37.930] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23","24","26")
+[2017-03-23 15:26:37.932] [INFO] logInfo - success
+[2017-03-23 15:26:49.575] [INFO] logInfo - pager success id 24
+[2017-03-23 15:26:49.575] [INFO] logInfo - shopbyps by id 24
+[2017-03-23 15:26:49.577] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-03-23 15:26:49.578] [INFO] logInfo - success
+[2017-03-23 15:26:49.581] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-03-23 15:26:49.584] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:26:49.586] [INFO] logInfo - success
+[2017-03-23 15:26:49.587] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:26:49.587] [INFO] logInfo - success
+[2017-03-23 15:26:49.588] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:26:49.588] [INFO] logInfo - success
+[2017-03-23 15:26:49.589] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:26:49.594] [INFO] logInfo - success
+[2017-03-23 15:26:49.594] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:26:49.595] [INFO] logInfo - success
+[2017-03-23 15:26:49.596] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 15:26:49.597] [INFO] logInfo - success
+[2017-03-23 15:26:53.714] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+    --------------------
+    at Protocol._enqueue (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:208:25)
+    at D:\code\project\E-business-system\E-business\server\util\dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+[2017-03-23 21:38:23.850] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23")
+[2017-03-23 21:38:23.852] [INFO] logInfo - success
+[2017-03-23 21:38:55.662] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23","24","25","26")
+[2017-03-23 21:38:55.663] [INFO] logInfo - success
+[2017-03-23 21:46:42.143] [INFO] logInfo - pager success id 24
+[2017-03-23 21:46:42.144] [INFO] logInfo - shopbyps by id 24
+[2017-03-23 21:46:42.152] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-03-23 21:46:42.159] [INFO] logInfo - success
+[2017-03-23 21:46:42.168] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 21:46:42.174] [INFO] logInfo - success
+[2017-03-23 21:46:42.184] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 21:46:42.187] [INFO] logInfo - success
+[2017-03-23 21:46:42.194] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-03-23 21:46:42.204] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 21:46:42.205] [INFO] logInfo - success
+[2017-03-23 21:46:42.208] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 21:46:42.212] [INFO] logInfo - success
+[2017-03-23 21:46:42.213] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 21:46:42.214] [INFO] logInfo - success
+[2017-03-23 21:46:42.219] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 21:46:42.221] [INFO] logInfo - success
+[2017-03-23 21:51:13.470] [ERROR] logInfo - DB-执行查询语句异常！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ()
+message:ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+stack:Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+    at Query.Sequence._packetToError (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:208:25)
+    at D:\code\project\E-business-system\E-business\server\util\dbUtil.js:51:20
+    at Ping.onOperationComplete [as _callback] (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\code\project\E-business-system\E-business\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+[2017-03-23 21:51:18.654] [INFO] logInfo - pager success id 24ps21
+[2017-03-23 21:51:18.656] [INFO] logInfo - shopbyps by id 24ps21
+[2017-03-23 21:51:18.695] [INFO] logInfo - DB-执行查询语句成功！
+sql:select id,  name, shop_id  from t_productscale tp where tp.shop_id = ?
+[2017-03-23 21:51:18.696] [INFO] logInfo - success
+[2017-03-23 21:51:18.706] [INFO] logInfo - DB-执行查询语句成功！
+sql:select ts.id as id, ts.name as name, ts.picSrc as picSrc, ts.logoStr as logoStr, ts.intro as intro from t_shop ts where ts.id = ?
+[2017-03-23 21:51:18.723] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 21:51:18.727] [INFO] logInfo - success
+[2017-03-23 21:51:18.738] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 21:51:18.742] [INFO] logInfo - success
+[2017-03-23 21:51:18.747] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 21:51:18.749] [INFO] logInfo - success
+[2017-03-23 21:51:18.752] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 21:51:18.755] [INFO] logInfo - success
+[2017-03-23 21:51:18.757] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 21:51:18.762] [INFO] logInfo - success
+[2017-03-23 21:51:18.765] [INFO] logInfo - DB-执行查询语句成功！
+sql:select  tp.id as id , tp.amount as amount, tp.intro as intro, tp.name as name, tp.leftAmount as leftAmount,
+   tp.height as height, tp.width as width, tp.brand as brand, tp.oldPrice as oldPrice, 
+   tp.picSrc as picSrc, tp.price as price  from t_product tp , t_productscale_product  pps  where pps.product_scale_id = ? and tp.id = pps.product_id   and  tp.status = 1 limit 0, 6
+[2017-03-23 21:51:18.767] [INFO] logInfo - success
+[2017-03-23 21:51:29.520] [INFO] logInfo - DB-执行查询语句成功！
+sql:select   id as id , amount as amount , brand as brand , intro as intro , leftAmount as leftAmount , name as name , oldPrice as oldPrice , picSrc as picSrc , price as price , status as status , shop_id as shop_id  from t_product  where  id in  ("22","23","24","25","27","30")
+[2017-03-23 21:51:29.522] [INFO] logInfo - success

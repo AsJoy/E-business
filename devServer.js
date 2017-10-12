@@ -1,13 +1,15 @@
 var express = require('express');
+var session = require('express-session');
+var cookieParse = require('cookie-parser');
 var webpackDevMiddleware = require("webpack-dev-middleware");
 var webpackHotMiddleware = require("webpack-hot-middleware");
 var webpack = require('webpack');
 var webpackConfig = require('./webpack.config.dev.js');
 var path = require('path');
-var httpProxy = require("http-proxy");
+var proxy = require('http-proxy-middleware');
 var app = express();
-var apiProxy = httpProxy.createProxyServer()
 
+app.use(cookieParse())
 
 var compiler = webpack(webpackConfig);
 
@@ -28,6 +30,8 @@ app.use(webpackHotMiddleware(compiler, {
   heartbeat: 10 * 1000
 }));
 app.use('/assets', express.static(path.join(__dirname, 'assets/')))
+app.use('/resources', express.static(path.join(__dirname, 'resources/')))
+app.use('/demo', express.static(path.join(__dirname, 'demo/')))
 app.get('/chat', function (req, res) {
   res.sendFile(`${__dirname}/demo/chat.html`);
 });
@@ -37,15 +41,9 @@ app.get('/', function (req, res) {
 });
 
 // Proxy api requests
-app.use('/api/*', function (req, res) {
-  req.url = req.baseUrl; // Janky hack...
-  apiProxy.web(req, res, {
-    target: {
-      port: 8989,
-      host: 'localhost'
-    }
-  });
-});
+app.use('/api/*', proxy('/api', { target: 'http://localhost:8989',changeOrigin: true }));
+app.use('/product/*', proxy('/product', { target: 'http://localhost:8989',changeOrigin: true }));
+app.use('/order/*', proxy('/order', { target: 'http://localhost:8989',changeOrigin: true }));
 
 
 

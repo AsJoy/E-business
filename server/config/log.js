@@ -1,5 +1,6 @@
 var path = require('path');
 var log4js = require('log4js');
+
 var logConfig = {
   'appenders': [{
     'type': 'console',
