@@ -2,11 +2,11 @@ var path = require('path');
 
 module.exports = {
 // 数据库域名
-  dbHost: '112.74.187.219',
+  dbHost: 'xxxxxxxx',
 // 数据库用户名
-  dbUser: 'amin',
+  dbUser: 'xxxxxxxx',
 // 数据库密码
-  dbPassword: '580231LOve!',
+  dbPassword: 'xxxxxxxx',
   database: 'weishop',
   connectionLimit: 10
 };
